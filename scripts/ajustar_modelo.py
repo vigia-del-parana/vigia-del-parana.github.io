@@ -1,25 +1,42 @@
 #!/usr/bin/env python3
-"""Calibra el modelo de propagación de Vigía del Paraná y escribe data/modelo.json.
+"""Calibra la Proyección Vigía y escribe data/modelo.json.
 
-Idea: la altura de un puerto responde, con algunos días de retraso, a lo que pasó en un
-puerto de aguas arriba. Para cada estación se busca la estación de aguas arriba y el
-retraso (lag) que mejor explican sus variaciones en los últimos años, y se mide el error
-real de la proyección a 1..15 días con pruebas sobre el pasado (backtest).
+Método directo por horizonte. Para cada puerto y para cada horizonte k = 1..15 días se
+estima cuánto va a cambiar su altura según cuánto subió o bajó el río en las últimas dos
+semanas en él mismo y en puertos de aguas arriba:
 
-Regla de proyección (la misma que usa la app):
-  h_d(t+k) ≈ h_d(t) + b · [ h_u(t+k−L) − h_u(t−L) ]      si k ≤ L (el dato de arriba ya existe)
-  para k > L, h_u se prolonga con su pendiente reciente amortiguada.
+  h_d(t+k) − h_d(t) ≈ Σ_i w_k,i · [ h_si(t−a_i) − h_si(t−b_i) ]
 
-Fuente de datos: API pública del INA (alerta.ina.gob.ar).
+donde cada entrada i es una estación s_i y una ventana (la última semana: a=0, b=7; o la
+semana anterior: a=7, b=14). Como cada horizonte tiene sus propios pesos, el método capta
+que una crecida grande llega lenta y estirada por el valle de inundación: lo que subió
+Corrientes en las últimas dos semanas sigue llegando a Santa Fe durante varios días más.
+El método anterior (una estación de arriba con un retraso fijo) perdía esa cola y
+mostraba el río estabilizándose antes de tiempo.
+
+Las entradas se eligen de a una (selección hacia adelante) entre el propio puerto y los
+puertos de hasta VENTANA posiciones aguas arriba, con validación cruzada por bloques de
+tiempo: el error de cada bloque se mide con un modelo ajustado sin ese bloque. Ese error
+fuera de muestra es la banda de la app (err), y err_sube es el mismo error medido solo en
+días en que el puerto venía subiendo más de SUBE_7D m por semana.
+
+Fuente: API pública del INA (alerta.ina.gob.ar).
+Con VIGIA_CACHE=archivo.json se guardan/leen las series para recalibrar sin volver a bajarlas.
 """
 import json, os, sys, time, urllib.request, urllib.parse, datetime as dt, math
+import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BASE = "https://alerta.ina.gob.ar/a5/getObservaciones"
 ANIOS = 3
-H = 15            # horizonte en días
-MAXLAG = 10
-DECAY = 0.85      # amortiguación de la pendiente al prolongar aguas arriba
+H = 15             # horizonte en días
+VENTANA = 8        # hasta cuántas posiciones aguas arriba se buscan entradas (Santa Fe llega a Corrientes)
+MAX_ENTRADAS = 4
+MEJORA_MIN = 0.005  # una entrada nueva tiene que bajar el error fuera de muestra al menos 0,5 %
+LAMBDA = 1.0       # regularización (ridge) para que los pesos no se disparen
+BLOQUES = 4        # bloques de tiempo de la validación cruzada
+SUBE_7D = 0.15     # m en 7 días para considerar "río subiendo"
+VENTANAS = [(0, 7), (7, 14)]   # última semana y semana anterior
 
 def fetch(serie_id, start, end):
     q = urllib.parse.urlencode({"tipo": "puntual", "series_id": serie_id, "timestart": start, "timeend": end, "format": "csvless", "no_id": "true"})
@@ -58,93 +75,15 @@ def daily(series, d0, d1):
             i += 1
     return vals
 
-CHAIN = {}      # id -> modelo elegido {"up","lag","b"}
-SERIES = {}     # id -> lista diaria
-MEMO = {}
-
-def upstream_value(uid, t, k):
-    """Valor (medido o proyectado en cadena) de la estación uid en t+k, usando datos hasta t."""
-    hu = SERIES[uid]
-    if k <= 0:
-        return hu[t + k] if t + k >= 0 else None
-    key = (uid, t, k)
-    if key in MEMO:
-        return MEMO[key]
-    val = None
-    m = CHAIN.get(uid)
-    if m:
-        val = project(hu, SERIES[m["up"]], m["up"], t, m["lag"], m["b"], k)
-    if val is None:
-        if hu[t] is not None and t - 5 >= 0 and hu[t - 5] is not None:
-            slope = (hu[t] - hu[t - 5]) / 5.0
-            ext, sl = hu[t], slope
-            for _ in range(k):
-                sl *= DECAY; ext += sl
-            val = ext
-    MEMO[key] = val
-    return val
-
-def project(hd, hu, uid, t, L, b, k):
-    """Proyección a k días desde el índice t usando solo datos hasta t (en cadena)."""
-    base = hd[t]
-    if base is None:
-        return None
-    src = t - L
-    if src < 0 or hu[src] is None:
-        return None
-    v = upstream_value(uid, t, k - L)
-    if v is None:
-        return None
-    return base + b * (v - hu[src])
-
-def fit(hd, hu, L):
-    """b por mínimos cuadrados sobre variaciones: Δh_d(t) ~ b · Δh_u(t−L)."""
-    xs, ys = [], []
-    for t in range(L + 7, len(hd)):
-        if None in (hd[t], hd[t - 7], hu[t - L], hu[t - L - 7]):
-            continue
-        xs.append(hu[t - L] - hu[t - L - 7]); ys.append(hd[t] - hd[t - 7])
-    if len(xs) < 100:
-        return None
-    sxx = sum(x * x for x in xs); sxy = sum(x * y for x, y in zip(xs, ys))
-    if sxx == 0:
-        return None
-    b = sxy / sxx
-    sy = sum(y * y for y in ys)
-    r2 = (sxy * sxy) / (sxx * sy) if sy else 0
-    return b, r2, len(xs)
-
-def backtest(hd, hu, uid, L, b):
-    errs = [[] for _ in range(H + 1)]
-    for t in range(L + 7, len(hd) - H):
-        for k in range(1, H + 1):
-            p = project(hd, hu, uid, t, L, b, k)
-            if p is None or hd[t + k] is None:
-                continue
-            errs[k].append(p - hd[t + k])
-    out = []
-    for k in range(1, H + 1):
-        e = errs[k]
-        if len(e) < 50:
-            out.append(None); continue
-        rmse = math.sqrt(sum(x * x for x in e) / len(e))
-        out.append(round(rmse, 3))
-    return out
-
-def persistence_error(hd):
-    out = []
-    for k in range(1, H + 1):
-        e = [hd[t + k] - hd[t] for t in range(len(hd) - H) if hd[t] is not None and hd[t + k] is not None]
-        out.append(round(math.sqrt(sum(x * x for x in e) / len(e)), 3) if e else None)
-    return out
-
-def main():
-    est = json.load(open(os.path.join(ROOT, "data/estaciones.json"), encoding="utf-8"))["estaciones"]
-    byid = {e["id"]: e for e in est}
+def cargar_series(est):
+    cache = os.environ.get("VIGIA_CACHE")
     hoy = dt.date.today()
+    if cache and os.path.exists(cache):
+        c = json.load(open(cache, encoding="utf-8"))
+        print("series leídas de", cache, "hasta", c["d1"], file=sys.stderr)
+        return {int(k): v for k, v in c["series"].items()}, c["d1"]
     d0, d1 = hoy - dt.timedelta(days=365 * ANIOS), hoy
     series = {}
-    est = [e for e in est if not e.get("marea")]   # Delta inferior y Río de la Plata: manda la marea, no se modela
     for e in est:
         try:
             series[e["id"]] = daily(fetch(e["serie_id"], d0.isoformat(), (d1 + dt.timedelta(days=1)).isoformat()), d0, d1)
@@ -152,43 +91,108 @@ def main():
         except Exception as ex:
             print("fallo", e["nombre"], ex, file=sys.stderr)
         time.sleep(0.4)
+    if cache:
+        json.dump({"d0": d0.isoformat(), "d1": d1.isoformat(), "series": {str(k): v for k, v in series.items()}}, open(cache, "w", encoding="utf-8"))
+    return series, d1.isoformat()
+
+# ---------- modelo (numpy) ----------
+def tabla(S, did, feats):
+    """Índices t válidos, entradas X(t), cambios Y[:,k] = h(t+k+1) − h(t) (NaN si no hay dato) y marca de crecida."""
+    hd = S[did]; n = len(hd); T = np.arange(14, n)
+    X = np.stack([S[s][T - a] - S[s][T - b] for s, a, b in feats], 1) if feats else np.zeros((len(T), 0))
+    Y = np.full((len(T), H), np.nan)
+    for k in range(1, H + 1):
+        m = T + k < n
+        Y[m, k - 1] = hd[T[m] + k] - hd[T[m]]
+    ok = ~np.isnan(X).any(1) & ~np.isnan(hd[T])
+    sube = (hd[T] - hd[T - 7]) > SUBE_7D
+    return T[ok], X[ok], Y[ok], sube[ok]
+
+def ajustar(X, y):
+    m = ~np.isnan(y)
+    if m.sum() < 100:
+        return None
+    A = X[m]
+    return np.linalg.solve(A.T @ A + LAMBDA * np.eye(A.shape[1]), A.T @ y[m])
+
+def validar(T, X, Y, sube):
+    """Errores fuera de muestra por bloques de tiempo (con un margen de H días entre ajuste y prueba)."""
+    if len(T) < 200:
+        return None
+    edges = np.linspace(T[0], T[-1] + 1, BLOQUES + 1).astype(int)
+    E = np.full(Y.shape, np.nan)
+    for f in range(BLOQUES):
+        lo, hi = edges[f], edges[f + 1]
+        te = (T >= lo) & (T < hi); tr = (T < lo - H) | (T >= hi + H)
+        for k in range(H):
+            w = ajustar(X[tr], Y[tr, k])
+            if w is None:
+                return None
+            E[te, k] = X[te] @ w - Y[te, k]
+    def rm(M, minimo):
+        out = []
+        for k in range(H):
+            e = M[:, k]; e = e[~np.isnan(e)]
+            out.append(round(float(np.sqrt(np.mean(e * e))), 3) if len(e) >= minimo else None)
+        return out
+    return rm(E, 50), rm(E[sube], 20), int((~np.isnan(E[sube, 6])).sum())
+
+def puntaje(err):
+    v = [x for x in err[:10] if x is not None]
+    return sum(v) / len(v) if len(v) >= 8 else None
+
+def persistencia(hd):
+    hd = [None if (v is None or v != v) else float(v) for v in hd]
+    out = []
+    for k in range(1, H + 1):
+        e = [hd[t + k] - hd[t] for t in range(len(hd) - k) if hd[t] is not None and hd[t + k] is not None]
+        out.append(round(math.sqrt(sum(x * x for x in e) / len(e)), 3) if e else None)
+    return out
+
+def main():
+    est = json.load(open(os.path.join(ROOT, "data/estaciones.json"), encoding="utf-8"))["estaciones"]
+    est = [e for e in est if not e.get("marea")]   # Delta inferior y Río de la Plata: manda la marea, no se modela
+    byid = {e["id"]: e for e in est}
+    series, hasta = cargar_series(est)
+    S = {k: np.array([np.nan if v is None else v for v in vs], dtype=float) for k, vs in series.items()}
     modelo = {}
-    global SERIES
-    SERIES = series
-    for e in sorted(est, key=lambda x: x["orden"]):      # aguas arriba primero: la cadena ya está lista
-        hd = series.get(e["id"])
-        if not hd:
+    for e in sorted(est, key=lambda x: x["orden"]):
+        did = e["id"]
+        if did not in series:
             continue
-        cands = [u for u in est if u["id"] in series and u["orden"] < e["orden"] and (e["orden"] - u["orden"]) <= 5]
-        best = None
-        for u in cands:
-            hu = series[u["id"]]
-            for L in range(1, MAXLAG + 1):
-                f = fit(hd, hu, L)
-                if not f:
+        cands = [u["id"] for u in est if u["id"] in series and u["orden"] <= e["orden"] and e["orden"] - u["orden"] <= VENTANA]
+        pool = [(s, a, b) for s in cands for a, b in VENTANAS]
+        elegidas, mejor, val = [], None, None
+        while len(elegidas) < MAX_ENTRADAS:
+            prueba = []
+            for f in pool:
+                if f in elegidas:
                     continue
-                b, r2, n = f
-                if b <= 0:
-                    continue
-                err = backtest(hd, hu, u["id"], L, b)
-                vals = [x for x in err[:10] if x is not None]
-                if len(vals) < 8:
-                    continue
-                score = sum(vals) / len(vals)
-                if best is None or score < best["score"]:
-                    best = {"up": u["id"], "up_nombre": u["nombre"], "lag": L, "b": round(b, 3), "r2": round(r2, 3), "n": n, "err": err, "score": score}
-        pers = persistence_error(hd)
-        if best and sum(best["err"][:7]) < sum(x for x in pers[:7] if x is not None):
-            best["persistencia"] = pers
-            del best["score"]
-            modelo[str(e["id"])] = best
-            CHAIN[e["id"]] = {"up": best["up"], "lag": best["lag"], "b": best["b"]}
-            print(f'{e["nombre"]:22s} <- {best["up_nombre"]:20s} lag {best["lag"]:2d}d b={best["b"]:.2f} r2={best["r2"]:.2f} err3={best["err"][2]:.2f} err7={best["err"][6]:.2f} err15={best["err"][14]} (pers7 {pers[6]:.2f})', file=sys.stderr)
+                v = validar(*tabla(S, did, elegidas + [f]))
+                sc = puntaje(v[0]) if v else None
+                if sc is not None:
+                    prueba.append((sc, f, v))
+            if not prueba:
+                break
+            prueba.sort(key=lambda z: z[0])
+            sc, f, v = prueba[0]
+            if mejor is not None and sc > mejor * (1 - MEJORA_MIN):
+                break
+            elegidas.append(f); mejor, val = sc, v
+        pers = persistencia(series[did])
+        if val and sum(val[0][:7]) < sum(x for x in pers[:7] if x is not None):
+            T, X, Y, _ = tabla(S, did, elegidas)
+            W = [[round(float(w), 4) for w in ajustar(X, Y[:, k])] for k in range(H)]
+            ent = [{"id": s, "nombre": byid[s]["nombre"], "desde": a, "hasta": b} for s, a, b in elegidas]
+            modelo[str(did)] = {"entradas": ent, "w": W, "err": val[0], "err_sube": val[1], "n_sube": val[2], "n": int(len(T)), "persistencia": pers}
+            desc = " + ".join(f'{x["nombre"]} ({"última semana" if x["desde"] == 0 else "semana anterior"})' for x in ent)
+            print(f'{e["nombre"]:24s} <- {desc}  err3={val[0][2]} err7={val[0][6]} err15={val[0][14]} err7_sube={val[1][6]} (pers7 {pers[6]})', file=sys.stderr)
         else:
-            modelo[str(e["id"])] = {"persistencia": pers}
-            print(f'{e["nombre"]:22s} sin modelo mejor que persistencia', file=sys.stderr)
-    doc = {"ajustado": hoy.isoformat(), "anios": ANIOS, "horizonte": H, "decay": DECAY,
-           "cadena": True, "nota": "Modelo de propagación en cadena por estación: upstream (up), retraso en días (lag), ganancia (b), y error RMSE medido en backtest para 1..15 días (err). 'persistencia' es el error de suponer que el río no cambia, como referencia.",
+            modelo[str(did)] = {"persistencia": pers}
+            print(f'{e["nombre"]:24s} sin modelo mejor que persistencia', file=sys.stderr)
+    doc = {"ajustado": dt.date.today().isoformat(), "datos_hasta": hasta, "anios": ANIOS, "horizonte": H,
+           "metodo": "directo", "sube_7d": SUBE_7D,
+           "nota": "Proyección Vigía, método directo por horizonte: para cada puerto, el cambio de altura a k días (k=1..15) es la suma de w[k-1][i] por el cambio medido en cada entrada i: h_id(t-desde) - h_id(t-hasta), en días, siendo t el último dato del puerto. 'err' es el error RMSE fuera de muestra (validación cruzada por bloques de tiempo) y 'err_sube' el mismo error en días en que el puerto venía subiendo más de sube_7d m por semana. 'persistencia': error de suponer que el río no cambia, como referencia.",
            "estaciones": modelo}
     json.dump(doc, open(os.path.join(ROOT, "data/modelo.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print("modelo.json escrito:", len(modelo), "estaciones", file=sys.stderr)

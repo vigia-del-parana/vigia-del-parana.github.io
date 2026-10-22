@@ -13,7 +13,7 @@ App comunitaria, gratuita y sin fines de lucro para seguir la crecida de los rí
   - **Paraná**: Bajada Grande, costanera baja, Puerto Sánchez, Toma Nueva y ciudad alta.
   - **Corrientes, Barranqueras/Resistencia e Isla del Cerrito, Reconquista, Goya, Itatí y Paso de la Patria.**
 - En el resto de la cuenca usa el puerto más cercano **de la misma orilla del río**, con los niveles oficiales.
-- Incluye la **Proyección Vigía**: una estimación propia, con su banda de error, de cómo puede seguir el río según lo que ya se midió aguas arriba. No es un pronóstico oficial; cuando el INA publica el suyo, manda el del INA.
+- Incluye la **Proyección Vigía**: una estimación propia, con su banda de error, de cómo puede seguir el río según lo que viene pasando aguas arriba. No es un pronóstico oficial; cuando el INA publica el suyo, manda el del INA.
 - Explica cómo prepararse según el nivel, qué pasa aguas arriba, el estado de Itaipú y Yacyretá, el pronóstico del INA y noticias de la cuenca con enlace a la fuente.
 - Se instala como app (PWA) y abre sin conexión con los últimos datos vistos.
 
@@ -39,7 +39,7 @@ App comunitaria, gratuita y sin fines de lucro para seguir la crecida de los rí
 
 - Para las zonas finas, cada zona tiene tres umbrales en la regla de su puerto de referencia (atención, preparación, salida), definidos con las crecidas anteriores y el estado de las defensas.
 - Para el resto de las ciudades: atención = alerta oficial − 1 m, preparación = alerta − 0,5 m, salida = alerta oficial. La evacuación oficial se muestra siempre.
-- La **Proyección Vigía** traslada a tu puerto lo que ya subió o bajó aguas arriba, con el retraso que mejor explica cada tramo en los últimos tres años (por ejemplo, Santa Fe sigue a Hernandarias con unos 2 días). La banda de error es el error real del método al probarlo contra el pasado. Donde no hay un modelo que funcione mejor que suponer que el río no cambia, se muestra solo la tendencia de la última semana. Ninguna de las dos es pronóstico oficial.
+- La **Proyección Vigía** estima cuánto va a subir o bajar tu puerto en los próximos 1 a 15 días según cuánto subió o bajó el río en las últimas dos semanas en los puertos de aguas arriba que mejor lo explican (incluido el río Paraguay donde corresponde). Tiene pesos propios para cada horizonte, así capta que una crecida grande llega lenta y estirada por el valle. La banda de error es el error real del método al probarlo contra datos que no usó para ajustarse, y en crecida se usa el error medido en crecidas. Si el pronóstico del INA queda fuera de esa banda, la app lo avisa y manda el del INA. Donde no hay un modelo que funcione mejor que suponer que el río no cambia, se muestra solo la tendencia de la última semana. Ninguna de las dos es pronóstico oficial.
 
 ## Limitaciones
 

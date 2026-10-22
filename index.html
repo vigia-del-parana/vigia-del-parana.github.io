@@ -13,7 +13,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" crossorigin="">
-<link rel="stylesheet" href="app.css?v=f5b51d28">
+<link rel="stylesheet" href="app.css?v=59246085">
 </head>
 <body>
 <a class="skip" href="#estado">Ir al estado</a>
@@ -182,13 +182,13 @@
       <li>Clima: <a href="https://www.smn.gob.ar" target="_blank" rel="noopener">Servicio Meteorológico Nacional</a>.</li>
       <li>Noticias: medios de la región, resumidas con enlace a la nota original.</li>
     </ul>
-    <p id="como-proyecta"><b>* Cómo se calcula la Proyección Vigía.</b> No es un pronóstico oficial: es una estimación propia de esta app. La idea es simple: el agua que hoy pasa por un puerto de aguas arriba llega al tuyo unos días después. Para cada ciudad, la app revisó tres años de alturas del INA y encontró qué puerto de arriba y con cuántos días de retraso explica mejor sus subidas y bajadas (por ejemplo, Santa Fe sigue a Hernandarias con unos 2 días de diferencia). Con eso, la proyección toma lo que ya subió o bajó aguas arriba y lo traslada a tu puerto; para los días que todavía no tienen dato de arriba, prolonga la tendencia reciente, cada vez con menos peso. La banda de error no es un adorno: es el error real que ese mismo cálculo tuvo al ponerlo a prueba contra el pasado, a 1, 7 y 15 días. El modelo se recalibra solo cada lunes. No sabe de lluvias locales, del río Salado ni de maniobras nuevas en las represas, así que cuando hay pronóstico del INA, el del INA manda. Si arriba dice «Datos viejos», la actualización automática falló: no te guíes por esta página.</p>
+    <p id="como-proyecta"><b>* Cómo se calcula la Proyección Vigía.</b> No es un pronóstico oficial: es una estimación propia de esta app. La idea es simple: el agua que hoy pasa por los puertos de aguas arriba llega al tuyo días después, y en una crecida grande llega lenta y estirada, porque el río se desparrama por el valle. Para cada ciudad, la app revisó tres años de alturas del INA y encontró qué puertos de arriba explican mejor cómo cambia la altura de tu puerto a 1, 2… y hasta 15 días (por ejemplo, para Santa Fe pesan Goya y Santa Elena; para La Paz, Corrientes y también el río Paraguay en Formosa). Con eso, la proyección mira cuánto subió o bajó el río en esos puertos en las últimas dos semanas y estima cuánto le falta subir o bajar al tuyo. La banda de error no es un adorno: es el error real que tuvo el cálculo al probarlo contra el pasado con datos que el modelo no había visto; cuando el río viene subiendo, se usa el error medido en crecidas, que es mayor. El modelo se recalibra solo cada lunes. No sabe de lluvias, del río Salado ni de maniobras nuevas en las represas, así que cuando hay pronóstico del INA, el del INA manda, y si los dos no coinciden, la app lo avisa. Si arriba dice «Datos viejos», la actualización automática falló: no te guíes por esta página.</p>
     <p id="privAportes" hidden><b>Aportes de vecinos.</b> Cuando el río está en alerta, quien usa la ubicación del celular puede contar hasta dónde llegó el agua. Se guarda el punto del GPS, su margen de error, la altura del río en ese momento, la respuesta y un código al azar del celular (para contar un aporte por día), en una planilla privada. No se guardan nombres, teléfonos ni ningún otro dato personal. Lo único que se publica es el resumen por zonas de unos 250 m, y solo cuando hay al menos 3 aportes de celulares distintos.</p>
     <p id="resumenFoot"></p>
     <p class="small">Diseñada y creada en Santa Fe por Melisa Franzotti con Claude (Anthropic) modelo Fable 5.1 · código público en <a id="repoLink" href="#" target="_blank" rel="noopener">GitHub</a> · uso no comercial.</p>
   </footer>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js" crossorigin=""></script>
-<script src="app.js?v=f5b51d28"></script>
+<script src="app.js?v=59246085"></script>
 </body>
 </html>
