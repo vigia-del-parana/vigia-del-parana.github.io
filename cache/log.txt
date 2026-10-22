@@ -1,0 +1,67 @@
+ok Puerto Iguazú 1081 días
+ok Libertad 1081 días
+ok Eldorado 1081 días
+ok Puerto Libertador 1081 días
+ok Santa Ana 1081 días
+ok Posadas 1081 días
+ok Ituzaingó 1081 días
+ok Itá Ibaté 1081 días
+ok Itatí 1081 días
+ok Paso de la Patria 1081 días
+ok Puerto Pilcomayo 985 días
+ok Formosa 1081 días
+ok Corrientes 1081 días
+ok Barranqueras (Resistencia) 1081 días
+ok Empedrado 1081 días
+ok Bella Vista 1081 días
+ok Goya 1081 días
+ok Reconquista 1081 días
+ok Esquina 1081 días
+ok La Paz 1081 días
+ok Santa Elena 1064 días
+ok Hernandarias 1039 días
+ok Santa Fe 1081 días
+ok Paraná 1081 días
+ok Diamante 1081 días
+ok Victoria 1081 días
+ok San Lorenzo / Pto. Gral. San Martín 1081 días
+ok Rosario 1081 días
+ok Villa Constitución 1081 días
+ok San Nicolás 1081 días
+ok Ramallo 1081 días
+ok San Pedro 1081 días
+ok Baradero 1081 días
+Puerto Iguazú            sin modelo mejor que persistencia
+Libertad                 <- Puerto Iguazú (5d, b=0.13)  r2=0.02 err3=1.728 err7=2.074 err7_sube=2.372 (n=446)  [1 entrada 1.926 · 2 entradas -]
+Eldorado                 <- Libertad (5d, b=0.10)  r2=0.02 err3=1.073 err7=1.418 err7_sube=1.737 (n=420)  [1 entrada 1.260 · 2 entradas 1.278]
+Puerto Libertador        <- Libertad (6d, b=0.01)  r2=0.00 err3=3.185 err7=3.235 err7_sube=3.883 (n=366)  [1 entrada 3.222 · 2 entradas 3.222]
+Santa Ana                <- Eldorado (6d, b=0.02)  r2=0.01 err3=0.179 err7=0.258 err7_sube=0.397 (n=223)  [1 entrada 0.221 · 2 entradas 0.240]
+Posadas                  <- Eldorado (1d, b=0.05)  r2=0.07 err3=0.3 err7=0.315 err7_sube=0.204 (n=188)  [1 entrada 0.310 · 2 entradas 0.309]
+Ituzaingó                <- Posadas (1d, b=0.33)  r2=0.03 err3=0.635 err7=0.563 err7_sube=0.582 (n=343)  [1 entrada 0.622 · 2 entradas 0.655]
+Itá Ibaté                <- Santa Ana (2d, b=1.27)  r2=0.51 err3=0.463 err7=0.544 err7_sube=0.663 (n=352)  [1 entrada 0.520 · 2 entradas 0.521]
+Itatí                    <- Itá Ibaté (1d, b=0.93)  r2=0.85 err3=0.389 err7=0.534 err7_sube=0.606 (n=354)  [1 entrada 0.473 · 2 entradas 0.466]
+Paso de la Patria        <- Itá Ibaté (1d, b=0.79)  r2=0.80 err3=0.293 err7=0.447 err7_sube=0.523 (n=328)  [1 entrada 0.386 · 2 entradas 0.397]
+Puerto Pilcomayo         sin modelo mejor que persistencia
+Formosa                  <- Puerto Pilcomayo (2d, b=0.87) + Paso de la Patria (2d, b=0.27)  r2=0.72 err3=0.153 err7=0.341 err7_sube=0.388 (n=275)  [1 entrada 0.287 · 2 entradas 0.274]
+Corrientes               <- Itá Ibaté (1d, b=0.75)  r2=0.75 err3=0.281 err7=0.438 err7_sube=0.523 (n=328)  [1 entrada 0.377 · 2 entradas 0.370]
+Barranqueras (Resistencia) <- Paso de la Patria (1d, b=0.91)  r2=0.89 err3=0.275 err7=0.436 err7_sube=0.514 (n=323)  [1 entrada 0.375 · 2 entradas 0.367]
+Empedrado                <- Paso de la Patria (1d, b=0.76)  r2=0.20 err3=0.909 err7=0.894 err7_sube=1.255 (n=306)  [1 entrada 0.883 · 2 entradas 0.882]
+Bella Vista              <- Corrientes (1d, b=0.53) + Barranqueras (Resistencia) (2d, b=0.38)  r2=0.93 err3=0.176 err7=0.383 err7_sube=0.418 (n=314)  [1 entrada 0.311 · 2 entradas 0.301]
+Goya                     <- Corrientes (2d, b=0.72)  r2=0.89 err3=0.138 err7=0.305 err7_sube=0.335 (n=300)  [1 entrada 0.239 · 2 entradas 0.242]
+Reconquista              <- Bella Vista (1d, b=0.72)  r2=0.91 err3=0.118 err7=0.281 err7_sube=0.326 (n=298)  [1 entrada 0.216 · 2 entradas 0.212]
+Esquina                  <- Goya (1d, b=0.62) + Reconquista (3d, b=0.32)  r2=0.90 err3=0.108 err7=0.239 err7_sube=0.239 (n=310)  [1 entrada 0.207 · 2 entradas 0.195]
+La Paz                   <- Esquina (1d, b=0.80) + Goya (2d, b=0.27)  r2=0.94 err3=0.124 err7=0.256 err7_sube=0.24 (n=339)  [1 entrada 0.214 · 2 entradas 0.207]
+Santa Elena              <- Esquina (1d, b=0.96)  r2=0.92 err3=0.114 err7=0.231 err7_sube=0.24 (n=312)  [1 entrada 0.190 · 2 entradas 0.186]
+Hernandarias             <- Esquina (1d, b=0.90)  r2=0.92 err3=0.098 err7=0.206 err7_sube=0.206 (n=306)  [1 entrada 0.167 · 2 entradas 0.165]
+Santa Fe                 <- Hernandarias (1d, b=0.54) + Santa Elena (4d, b=0.31)  r2=0.91 err3=0.091 err7=0.16 err7_sube=0.169 (n=275)  [1 entrada 0.146 · 2 entradas 0.137]
+Paraná                   <- Hernandarias (1d, b=0.86) + Santa Elena (8d, b=0.07)  r2=0.94 err3=0.102 err7=0.175 err7_sube=0.178 (n=277)  [1 entrada 0.158 · 2 entradas 0.150]
+Diamante                 <- Hernandarias (2d, b=0.92)  r2=0.89 err3=0.121 err7=0.189 err7_sube=0.19 (n=317)  [1 entrada 0.167 · 2 entradas 0.164]
+Victoria                 <- Diamante (4d, b=0.39) + Santa Fe (10d, b=0.21)  r2=0.54 err3=0.107 err7=0.169 err7_sube=0.186 (n=247)  [1 entrada 0.152 · 2 entradas 0.142]
+San Lorenzo / Pto. Gral. San Martín <- Santa Fe (1d, b=1.03)  r2=0.84 err3=0.136 err7=0.216 err7_sube=0.203 (n=344)  [1 entrada 0.183 · 2 entradas 0.180]
+Rosario                  <- Santa Fe (2d, b=0.91)  r2=0.74 err3=0.145 err7=0.209 err7_sube=0.21 (n=338)  [1 entrada 0.181 · 2 entradas 0.181]
+Villa Constitución       <- Santa Fe (1d, b=0.78)  r2=0.55 err3=0.191 err7=0.25 err7_sube=0.258 (n=318)  [1 entrada 0.220 · 2 entradas 0.231]
+San Nicolás              <- Diamante (1d, b=0.63)  r2=0.44 err3=0.226 err7=0.273 err7_sube=0.29 (n=327)  [1 entrada 0.245 · 2 entradas 0.267]
+Ramallo                  <- San Lorenzo / Pto. Gral. San Martín (1d, b=0.63)  r2=0.41 err3=0.262 err7=0.309 err7_sube=0.351 (n=324)  [1 entrada 0.281 · 2 entradas 0.305]
+San Pedro                <- Rosario (9d, b=0.16)  r2=0.01 err3=0.399 err7=0.427 err7_sube=0.475 (n=362)  [1 entrada 0.400 · 2 entradas 0.429]
+Baradero                 <- Rosario (10d, b=0.15)  r2=0.01 err3=0.423 err7=0.475 err7_sube=0.546 (n=359)  [1 entrada 0.438 · 2 entradas 0.499]
+modelo.json escrito: 33 estaciones
