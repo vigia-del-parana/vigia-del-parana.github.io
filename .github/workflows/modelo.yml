@@ -21,14 +21,15 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Calibrar con 3 años de datos del INA
-        run: python scripts/ajustar_modelo.py
-      - name: Publicar
+      - name: Calibrar con 3 años de datos del INA (prueba en rama)
+        run: |
+          mkdir -p cache
+          VIGIA_CACHE=cache/series.json python scripts/ajustar_modelo.py 2> cache/log.txt || (cat cache/log.txt; exit 1)
+          tail -40 cache/log.txt
+      - name: Guardar en la rama
         run: |
           git config user.name "vigia-bot"
           git config user.email "vigia-bot@users.noreply.github.com"
-          git add data/modelo.json
-          git diff --cached --quiet && echo "sin cambios" && exit 0
-          git commit -m "modelo: recalibrado $(date -u +'%Y-%m-%d')"
-          git pull --rebase origin main
-          git push
+          git add -f data/modelo.json cache/series.json cache/log.txt
+          git commit -m "prueba modelo con dos entradas [skip ci]"
+          git push origin HEAD:${GITHUB_REF_NAME}
