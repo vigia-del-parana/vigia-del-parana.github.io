@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-27T19:53:14-03:00",
- "resumen": "Martes 27 a la noche: Itaipú sigue vertiendo por la canaleta izquierda (unos 3.100 m³/s) mientras el Iguazú, en niveles récord, empuja el Paraná en Foz hasta un pico previsto para mañana, y la EBY ahora espera un caudal estable de unos 33.500 m³/s en Yacyretá con baja gradual hacia el fin de semana, sin lluvias fuertes hasta el viernes. El río sigue subiendo despacio en el norte santafesino: Reconquista (5,41 m) está sobre su evacuación, Goya (5,66 m) y La Paz (5,71 m) se acercan a la suya, y Corrientes (7,35 m) y Barranqueras se mantienen en meseta muy por encima de la evacuación. En el puerto de Santa Fe el río marcó 4,16 m (+6 cm en 24 h), lejos de la alerta de 5,30 m, pero en la Costa ya hay cuatro familias evacuadas a Alto Verde y vecinos que abrieron cortes en terraplenes de la Ruta 1 en Garay; el INA todavía no publicó su tabla nueva de hoy.",
+ "actualizado": "2026-10-28T08:00:45-03:00",
+ "resumen": "Miércoles 28 por la mañana: Itaipú mantiene la canaleta izquierda del vertedero abierta (unos 3.100 m³/s) mientras el Iguazú empuja el Paraná en Foz hasta el pico previsto para hoy, y Yacyretá sigue con vertedero abierto y caudal estable de unos 33.500 m³/s, con baja gradual esperada hacia el fin de semana. El río sigue subiendo despacio: Reconquista (5,48 m) está sobre su evacuación, La Paz (5,72 m) y Goya se acercan a las suyas, y Corrientes y Barranqueras siguen en meseta muy por encima de la evacuación. En el puerto de Santa Fe el río marcó 4,23 m (+7 cm en 24 h), lejos de la alerta de 5,30 m: el INA publicó su tabla nueva del martes y proyecta 4,52 m para el 3 de noviembre y 4,63 m para el 10, algo menos que antes, aunque advierte que la crecida puede prolongarse. En la Costa santafesina siguen las evacuaciones preventivas y el control de terraplenes.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -8,7 +8,7 @@
    "valor": "≈ 3.100",
    "unidad": "m³/s",
    "valorNota": "Descarga por la canaleta izquierda del vertedero, que Itaipú volvió a abrir el lunes 26 de octubre a las 9:30, unas 16 horas después de cerrarlo (domingo 25, 17:32, tras 26 días de vertido continuo). Itaipú la expresa como 3,1 millones de litros por segundo; la central permanece cerrada en la imagen de la nota y no hay fecha para nuevos cambios. El Iguazú llegó a unos 17 millones de litros por segundo y el Paraná llevaba unos 11 millones.",
-   "detalle": "Según la binacional, retener agua en el embalse sirvió para bajar unos 2,5 m el pico que habría alcanzado el Paraná frente a Foz y Ciudad del Este, donde el Iguazú genera un remanso que frena el escurrimiento; se proyecta un máximo de unos 118 m sobre el nivel del mar en el Puente de la Amistad para el miércoles 28, con las zonas bajas bajo seguimiento. Para el tramo argentino, el aporte de Itaipú vuelve a sumarse al Paraná con demora de días hasta Yacyretá y Corrientes.",
+   "detalle": "Según la binacional, retener agua en el embalse sirvió para bajar unos 2,5 m el pico que habría alcanzado el Paraná frente a Foz y Ciudad del Este, donde el Iguazú genera un remanso que frena el escurrimiento; se proyecta un máximo de unos 118 m sobre el nivel del mar en el Puente de la Amistad para el miércoles 28, con las zonas bajas bajo seguimiento. Para el tramo argentino, el aporte de Itaipú vuelve a sumarse al Paraná con demora de días hasta Yacyretá y Corrientes. Sin novedades oficiales nuevas al cierre de esta lectura.",
    "fecha": "2026-10-27",
    "fuente": "La Voz de Cataratas 27/10 / Itaipú Binacional (itaipu.gov.py) 26/10 / Canal 12 Misiones",
    "url": "https://lavozdecataratas.com/2026/10/27/itaipu-reabrio-el-vertedero-y-el-parana-podria-alcanzar-los-118-metros-este-miercoles/"
@@ -43,7 +43,7 @@
      "max": 7.8
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); pendiente la actualización del martes 27, y la tabla nueva todavía no estaba publicada el martes a la noche. Prevé 7,54 m (rango 7,00–7,80) para el martes 27 de octubre y el mismo valor y rango para el martes 3 de noviembre, las dos columnas por encima de la evacuación (7,00 m; alerta 6,50 m); El Litoral de Corrientes cita el techo de 7,80 m para el 27 y no espera una baja importante en el período. El reporte diario del INA habla de oscilación en aguas altas por 4 a 14 días, con alta probabilidad de seguir sobre la evacuación; el cierre del vertedero de Itaipú del domingo recién se notaría acá en varios días y depende de lo que haga Yacyretá. La escala marcó 7,36 m en la lectura del domingo 25 (−1 cm en 24 h), tercer día de baja leve o meseta, todavía 36 cm sobre la evacuación; Paso de la Patria 7,70 m (−2) e Itatí 8,17 m (sin cambios). La lectura del lunes no estaba publicada a las 8. Defensa Civil provincial contabilizaba el domingo 1.452 personas fuera de sus casas en Corrientes (767 evacuadas y 685 autoevacuadas), con Itatí como el municipio más golpeado (475 evacuados de 108 familias), la capital con 64 evacuados en la Escuela 293 del barrio Pujol y 588 autoevacuados, e Isla Apipé con 114 evacuados. La Agencia Federal de Emergencias mantiene a Gendarmería en siete municipios (Capital, Itatí, Paso de la Patria, Goya, Bella Vista, Santa Lucía y Cruz de los Milagros), Prefectura llevó 50 módulos alimentarios a Apipé Grande y la Armada desplegó el buque ARA Ciudad de Zárate con infantes de marina y atención sanitaria en la costa."
+   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la tabla del martes 27 no se pudo leer para esta estación. Prevé 7,54 m (rango 7,00–7,80) para el martes 27 de octubre y el mismo valor y rango para el martes 3 de noviembre, las dos columnas por encima de la evacuación (7,00 m; alerta 6,50 m); El Litoral de Corrientes cita el techo de 7,80 m para el 27 y no espera una baja importante en el período. El reporte diario del INA habla de oscilación en aguas altas por 4 a 14 días, con alta probabilidad de seguir sobre la evacuación; el cierre del vertedero de Itaipú del domingo recién se notaría acá en varios días y depende de lo que haga Yacyretá. La escala marcó 7,36 m en la lectura del domingo 25 (−1 cm en 24 h), tercer día de baja leve o meseta, todavía 36 cm sobre la evacuación; Paso de la Patria 7,70 m (−2) e Itatí 8,17 m (sin cambios). La lectura del lunes no estaba publicada a las 8. Defensa Civil provincial contabilizaba el domingo 1.452 personas fuera de sus casas en Corrientes (767 evacuadas y 685 autoevacuadas), con Itatí como el municipio más golpeado (475 evacuados de 108 familias), la capital con 64 evacuados en la Escuela 293 del barrio Pujol y 588 autoevacuados, e Isla Apipé con 114 evacuados. La Agencia Federal de Emergencias mantiene a Gendarmería en siete municipios (Capital, Itatí, Paso de la Patria, Goya, Bella Vista, Santa Lucía y Cruz de los Milagros), Prefectura llevó 50 módulos alimentarios a Apipé Grande y la Armada desplegó el buque ARA Ciudad de Zárate con infantes de marina y atención sanitaria en la costa."
   },
   "20": {
    "emitido": "2026-10-23",
@@ -62,7 +62,7 @@
      "max": 7.8
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); pendiente la actualización del martes 27. Prevé 7,44 m (rango 7,00–7,80) para el martes 27 de octubre y 7,45 m (7,00–7,80) para el martes 3 de noviembre, casi un metro sobre la evacuación (6,50 m; alerta 6,00 m): el INA no prevé una baja de fin de mes sino que el río se sostenga o repunte con el nuevo aumento de caudal que anticipa Yacyretá. La escala marcó 7,22 m en la lectura del domingo 25 (−1 cm en 24 h), tercer día de baja leve después de varios en 7,27–7,30 m, pero sigue 72 cm sobre la evacuación; la lectura del lunes no estaba publicada a las 8. Diario Norte informa este lunes que, según los municipios, hay 1.448 personas fuera de sus hogares en el Chaco (578 autoevacuadas), con 74 familias evacuadas en Barranqueras; el Comité Provincial de Emergencia había contado el sábado 1.790 personas (1.290 evacuadas y unas 500 autoevacuadas), así que las cifras varían según quién las releva. En Puerto Vilelas el río llegó a 7,27 m el sábado a la noche y el municipio releva más de 1.900 personas afectadas fuera de las defensas del Gran Resistencia, con el camino a Tres Bocas cortado y asistencia por agua; un bloque legislativo pidió la colaboración humanitaria del Ejército."
+   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la tabla del martes 27 no se pudo leer completa para esta estación (no la reproducen los medios consultados). Prevé 7,44 m (rango 7,00–7,80) para el martes 27 de octubre y 7,45 m (7,00–7,80) para el martes 3 de noviembre, casi un metro sobre la evacuación (6,50 m; alerta 6,00 m): el INA no prevé una baja de fin de mes sino que el río se sostenga o repunte con el nuevo aumento de caudal que anticipa Yacyretá. La escala marcó 7,22 m en la lectura del domingo 25 (−1 cm en 24 h), tercer día de baja leve después de varios en 7,27–7,30 m, pero sigue 72 cm sobre la evacuación; la lectura del lunes no estaba publicada a las 8. Diario Norte informa este lunes que, según los municipios, hay 1.448 personas fuera de sus hogares en el Chaco (578 autoevacuadas), con 74 familias evacuadas en Barranqueras; el Comité Provincial de Emergencia había contado el sábado 1.790 personas (1.290 evacuadas y unas 500 autoevacuadas), así que las cifras varían según quién las releva. En Puerto Vilelas el río llegó a 7,27 m el sábado a la noche y el municipio releva más de 1.900 personas afectadas fuera de las defensas del Gran Resistencia, con el camino a Tres Bocas cortado y asistencia por agua; un bloque legislativo pidió la colaboración humanitaria del Ejército."
   },
   "23": {
    "emitido": "2026-10-23",
@@ -81,83 +81,83 @@
      "max": 6.5
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); pendiente la actualización del martes 27. Prevé 5,76 m (rango 5,55–6,25) para el martes 27 de octubre y 6,17 m (5,70–6,50) para el martes 3 de noviembre, 6 y 47 cm sobre la evacuación (5,70 m; alerta 5,20 m); El Litoral de Corrientes cita el techo de 6,50 m para el 3 de noviembre. El reporte diario del INA mantiene que la probabilidad de superar la evacuación aumenta desde el 23 de octubre. El hidrómetro del puerto marcó 5,63 m en la lectura del domingo 25 (+2 cm en 24 h; +9 cm en una semana), a 7 cm de la evacuación y en la cota en la que se anega el paseo inferior de la costanera (las siguientes cotas de protección son el muelle de Prefectura a 7,00 m, el paseo superior a 7,85 m y el muro costero a 8,35 m); Bella Vista se mantuvo en 6,34 m y Esquina subió a 5,06 m (+5; alerta 5,00). La lectura del lunes no estaba publicada a las 8. Con la ordenanza de emergencia hídrica por 180 días, el COE que encabeza el intendente dejó acondicionados más de diez centros de cercanía para alojar familias si hiciera falta, asiste a unas diez familias isleñas del Puerto Exterior y Carumbé, refuerza terraplenes y desagües primarios y mantiene el bombeo del Prodego; pidió a las embarcaciones bajar la velocidad en el Riacho Goya porque la marejada golpea las viviendas ribereñas y prohibió retirar tierra de las defensas. Gendarmería opera en Goya dentro del despliegue de la Agencia Federal de Emergencias."
+   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la tabla del martes 27 no se pudo leer completa para esta estación (no la reproducen los medios consultados). Prevé 5,76 m (rango 5,55–6,25) para el martes 27 de octubre y 6,17 m (5,70–6,50) para el martes 3 de noviembre, 6 y 47 cm sobre la evacuación (5,70 m; alerta 5,20 m); El Litoral de Corrientes cita el techo de 6,50 m para el 3 de noviembre. El reporte diario del INA mantiene que la probabilidad de superar la evacuación aumenta desde el 23 de octubre. El hidrómetro del puerto marcó 5,63 m en la lectura del domingo 25 (+2 cm en 24 h; +9 cm en una semana), a 7 cm de la evacuación y en la cota en la que se anega el paseo inferior de la costanera (las siguientes cotas de protección son el muelle de Prefectura a 7,00 m, el paseo superior a 7,85 m y el muro costero a 8,35 m); Bella Vista se mantuvo en 6,34 m y Esquina subió a 5,06 m (+5; alerta 5,00). La lectura del lunes no estaba publicada a las 8. Con la ordenanza de emergencia hídrica por 180 días, el COE que encabeza el intendente dejó acondicionados más de diez centros de cercanía para alojar familias si hiciera falta, asiste a unas diez familias isleñas del Puerto Exterior y Carumbé, refuerza terraplenes y desagües primarios y mantiene el bombeo del Prodego; pidió a las embarcaciones bajar la velocidad en el Riacho Goya porque la marejada golpea las viviendas ribereñas y prohibió retirar tierra de las defensas. Gendarmería opera en Goya dentro del despliegue de la Agencia Federal de Emergencias."
   },
   "24": {
-   "emitido": "2026-10-23",
+   "emitido": "2026-10-27",
    "fuente": "INA",
    "puntos": [
     {
-     "fecha": "2026-10-27",
-     "central": 5.44,
-     "min": 5.25,
-     "max": 5.95
+     "fecha": "2026-11-03",
+     "central": 5.5,
+     "min": null,
+     "max": null
     },
     {
-     "fecha": "2026-11-03",
-     "central": 5.75,
-     "min": 5.4,
-     "max": 6.2
+     "fecha": "2026-11-10",
+     "central": 5.46,
+     "min": null,
+     "max": null
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); pendiente la actualización del martes 27. Prevé 5,44 m (rango 5,25–5,95) para el martes 27 de octubre y 5,75 m (5,40–6,20) para el martes 3 de noviembre, 14 y 45 cm sobre la evacuación (5,30 m; alerta 5,10 m), con el piso del rango en o sobre la evacuación en las dos columnas. La escala marcó 5,33 m en la lectura del domingo 25 según Prefectura (+4 cm en 24 h; +19 cm en cuatro días; la red del CIM-UNL registra 5,32 m) y 5,34 m a las 18 según Aire de Santa Fe: es el segundo día por encima de la cota de evacuación. La lectura del lunes no estaba publicada a las 8. El municipio insiste en que esa altura por sí sola no implica evacuar: el anillo de defensas construido desde 2016 funciona con normalidad y contiene cerca de 1,80 m de diferencia entre el río y la zona protegida, Puerto Reconquista está seco, el acceso al puerto sigue habilitado y no hay evacuados, cuando con una altura así antes se inundaba el puerto y se trasladaban 50 o 60 familias. En El Arenal no hizo falta prender las bombas el fin de semana; el sector más bajo del terraplén ya se recreció un metro y el intendente considera necesario elevar las defensas al menos 80 cm más si se cumple el pronóstico, con bolsones listos para cerrar los portones del anillo en alrededor de una hora. Unas 2.500 personas viven en el valle de inundación y el otro sector expuesto es el Callejón de la Cortada, sobre el arroyo El Rey, con más de 350 familias. Rige la emergencia hídrica declarada el jueves."
+   "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Prevé 5,50 m para el 3 de noviembre y 5,46 m para el 10, es decir una meseta apenas sobre la evacuación (5,30 m; alerta 5,10 m). La escala marcó 5,48 m este miércoles según LT9 (5,41 m el martes en nuestra serie)."
   },
   "26": {
-   "emitido": "2026-10-23",
+   "emitido": "2026-10-27",
    "fuente": "INA",
    "puntos": [
     {
-     "fecha": "2026-10-27",
-     "central": 5.79,
-     "min": 5.5,
-     "max": 6.2
+     "fecha": "2026-11-03",
+     "central": 5.87,
+     "min": null,
+     "max": null
     },
     {
-     "fecha": "2026-11-03",
-     "central": 6.3,
-     "min": 5.9,
-     "max": 6.7
+     "fecha": "2026-11-10",
+     "central": 6.01,
+     "min": null,
+     "max": null
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); pendiente la actualización del martes 27. Prevé 5,79 m (rango 5,50–6,20) para el martes 27 de octubre, justo al borde de la alerta (5,80 m), y 6,30 m (5,90–6,70) para el martes 3 de noviembre, 15 cm sobre la evacuación (6,15 m). El reporte diario del INA mantiene alta la probabilidad de alcanzar la alerta desde el 25 de octubre y la evacuación con más chances desde el 29. La escala marcó 5,61 m en la lectura del domingo 25 (+7 cm en 24 h; +24 cm en cuatro días), a 19 cm de la alerta: al ritmo de la última semana la alerta llegaría entre hoy lunes y el miércoles. La lectura del lunes no estaba publicada a las 8. El Gobierno de Entre Ríos informó el domingo que toda la provincia sigue en situación verde, sin alertas por crecidas, con monitoreo diario de las localidades ribereñas; Defensa Civil confirma que no hay evacuados oficiales, salvo una familia autoevacuada en La Paz; el municipio colocó bolsones en Bajada de la Cruz y limpió los arroyos Cabayú Cuatiá y Los Paraísos. Aguas abajo, Santa Elena marcó 5,32 m (+6; alerta 6,90) y Hernandarias 4,73 m (+6; alerta 5,50)."
+   "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Según Elonce, 5,87 m a comienzos de noviembre y 6,01 m en los primeros diez días del mes (se asignan al 3 y al 10 de noviembre). Alerta 5,80 m, evacuación 6,72 m según esa nota (nuestra tabla de estaciones usa otros umbrales). La Paz marcaba 5,72 m este miércoles."
   },
   "29": {
-   "emitido": "2026-10-23",
+   "emitido": "2026-10-27",
    "fuente": "INA",
    "puntos": [
     {
-     "fecha": "2026-10-27",
-     "central": 4.2,
-     "min": 4.0,
-     "max": 4.6
+     "fecha": "2026-11-03",
+     "central": 4.46,
+     "min": null,
+     "max": null
     },
     {
-     "fecha": "2026-11-03",
-     "central": 4.7,
-     "min": 4.1,
-     "max": 4.9
+     "fecha": "2026-11-10",
+     "central": 4.59,
+     "min": null,
+     "max": null
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); pendiente la actualización del martes 27. Prevé 4,20 m (rango 4,00–4,60) para el martes 27 de octubre y 4,70 m (4,10–4,90) para el martes 3 de noviembre, es decir justo en la alerta (4,70 m) para principios de noviembre y por debajo de la evacuación (5,00 m) incluso en el techo del rango. El reporte diario del INA ubica a Paraná en ascenso sostenido hacia aguas medias altas en los próximos 15 días y posible aproximación o superación de la alerta entre fines de octubre y los primeros días de noviembre. La escala marcó 4,06 m en la lectura del domingo 25 (+7 cm en 24 h; +19 cm en cuatro días), a 64 cm de la alerta; Diamante 4,41 m (+4; alerta 5,30) y Victoria 3,88 m (sin cambios; alerta 4,60). La lectura del lunes no estaba publicada a las 8. El Gobierno provincial informó el domingo que Entre Ríos sigue en situación verde, sin alertas por crecidas, y Defensa Civil no registra evacuados en Paraná, Diamante, Victoria ni Hernandarias; la Municipalidad mantiene definidos los puntos para carpas móviles en Bajada Grande, Arenales, Toma Vieja, Puerto Sánchez y Puerto Viejo si hiciera falta evacuar a fin de mes."
+   "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Prevé 4,46 m el 3 de noviembre y 4,59 m el 10, por debajo de la alerta (4,70 m). El río marcaba 4,21 m este miércoles 28 según Elonce, con suba de unos 5 cm por día. Es una proyección más baja que la del viernes 23, que llegaba a 4,70 m."
   },
   "30": {
-   "emitido": "2026-10-23",
+   "emitido": "2026-10-27",
    "fuente": "INA",
    "puntos": [
     {
-     "fecha": "2026-10-27",
-     "central": 4.22,
-     "min": 4.0,
-     "max": 4.6
+     "fecha": "2026-11-03",
+     "central": 4.52,
+     "min": null,
+     "max": null
     },
     {
-     "fecha": "2026-11-03",
-     "central": 4.64,
-     "min": 4.2,
-     "max": 5.0
+     "fecha": "2026-11-10",
+     "central": 4.63,
+     "min": null,
+     "max": null
     }
    ],
-   "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); el INA publica la próxima tabla el martes 27, y la tabla nueva todavía no estaba publicada el martes a la noche. Prevé 4,22 m (rango 4,00–4,60) para el martes 27 de octubre y 4,64 m (4,20–5,00) para el martes 3 de noviembre en el hidrómetro del puerto, 66 cm por debajo de la alerta (5,30 m; evacuación 5,70 m) y 30 cm por debajo incluso en el techo del rango. Es un recorte respecto de la tabla del martes 20 (4,56 y 4,92 m, que algunos medios siguieron citando el fin de semana): la onda llega más lenta y más baja de lo previsto, en línea con la proyección municipal de un primer pico en torno a los 4,60 m entre fines de octubre y principios de noviembre. Según Aire de Santa Fe, el INA pasó el domingo la clasificación del tramo de aguas medias a aguas medias altas; su reporte diario advierte que el volumen en tránsito puede prolongar la crecida y que las lluvias sobre el Alto Paraná y el Iguazú podrían generar un nuevo pulso; el cierre del vertedero de Itaipú del domingo es un alivio parcial que tardaría una o dos semanas en sentirse acá y queda compensado por el aumento de caudal que prevé Yacyretá. La escala del puerto marcó 4,07 m en la lectura del domingo 25 (+7 cm en 24 h; +15 cm en dos días; +32 cm en una semana; +62 cm desde el 9 de octubre, con 16 días seguidos de ascenso), a 1,23 m de la alerta; la lectura del lunes no estaba publicada a las 8. El agua ya llegó a sectores bajos de la costa de Monte Vera y en la Setúbal se acumulan camalotes entre el Puente Colgante, el viaducto Oroño y la zona portuaria. Prefectura y Protección Civil vigilan terraplenes, estaciones de bombeo y los asentamientos fuera del anillo de defensas; la Municipalidad instala los módulos habitacionales del centro de asistencia en el acceso a Alto Verde (calle Demetrio Gómez, a 300 m del puente Héroes de Malvinas), compró 80 módulos más y evalúa trasladar a las primeras familias de la Vuelta del Paraguayo según cómo evolucione el río; el intendente Poletti dijo que por ahora no hay una situación crítica y no hay familias evacuadas en la ciudad. En la Costa, la Provincia está en la etapa final del Terraplén Garello (Colastiné Norte–San José del Rincón): 200 m terminados con piedra y bloques de hormigón y faltan unos 30 m junto a la toma de agua de Assa, una obra contra la erosión y no de emergencia. La provincia informó que ya se trasladó más del 70 % de la hacienda de las zonas bajas de las islas."
+   "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Prevé 4,52 m el 3 de noviembre y 4,63 m el 10 en el hidrómetro del puerto (Dique Dos), unos 70 cm por debajo de la alerta (5,30 m; evacuación 5,70 m). Prefectura midió 4,23 m este miércoles 28. La proyección bajó respecto de la del viernes 23 (4,64 m para el 3/11), pero el INA advierte que la crecida podría prolongarse y que depende de las lluvias en la cuenca."
   },
   "34": {
    "emitido": "2026-10-25",
@@ -333,6 +333,8 @@
   "https://tvs.com.py/itaipu-reabrio-su-vertedero-ante-el-aumento-del-caudal-de-los-rios-parana-e-iguazu",
   "https://infoqom.com.ar/inundaciones-en-chaco-ya-son-2-026-las-personas-evacuadas-y-autoevacuadas-por-la-creciente-de-los-rios-parana-y-paraguay/",
   "https://www.infobae.com/sociedad/2026/10/26/el-nino-el-paso-por-yacyreta-continua-cerrado-por-el-nivel-del-parana-mientras-la-creciente-volvio-al-rio-uruguay/",
-  "https://www.cfin.com.ar/provincia/rio-parana-crecida-santa-fe-pronostico-ina-noviembre/"
+  "https://www.cfin.com.ar/provincia/rio-parana-crecida-santa-fe-pronostico-ina-noviembre/",
+  "https://www.elonce.com/parana/el-rio-subio-42-centimetros-y-seguira-creciendo-en-parana.htm",
+  "https://www.lt9.com.ar/nuevo-pronostico-del-ina-que-anticipa-para-reconquista-y-santa-fe/"
  ]
 }
