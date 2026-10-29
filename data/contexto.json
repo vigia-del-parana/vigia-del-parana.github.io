@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-28T19:52:25-03:00",
- "resumen": "Miércoles 28 por la noche: Itaipú sigue con la canaleta izquierda del vertedero abierta (unos 3.100 m³/s) mientras el Iguazú empuja el Paraná en Foz, y Yacyretá mantiene el vertedero abierto con un caudal estable de unos 34.000 m³/s y baja gradual esperada hacia el fin de semana. El río sigue subiendo despacio: Corrientes (7,39 m), Barranqueras y Reconquista (5,48 m) están sobre su evacuación, Goya (5,68 m) está a centímetros de la suya y La Paz (5,72 m) a 8 cm de la alerta; en el norte santafesino hay familias evacuadas en Las Toscas y Tacuarendí. En el puerto de Santa Fe el río marcó 4,23 m (+7 cm en 24 h), lejos de la alerta de 5,30 m: el INA proyecta 4,52 m para el 3 de noviembre y 4,63 m para el 10, aunque advierte que la crecida puede prolongarse, y en la Costa siguen los controles de terraplenes y las evacuaciones preventivas en Alto Verde y Colastiné.",
+ "actualizado": "2026-10-29T07:55:00-03:00",
+ "resumen": "Jueves 29 por la mañana: Itaipú mantiene abierta la canaleta izquierda del vertedero (unos 3.100 m³/s) mientras el Iguazú sigue alto, y Yacyretá conserva el vertedero abierto con un afluente estable cercano a 33.500 m³/s; la EBY espera una baja gradual con tiempo seco hasta el viernes, aunque advierte que el pronóstico de El Niño trae más lluvias desde noviembre. El Paraná sigue en suba lenta: Corrientes, Barranqueras, Reconquista y Libertador están sobre su nivel de evacuación, Goya y La Paz rozan los suyos, y en Chaco ya son más de 2.200 las personas desplazadas, con Puerto Vilelas como punto más crítico. En el puerto de Santa Fe el río marcó 4,23 m el miércoles (+7 cm en 24 h), lejos de la alerta de 5,30 m; el INA proyecta 4,52 m para el 3 de noviembre y espera actualizar el pronóstico el viernes 30, mientras en la Costa siguen las evacuaciones preventivas y el control diario de terraplenes.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -8,7 +8,7 @@
    "valor": "≈ 3.100",
    "unidad": "m³/s",
    "valorNota": "Descarga por la canaleta izquierda del vertedero, que Itaipú volvió a abrir el lunes 26 de octubre a las 9:30, unas 16 horas después de cerrarlo (domingo 25, 17:32, tras 26 días de vertido continuo). Itaipú la expresa como 3,1 millones de litros por segundo; no hay fecha para nuevos cambios. El Iguazú llegó a unos 17 millones de litros por segundo y el Paraná llevaba unos 11 millones.",
-   "detalle": "Según la binacional, retener agua en el embalse sirvió para bajar unos 2,5 m el pico que habría alcanzado el Paraná frente a Foz y Ciudad del Este, donde el Iguazú genera un remanso que frena el escurrimiento; se proyecta un máximo de unos 118 m sobre el nivel del mar en el Puente de la Amistad para el miércoles 28, con las zonas bajas bajo seguimiento. Para el tramo argentino, el aporte de Itaipú vuelve a sumarse al Paraná con demora de días hasta Yacyretá y Corrientes. El reporte diario del INA (27/10) registra una erogación de unos 11.600 m³/s en Itaipú y anticipa un probable nuevo aumento del derrame hacia la primera década de noviembre. Sin novedades oficiales nuevas al cierre de esta lectura.",
+   "detalle": "Según la binacional, retener agua en el embalse sirvió para bajar unos 2,5 m el pico que habría alcanzado el Paraná frente a Foz y Ciudad del Este, donde el Iguazú genera un remanso que frena el escurrimiento; se proyecta un máximo de unos 118 m sobre el nivel del mar en el Puente de la Amistad para el miércoles 28, con las zonas bajas bajo seguimiento. Para el tramo argentino, el aporte de Itaipú vuelve a sumarse al Paraná con demora de días hasta Yacyretá y Corrientes. El reporte diario del INA (27/10) registra una erogación de unos 11.600 m³/s en Itaipú y anticipa un probable nuevo aumento del derrame hacia la primera década de noviembre. Sin novedades oficiales nuevas al jueves 29 por la mañana.",
    "fecha": "2026-10-27",
    "fuente": "La Voz de Cataratas 27/10 / Itaipú Binacional (itaipu.gov.py) 26/10 / Canal 12 Misiones",
    "url": "https://lavozdecataratas.com/2026/10/27/itaipu-reabrio-el-vertedero-y-el-parana-podria-alcanzar-los-118-metros-este-miercoles/"
@@ -19,7 +19,7 @@
    "valor": "≈ 33.500",
    "unidad": "m³/s",
    "valorNota": "Caudal afluente estimado por la EBY en su informe del martes 27 de octubre (rango de 33.000 a 35.000 m³/s para los próximos días, tendencia estable). El reporte diario del INA del 27/10 ubica el afluente en 34.500 m³/s y el efluente en 33.900 m³/s (−1.100), con leve descenso en los próximos 4 días; la EBY no difundió el desglose entre vertedero principal y Aña Cuá (el último, del 19/10: 10.900 m³/s por el brazo principal y 11.100 por Aña Cuá).",
-   "detalle": "La EBY ya no espera la suba a 35.000–38.000 m³/s que anticipaba antes: prevé una baja gradual hacia el fin de semana, sin lluvias de relevancia entre el martes y el viernes, aunque advierte que los niveles seguirán sobre los umbrales. Ituzaingó marcó 4,31 m el martes a las 12:30 (evacuación 4,00 m; se proyectan 4,10 a 4,30 m) y Ayolas unos 6,00 a 6,10 m (inundabilidad 4,50 m; se esperan 5,60 a 6,10 m). Septiembre y octubre vienen con aportes muy por encima del promedio histórico y la EBY mantiene alta probabilidad de aguas altas de noviembre a enero por El Niño.",
+   "detalle": "La EBY ya no espera la suba a 35.000–38.000 m³/s que anticipaba antes: prevé una baja gradual hacia el fin de semana, sin lluvias de relevancia entre el martes y el viernes, aunque advierte que los niveles seguirán sobre los umbrales. Ituzaingó marcó 4,31 m el martes a las 12:30 (evacuación 4,00 m; se proyectan 4,10 a 4,30 m) y Ayolas unos 6,00 a 6,10 m (inundabilidad 4,50 m; se esperan 5,60 a 6,10 m). Septiembre y octubre vienen con aportes muy por encima del promedio histórico y la EBY mantiene alta probabilidad de aguas altas de noviembre a enero por El Niño. Al jueves 29 por la mañana no hay un informe nuevo de la EBY; se mantiene el del martes 27.",
    "fecha": "2026-10-27",
    "fuente": "EBY – informe del 27/10 (vía Economis y Diario El Libertador) / El Litoral 27/10 / INA reporte diario 27/10",
    "url": "https://economis.com.ar/crecida-del-parana-yacyreta-preve-un-descenso-pero-los-niveles-seguiran-por-encima-de-los-umbrales-criticos/"
@@ -139,7 +139,7 @@
      "max": null
     }
    ],
-   "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Prevé 4,52 m el 3 de noviembre y 4,63 m el 10 en el hidrómetro del puerto (Dique Dos), unos 70 cm por debajo de la alerta (5,30 m; evacuación 5,70 m). Prefectura midió 4,23 m este miércoles 28. La proyección bajó respecto de la del viernes 23 (4,64 m para el 3/11), pero el INA advierte que la crecida podría prolongarse y que depende de las lluvias en la cuenca."
+   "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Prevé 4,52 m el 3 de noviembre y 4,63 m el 10 en el hidrómetro del puerto (Dique Dos), unos 70 cm por debajo de la alerta (5,30 m; evacuación 5,70 m). Prefectura midió 4,23 m este miércoles 28. La proyección bajó respecto de la del viernes 23 (4,64 m para el 3/11), pero el INA advierte que la crecida podría prolongarse y que depende de las lluvias en la cuenca. Próxima actualización del INA: viernes 30 de octubre por la tarde."
   },
   "34": {
    "emitido": "2026-10-27",
@@ -213,6 +213,13 @@
  },
  "noticias": [
   {
+   "titulo": "Chaco supera las 2.200 personas fuera de sus casas y Corrientes suma unas 1.500 afectadas",
+   "fuente": "Infobae",
+   "fecha": "2026-10-28",
+   "url": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/",
+   "resumen": "En Chaco, Puerto Vilelas concentra unas 1.300 personas desplazadas; en Corrientes hay 440 evacuados y más de mil autoevacuados, con Apipé, Itatí y Paso de la Patria como zonas más complicadas. El INA anticipa que podría haber nuevos repuntes entre 7 y 15 días si llueve más de lo normal en noviembre."
+  },
+  {
    "titulo": "Colastiné Norte y Alto Verde: familias evacuadas y control diario de terraplenes en Santa Fe",
    "fuente": "Mirador Provincial",
    "fecha": "2026-10-28",
@@ -220,11 +227,11 @@
    "resumen": "Cuatro familias de La Vuelta del Paraguayo fueron al centro de asistencia de Alto Verde y ocho familias de pescadores de Colastiné Norte se autoevacuaron cerca del terraplén Garello. El municipio inspecciona y repara las defensas todos los días y prohíbe circular o sacar tierra de los terraplenes."
   },
   {
-   "titulo": "Chaco supera las 2.200 personas desplazadas por la crecida, con Puerto Vilelas como foco",
+   "titulo": "Puerto Vilelas, el foco de la crecida en Chaco, según el parte oficial",
    "fuente": "Noticias de la Calle (parte oficial de Chaco)",
    "fecha": "2026-10-28",
    "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/10/28/203934-la-crecida-del-parana-agrava-las-inundaciones-en-chaco-mas-de-2200-personas-desplazadas",
-   "resumen": "El informe oficial del miércoles contabiliza 2.221 personas evacuadas o autoevacuadas y 593 hogares afectados. Puerto Vilelas concentra la mayor parte y Barranqueras e Isla del Cerrito están en alerta roja."
+   "resumen": "El informe del miércoles contabiliza 2.221 personas evacuadas o autoevacuadas y 593 hogares afectados. Barranqueras e Isla del Cerrito están en alerta roja."
   },
   {
    "titulo": "Las Toscas: 25 familias evacuadas por el Paraná y el desborde del arroyo",
@@ -234,25 +241,18 @@
    "resumen": "Cinco familias están en un centro municipal y otras veinte se alojaron por su cuenta. El intendente dice que la ciudad está a unos 40 o 50 cm de la zona segura y que una lluvia fuerte podría provocar nuevos desbordes."
   },
   {
+   "titulo": "Yacyretá da una tregua de corto plazo, pero la EBY advierte por El Niño desde noviembre",
+   "fuente": "Perfil",
+   "fecha": "2026-10-28",
+   "url": "https://www.perfil.com/ciencia-y-tecnologia/crecida-del-rio-parana-yacyreta-preve-alivio-pero-hay-alerta-aYrPv0r29aOF",
+   "resumen": "Con el afluente cerca de 33.500 m³/s, el doble de lo habitual para la época, se espera tiempo seco hasta el viernes. La entidad aclara que es un respiro y no el fin de la emergencia."
+  },
+  {
    "titulo": "Paso de la Patria: más de 150 familias autoevacuadas y nueva onda de crecida prevista para el 3 de noviembre",
    "fuente": "La Nación",
    "fecha": "2026-10-27",
-   "url": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/",
+   "url": "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nid27102026/",
    "resumen": "Con el río en 7,74 m, cerca del 40% del pueblo está inundado. El intendente teme el aislamiento total si se llegara a 8,50 m y el INA espera una oscilación de 7,50 a 7,80 m en Corrientes capital."
-  },
-  {
-   "titulo": "Yacyretá: la EBY prevé caudal estable y baja gradual, pero los niveles seguirán altos",
-   "fuente": "El Litoral",
-   "fecha": "2026-10-27",
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-10-27-16-33-0-situacion-en-yacyreta-los-caudales-superan-el-promedio-historico-y-continuan-las-alertas-en-la-region",
-   "resumen": "El afluente se mantendría cerca de 33.500 m³/s y Ituzaingó está en 4,31 m, sobre la evacuación. No se esperan lluvias relevantes hasta el viernes, pero la EBY advierte alta probabilidad de aguas altas de noviembre a enero."
-  },
-  {
-   "titulo": "Itaipú reabrió el vertedero y el Paraná podría llegar a 118 metros en Foz este miércoles",
-   "fuente": "La Voz de Cataratas",
-   "fecha": "2026-10-27",
-   "url": "https://lavozdecataratas.com/2026/10/27/itaipu-reabrio-el-vertedero-y-el-parana-podria-alcanzar-los-118-metros-este-miercoles/",
-   "resumen": "Tras 16 horas cerrado, el vertedero volvió a abrir por la canaleta izquierda mientras el Iguazú lleva más de diez veces su caudal habitual. La binacional dice que retener agua evitó unos 2,5 m más de crecida en Ciudad del Este."
   }
  ],
  "fuentes_consultadas": [
@@ -314,6 +314,9 @@
   "https://www.noticiasdelacalle.com.ar/noticias/2026/10/28/203934-la-crecida-del-parana-agrava-las-inundaciones-en-chaco-mas-de-2200-personas-desplazadas",
   "https://www.miradorprovincial.com/2026/10/28/crecida-del-rio-parana-en-santa-fe-reportan-familias-evacuadas-y-avanza-el-agua-en-la-costa/",
   "https://www.airedesantafe.com.ar/santa-fe/la-crecida-del-rio-parana-afecta-al-norte-santa-fe-25-familias-fueron-evacuadas-las-toscas-n674757",
-  "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/"
+  "https://www.lanacion.com.ar/sociedad/pueblo-sitiado-ya-son-mas-de-150-las-familias-evacuadas-en-paso-de-la-patria-y-anticipan-una-nueva-nid27102026/",
+  "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/",
+  "https://www.perfil.com/ciencia-y-tecnologia/crecida-del-rio-parana-yacyreta-preve-alivio-pero-hay-alerta-aYrPv0r29aOF",
+  "https://www.ellitoral.com/area-metropolitana/ina-santafe-evacuados-crecida-parana-rio-fenomeno-elnino-pronostico-actualizacion-poletti-altoverde-lavueltadelparaguayo-colatine_0_APBgkzmB3M.html"
  ]
 }
