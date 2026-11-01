@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-10-31T19:52:00-03:00",
- "resumen": "Sábado 31 por la noche: las represas siguen vertiendo, sin cambios oficiales nuevos. Itaipú mantiene el vertedero abierto por la canaleta izquierda y Yacyretá, con un afluente de unos 32.800 m³/s según el último reporte del INA (29/10), anticipó una estabilización hacia el fin de semana, con aviso de posibles repuntes por El Niño. El Paraná sigue alto de Corrientes a Reconquista: hoy Corrientes marca 7,24 m (−11 cm en 24 h), Barranqueras 7,10 m, Goya 5,95 m (+13 cm) y Reconquista 5,86 m (+18 cm) están por encima de la evacuación, y La Paz (5,78 m) está a 2 cm de la alerta (5,80 m); Defensa Civil de Corrientes cuenta 1.673 personas fuera de sus casas. En el puerto de Santa Fe el río marcó 4,32 m (+2 cm en 24 h), un metro por debajo de la alerta de 5,30 m; el INA prevé 4,45 m para el 3 de noviembre y 4,52 m para el 10, con la próxima actualización el martes 3, y en la Costa siguen las familias fuera de las defensas.",
+ "actualizado": "2026-11-01T07:56:53-03:00",
+ "resumen": "Domingo 1 de noviembre: no se hallaron comunicados nuevos de Itaipú ni de Yacyretá desde el último reporte (INA, 29/10), así que se mantiene el vertedero abierto en ambas, con un afluente de unos 32.800 m³/s a Yacyretá. El Paraná sigue alto de Corrientes a Reconquista: el sábado 31 Corrientes marcó 7,24 m (−11 cm), Goya 5,95 m (+13 cm) y Reconquista 5,86 m (+18 cm) por encima de la evacuación, y La Paz (5,78 m) quedó a 2 cm de la alerta; en Chaco hay más de 2.200 personas fuera de sus casas. En el puerto de Santa Fe el río marcó 4,32 m (+2 cm en 24 h), a un metro de la alerta de 5,30 m; el INA prevé 4,45 m para el 3 de noviembre y 4,52 m para el 10 (próxima actualización el martes 3), y analistas advierten que desde noviembre podrían volver lluvias intensas en la región.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -213,6 +213,13 @@
  },
  "noticias": [
   {
+   "titulo": "Advierten que el Niño entra en una segunda fase con más lluvias sobre el Litoral",
+   "fuente": "El Esquiú",
+   "fecha": "2026-10-31",
+   "url": "https://elesquiu.com/nacionales/2026/10/31/inundaciones-en-el-litoral-advierten-que-el-supernino-entra-en-una-nueva-fase-con-mas-lluvias-y-crec-601766.html",
+   "resumen": "Según la nota, desde noviembre se esperan tormentas intensas cada tres o cuatro días en el norte santafesino, Entre Ríos, Chaco y Corrientes. En Chaco el parte oficial cuenta 2.239 evacuados o autoevacuados, más de 1.300 de ellos en Puerto Vilelas."
+  },
+  {
    "titulo": "Chaco mantiene 2.239 personas evacuadas o autoevacuadas y hay un pedido de rescate en Puerto Vilelas",
    "fuente": "Radio Clan FM (parte oficial de Chaco)",
    "fecha": "2026-10-30",
@@ -246,23 +253,16 @@
    "fecha": "2026-10-31",
    "url": "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana",
    "resumen": "Según Defensa Civil provincial, 407 están en centros de evacuación y 1.266 se autoevacuaron; bajaron los evacuados pero subieron los autoevacuados. Se espera que el descenso del río permita el regreso de las familias en los próximos días."
-  },
-  {
-   "titulo": "Chaco supera las 2.200 personas fuera de sus casas y Corrientes suma unas 1.500 afectadas",
-   "fuente": "Infobae",
-   "fecha": "2026-10-28",
-   "url": "https://www.infobae.com/sociedad/2026/10/28/el-nino-chaco-tiene-mas-de-2200-afectados-por-las-inundaciones-y-en-corrientes-se-reportaron-otros-1500/",
-   "resumen": "En Corrientes hay 440 evacuados y más de mil autoevacuados, con Apipé, Itatí y Paso de la Patria como zonas más complicadas. El INA anticipa posibles repuntes entre 7 y 15 días si llueve más de lo normal en noviembre."
   }
  ],
  "fuentes_consultadas": [
+  "https://www.lacapital.com.ar/la-ciudad/el-rio-parana-sigue-creciendo-frente-rosario-preven-que-suba-medio-metro-menos-dos-semanas-n10289205.html",
+  "https://elesquiu.com/nacionales/2026/10/31/inundaciones-en-el-litoral-advierten-que-el-supernino-entra-en-una-nueva-fase-con-mas-lluvias-y-crec-601766.html",
   "https://www.unosantafe.com.ar/santa-fe/el-parana-volvio-subir-santa-fe-y-quedo-un-metro-del-nivel-alerta-que-dice-el-nuevo-pronostico-del-ina-n10289654.html",
   "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
   "https://www.canal26.com/general/2026/10/31/inundaciones-por-el-nino-en-argentina-las-4-provincias-mas-afectadas-por-las-crecidas-y-los-evacuados/",
   "https://www.elonce.com/sociedad/itaipu-reabrio-sus-compuertas-y-libero-3-1-millones-de-litros-de-agua-por-segundo.htm",
   "https://www.airedesantafe.com.ar/santa-fe/la-crecida-del-rio-parana-santa-fe-ya-afecta-las-zonas-mas-bajas-la-costa-que-se-espera-noviembre-n674832",
-  "https://www.corondaregistrada.com.ar/el-ina-emitio-nuevas-previsiones-para-la-altura-del-rio-en-los-primeros-dias-de-noviembre/",
-  "https://www.canal12misiones.com/nacionales/el-nino-corrientes-rio-parana",
-  "https://flipr.com.ar/entre-rios/parana/eldiarioar/yacyreta-anticipo-estabilizacion-pero-el-rio-crecera-frente-a-parana"
+  "https://www.corondaregistrada.com.ar/el-ina-emitio-nuevas-previsiones-para-la-altura-del-rio-en-los-primeros-dias-de-noviembre/"
  ]
 }
