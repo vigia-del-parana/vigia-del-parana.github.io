@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-07T07:49:00-03:00",
-  "resumen": "Sábado 7 de noviembre: Yacyretá sigue vertiendo por los dos brazos (unos 5.700 m³/s por el principal y 9.000 por Aña Cuá) con un afluente de 29.200 m³/s que apenas baja, y Ayolas está en 5,38 m, sobre su alerta de 4,20 m; de Itaipú no hay un parte nuevo y se conserva la última cifra informada (≈ 11.000 m³/s, 1/11). El tramo Corrientes–Barranqueras se mantiene casi estable sobre el nivel de evacuación (7,00 y 6,86 m), mientras Paraná (4,61 m) y Santa Fe (4,61 m) siguen subiendo unos centímetros por día y Rosario ronda los 4,06 m. En Santa Fe el puerto está a 69 cm de la alerta de 5,30 m; el INA proyecta una tendencia ascendente de 7 a 14 días y un último pico central de 4,59 m (tabla del 3/11), con la tabla del 6/11 todavía sin publicar en los medios consultados.",
+  "actualizado": "2026-11-07T19:52:58-03:00",
+  "resumen": "Sábado 7 de noviembre: Yacyretá sigue vertiendo por los dos brazos (≈ 14.700 m³/s en total el 6/11) con el afluente en 29.200 m³/s y Ayolas sobre su alerta; de Itaipú no hay un parte nuevo y se conserva la última cifra informada (≈ 11.000 m³/s, 1/11). Corrientes (7,00 m), Barranqueras (6,86 m), Goya (6,09 m) y Reconquista (5,90 m) siguen en nivel de evacuación, casi estables, mientras La Paz (6,00 m) está en alerta y Paraná (4,61 m) y Santa Fe (4,61 m) suben unos centímetros por día. La nueva tabla del INA (6/11) proyecta para Santa Fe 4,72 m el 10/11 y 4,77 m el 17/11, con un máximo de 5,00 m: sube lento y sigue a unos 53 cm de la alerta de 5,30 m.",
   "represas": [
     {
       "nombre": "Itaipú",
@@ -8,7 +8,7 @@
       "valor": "≈ 11.000",
       "unidad": "m³/s",
       "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-      "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Sábado 7/11: no se encontró un parte más reciente en esta corrida; se conserva la última cifra informada.",
+      "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Sábado 7/11: sin parte más reciente en esta corrida; se conserva la última cifra informada.",
       "fecha": "2026-11-01",
       "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
       "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -27,17 +27,23 @@
   ],
   "pronosticos": {
     "19": {
-      "emitido": "2026-10-23",
+      "emitido": "2026-11-06",
       "fuente": "INA",
       "puntos": [
         {
-          "fecha": "2026-11-03",
-          "central": 7.54,
-          "min": 7.0,
-          "max": 7.8
+          "fecha": "2026-11-10",
+          "central": 6.81,
+          "min": 6.4,
+          "max": 7.0
+        },
+        {
+          "fecha": "2026-11-17",
+          "central": 6.34,
+          "min": 6.0,
+          "max": 6.8
         }
       ],
-      "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la fila de Corrientes de la tabla del martes 27 no se pudo leer. Prevé 7,54 m (rango 7,00–7,80) para el 3 de noviembre, sobre la evacuación (7,00 m; alerta 6,50 m). Según La Nación (27/10), el INA espera que el río oscile entre 7,50 y 7,80 m en Corrientes en una semana, con una nueva onda de crecida hacia el 3 de noviembre. La escala marcó 7,39 m este miércoles 28 (Prefectura), 39 cm sobre la evacuación; Paso de la Patria ronda los 7,74 m, con más de 150 familias autoevacuadas y cuatro evacuadas por el municipio. Al sábado 31 no se halló la fila de esta estación en la tabla nueva del INA del viernes 30; se conserva el último pronóstico y queda pendiente la actualización del martes 3 de noviembre. Lectura del sábado 31 (INA/Prefectura): 7,24 m, 24 cm sobre la evacuación. Domingo 1/11: no se pudo acceder a las páginas del INA en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Lunes 2/11: las páginas del INA no se pudieron abrir en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Lunes 2/11: lectura de 7,11 m (INA/Prefectura), 11 cm sobre la evacuación. Martes 3/11 (19:55): no se encontró la tabla nueva del INA ni se pudo abrir su web en esta corrida; se conserva el último pronóstico, pendiente la actualización. Una nota del 1/11 (Noticias de la Calle) cita un rango del INA de 5,10–6,00 m para el 10 de noviembre, sin valor central ni fecha de emisión confirmada. Miércoles 4/11 (19:55): sin acceso a las páginas del INA y sin tabla nueva en los medios consultados; se conserva el último pronóstico, pendiente la actualización. Jueves 5/11: los medios consultados no reproducen la fila de esta estación de la tabla del INA del 3/11 y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización del viernes 6. Jueves 5/11: sin tabla nueva del INA (próxima el viernes 6). Lectura 7,02 m; Defensa Civil de Corrientes prevé una baja de hasta 1 m hacia el 7–8/11 (referencia del puerto ≈ 7,12 m). Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Corrientes marca 7,00 m, en el nivel de evacuación (alerta 6,50 m); el INA prevé una baja gradual hasta 6,81 m el 10/11 y 6,34 m el 17/11."
     },
     "20": {
       "emitido": "2026-10-23",
@@ -50,20 +56,26 @@
           "max": 7.8
         }
       ],
-      "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la fila de esta estación de la tabla del martes 27 no se pudo leer (no la reproducen los medios consultados). Prevé 7,44 m (rango 7,00–7,80) para el martes 27 de octubre y 7,45 m (7,00–7,80) para el martes 3 de noviembre, casi un metro sobre la evacuación (6,50 m; alerta 6,00 m): el INA no prevé una baja de fin de mes sino que el río se sostenga o repunte con el nuevo aumento de caudal que anticipa Yacyretá. La escala marcó 7,22 m en la lectura del domingo 25 (−1 cm en 24 h), tercer día de baja leve después de varios en 7,27–7,30 m, pero sigue 72 cm sobre la evacuación; la lectura del lunes no estaba publicada a las 8. Diario Norte informa este lunes que, según los municipios, hay 1.448 personas fuera de sus hogares en el Chaco (578 autoevacuadas), con 74 familias evacuadas en Barranqueras; el Comité Provincial de Emergencia había contado el sábado 1.790 personas (1.290 evacuadas y unas 500 autoevacuadas), así que las cifras varían según quién las releva. En Puerto Vilelas el río llegó a 7,27 m el sábado a la noche y el municipio releva más de 1.900 personas afectadas fuera de las defensas del Gran Resistencia, con el camino a Tres Bocas cortado y asistencia por agua; un bloque legislativo pidió la colaboración humanitaria del Ejército. Actualización del miércoles 28: 7,24 m en Barranqueras (Prefectura); el parte oficial del Chaco cuenta 2.221 personas evacuadas o autoevacuadas, con Puerto Vilelas como el punto más complicado. Al sábado 31 no se halló la fila de esta estación en la tabla nueva del INA del viernes 30; se conserva el último pronóstico y queda pendiente la actualización del martes 3 de noviembre. Lectura del sábado 31 (INA/Prefectura): 7,10 m, 60 cm sobre la evacuación. Domingo 1/11: no se pudo acceder a las páginas del INA en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Lunes 2/11: las páginas del INA no se pudieron abrir en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Martes 3/11 (19:55): no se encontró la tabla nueva del INA ni se pudo abrir su web en esta corrida; se conserva el último pronóstico, pendiente la actualización. Miércoles 4/11 (19:55): sin acceso a las páginas del INA y sin tabla nueva en los medios consultados; se conserva el último pronóstico, pendiente la actualización. Jueves 5/11: los medios consultados no reproducen la fila de esta estación de la tabla del INA del 3/11 y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización del viernes 6. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la fila de esta estación de la tabla del martes 27 no se pudo leer (no la reproducen los medios consultados). Prevé 7,44 m (rango 7,00–7,80) para el martes 27 de octubre y 7,45 m (7,00–7,80) para el martes 3 de noviembre, casi un metro sobre la evacuación (6,50 m; alerta 6,00 m): el INA no prevé una baja de fin de mes sino que el río se sostenga o repunte con el nuevo aumento de caudal que anticipa Yacyretá. La escala marcó 7,22 m en la lectura del domingo 25 (−1 cm en 24 h), tercer día de baja leve después de varios en 7,27–7,30 m, pero sigue 72 cm sobre la evacuación; la lectura del lunes no estaba publicada a las 8. Diario Norte informa este lunes que, según los municipios, hay 1.448 personas fuera de sus hogares en el Chaco (578 autoevacuadas), con 74 familias evacuadas en Barranqueras; el Comité Provincial de Emergencia había contado el sábado 1.790 personas (1.290 evacuadas y unas 500 autoevacuadas), así que las cifras varían según quién las releva. En Puerto Vilelas el río llegó a 7,27 m el sábado a la noche y el municipio releva más de 1.900 personas afectadas fuera de las defensas del Gran Resistencia, con el camino a Tres Bocas cortado y asistencia por agua; un bloque legislativo pidió la colaboración humanitaria del Ejército. Actualización del miércoles 28: 7,24 m en Barranqueras (Prefectura); el parte oficial del Chaco cuenta 2.221 personas evacuadas o autoevacuadas, con Puerto Vilelas como el punto más complicado. Al sábado 31 no se halló la fila de esta estación en la tabla nueva del INA del viernes 30; se conserva el último pronóstico y queda pendiente la actualización del martes 3 de noviembre. Lectura del sábado 31 (INA/Prefectura): 7,10 m, 60 cm sobre la evacuación. Domingo 1/11: no se pudo acceder a las páginas del INA en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Lunes 2/11: las páginas del INA no se pudieron abrir en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Martes 3/11 (19:55): no se encontró la tabla nueva del INA ni se pudo abrir su web en esta corrida; se conserva el último pronóstico, pendiente la actualización. Miércoles 4/11 (19:55): sin acceso a las páginas del INA y sin tabla nueva en los medios consultados; se conserva el último pronóstico, pendiente la actualización. Jueves 5/11: los medios consultados no reproducen la fila de esta estación de la tabla del INA del 3/11 y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización del viernes 6. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización. Sábado 7/11: la tabla del INA del 6/11 reproducida por Agrofy no trae valores para esta estación; se conserva el último pronóstico."
     },
     "23": {
-      "emitido": "2026-10-23",
+      "emitido": "2026-11-06",
       "fuente": "INA",
       "puntos": [
         {
-          "fecha": "2026-11-03",
-          "central": 6.17,
-          "min": 5.7,
-          "max": 6.5
+          "fecha": "2026-11-10",
+          "central": 6.03,
+          "min": 5.6,
+          "max": 6.2
+        },
+        {
+          "fecha": "2026-11-17",
+          "central": 5.89,
+          "min": 5.5,
+          "max": 6.2
         }
       ],
-      "nota": "Tabla semanal del INA del viernes 23 (pronóstico a 4 y 11 días); la fila de esta estación de la tabla del martes 27 no se pudo leer (no la reproducen los medios consultados). Prevé 5,76 m (rango 5,55–6,25) para el martes 27 de octubre y 6,17 m (5,70–6,50) para el martes 3 de noviembre, 6 y 47 cm sobre la evacuación (5,70 m; alerta 5,20 m); El Litoral de Corrientes cita el techo de 6,50 m para el 3 de noviembre. El reporte diario del INA mantiene que la probabilidad de superar la evacuación aumenta desde el 23 de octubre. El hidrómetro del puerto marcó 5,63 m en la lectura del domingo 25 (+2 cm en 24 h; +9 cm en una semana), a 7 cm de la evacuación y en la cota en la que se anega el paseo inferior de la costanera (las siguientes cotas de protección son el muelle de Prefectura a 7,00 m, el paseo superior a 7,85 m y el muro costero a 8,35 m); Bella Vista se mantuvo en 6,34 m y Esquina subió a 5,06 m (+5; alerta 5,00). La lectura del lunes no estaba publicada a las 8. Con la ordenanza de emergencia hídrica por 180 días, el COE que encabeza el intendente dejó acondicionados más de diez centros de cercanía para alojar familias si hiciera falta, asiste a unas diez familias isleñas del Puerto Exterior y Carumbé, refuerza terraplenes y desagües primarios y mantiene el bombeo del Prodego; pidió a las embarcaciones bajar la velocidad en el Riacho Goya porque la marejada golpea las viviendas ribereñas y prohibió retirar tierra de las defensas. Gendarmería opera en Goya dentro del despliegue de la Agencia Federal de Emergencias. Actualización del miércoles 28: 5,68–5,70 m en el puerto, a pocos centímetros de la evacuación (5,70 m). Al sábado 31 no se halló la fila de esta estación en la tabla nueva del INA del viernes 30; se conserva el último pronóstico y queda pendiente la actualización del martes 3 de noviembre. Lectura del sábado 31 (INA/Prefectura): 5,95 m, 25 cm sobre la evacuación. Domingo 1/11: no se pudo acceder a las páginas del INA en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Lunes 2/11: las páginas del INA no se pudieron abrir en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Martes 3/11 (19:55): no se encontró la tabla nueva del INA ni se pudo abrir su web en esta corrida; se conserva el último pronóstico, pendiente la actualización. Una nota del 1/11 (Noticias de la Calle) cita un rango del INA de 4,50–6,00 m para el 10 de noviembre, sin valor central ni fecha de emisión confirmada. Miércoles 4/11 (19:55): sin acceso a las páginas del INA y sin tabla nueva en los medios consultados; se conserva el último pronóstico, pendiente la actualización. Jueves 5/11: los medios consultados no reproducen la fila de esta estación de la tabla del INA del 3/11 y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización del viernes 6. Jueves 5/11: sin tabla nueva del INA; lectura 6,10 m, sobre la evacuación (5,70 m). Pendiente la actualización del viernes 6. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Goya marca 6,09 m, sin cambios; se espera una baja leve hasta 6,03 m el 10/11 y 5,89 m el 17/11."
     },
     "24": {
       "emitido": "2026-11-03",
@@ -78,77 +90,83 @@
           "central": 5.77
         }
       ],
-      "nota": "Tabla del INA del martes 3 de noviembre, según LT9 (lectura de 5,92 m, estable y con tendencia a bajar). Sin rangos mínimo y máximo en la nota. Se conserva sobre alerta y evacuación; próxima actualización del INA el viernes 6/11. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla del INA del martes 3 de noviembre, según LT9 (lectura de 5,92 m, estable y con tendencia a bajar). Sin rangos mínimo y máximo en la nota. Se conserva sobre alerta y evacuación; próxima actualización del INA el viernes 6/11. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización. Sábado 7/11: la tabla del INA del 6/11 reproducida por Agrofy no trae valores para esta estación; se conserva el último pronóstico."
     },
     "26": {
-      "emitido": "2026-10-27",
+      "emitido": "2026-11-06",
       "fuente": "INA",
       "puntos": [
         {
-          "fecha": "2026-11-03",
-          "central": 5.87,
-          "min": null,
-          "max": null
+          "fecha": "2026-11-10",
+          "central": 6.02,
+          "min": 5.6,
+          "max": 6.2
         },
         {
-          "fecha": "2026-11-10",
-          "central": 6.01,
-          "min": null,
-          "max": null
+          "fecha": "2026-11-17",
+          "central": 5.91,
+          "min": 5.5,
+          "max": 6.2
         }
       ],
-      "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por medios locales; solo trae valores centrales, sin rango. Según Elonce, 5,87 m a comienzos de noviembre y 6,01 m en los primeros diez días del mes (se asignan al 3 y al 10 de noviembre). Alerta 5,80 m, evacuación 6,72 m según esa nota (nuestra tabla de estaciones usa otros umbrales). La Paz marcaba 5,72 m este miércoles. Al sábado 31 no se halló la fila de esta estación en la tabla nueva del INA del viernes 30; se conserva el último pronóstico y queda pendiente la actualización del martes 3 de noviembre. Lectura del sábado 31 (INA/Prefectura): 5,78 m, 2 cm debajo de la alerta de la nota (5,80 m). Domingo 1/11: no se pudo acceder a las páginas del INA en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Pendiente la actualización del martes 3 de noviembre. Lunes 2/11: la escala marcó 5,86–5,89 m, sobre la alerta de 5,80 m. Martes 3/11 (19:55): no se encontró la tabla nueva del INA ni se pudo abrir su web en esta corrida; se conserva el último pronóstico, pendiente la actualización. Miércoles 4/11 (19:55): sin acceso a las páginas del INA y sin tabla nueva en los medios consultados; se conserva el último pronóstico, pendiente la actualización. Jueves 5/11: los medios consultados no reproducen la fila de esta estación de la tabla del INA del 3/11 y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización del viernes 6. Jueves 5/11: sin tabla nueva del INA; lectura 5,96 m, sobre la alerta (5,80 m). Pendiente la actualización del viernes 6. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). La Paz marca 6,00 m (+4 cm, nivel de alerta); el INA proyecta una meseta alrededor de 6,0 m."
     },
     "29": {
-      "emitido": "2026-11-03",
+      "emitido": "2026-11-06",
       "fuente": "INA",
       "puntos": [
         {
           "fecha": "2026-11-10",
-          "central": 4.7,
-          "min": null,
-          "max": null
-        }
-      ],
-      "nota": "Según Elonce (6/11), el INA proyecta que el río llegue a 4,70 m (nivel de alerta) en Paraná el martes 10 de noviembre; solo se cita el valor central, sin rango. Hoy la escala marcó 4,65 m (Prefectura), con una suba de 4 cm; por el ritmo podría llegar antes. Viernes 6/11 (19:50): la tabla nueva del INA todavía no estaba reproducida en los medios consultados y las páginas del INA no se pudieron abrir en esta corrida. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
-    },
-    "30": {
-      "emitido": "2026-11-03",
-      "fuente": "INA",
-      "puntos": [
-        {
-          "fecha": "2026-11-10",
-          "central": 4.58,
+          "central": 4.66,
           "min": 4.3,
           "max": 4.9
         },
         {
           "fecha": "2026-11-17",
-          "central": 4.59,
+          "central": 4.63,
           "min": 4.3,
           "max": 4.9
         }
       ],
-      "nota": "Tabla del INA del martes 3 de noviembre (pronóstico a 7 y 14 días), según Uno Santa Fe y LT9. Con el central del 17/11 el río quedaría a unos 71 cm de la alerta (5,30 m) y, con el máximo, a 40 cm. El INA vuelve a actualizar el viernes 6/11. Lectura del 4/11: 4,50 m. Jueves 5/11: lectura 4,58 m (+8 cm en 24 h). Pendiente la actualización del INA del viernes 6. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Paraná marca 4,61 m (+7 cm); el INA prevé una meseta cerca de 4,65 m, con el máximo del rango rozando la alerta de 4,70 m."
     },
-    "34": {
-      "emitido": "2026-10-27",
+    "30": {
+      "emitido": "2026-11-06",
       "fuente": "INA",
       "puntos": [
         {
-          "fecha": "2026-11-03",
-          "central": 4.12,
-          "min": null,
-          "max": null
+          "fecha": "2026-11-10",
+          "central": 4.72,
+          "min": 4.4,
+          "max": 5.0
         },
         {
-          "fecha": "2026-11-10",
-          "central": 4.24,
-          "min": null,
-          "max": null
+          "fecha": "2026-11-17",
+          "central": 4.77,
+          "min": 4.4,
+          "max": 5.0
         }
       ],
-      "nota": "Tabla del INA del martes 27 (pronóstico a 7 y 14 días), reproducida por La Capital el miércoles 28; solo trae valores centrales, sin rango. Prevé 4,12 m el 3 de noviembre y 4,24 m el 10, unos 76 cm por debajo de la alerta (5,00 m; evacuación 5,25 m). La escala marcó 3,80 m este miércoles según Prefectura (+5 cm en 24 h). Mantiene que el ascenso es gradual y depende de las lluvias en la cuenca. Al sábado 31 no se halló la fila de esta estación en la tabla nueva del INA del viernes 30; se conserva el último pronóstico y queda pendiente la actualización del martes 3 de noviembre. Domingo 1/11: no se pudo acceder a las páginas del INA en esta corrida y no hay tabla nueva en los medios; se conserva el último pronóstico, pendiente la actualización del martes 3. Pendiente la actualización del martes 3 de noviembre. Martes 3/11 (19:55): no se encontró la tabla nueva del INA ni se pudo abrir su web en esta corrida; se conserva el último pronóstico, pendiente la actualización. Miércoles 4/11 (19:55): sin acceso a las páginas del INA y sin tabla nueva en los medios consultados; se conserva el último pronóstico, pendiente la actualización. Jueves 5/11: los medios consultados no reproducen la fila de esta estación de la tabla del INA del 3/11 y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización del viernes 6. Jueves 5/11: lectura 4,04 m; La Capital (5/11) cita 4,24 m del INA para el 10/11, en línea con lo cargado. Pendiente la actualización del viernes 6. Viernes 6/11 (07:50): la tabla nueva del INA todavía no estaba reproducida en los medios y las páginas del INA no se pudieron abrir en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Viernes 6/11 (19:50): sin tabla nueva del INA en los medios consultados ni acceso a sus páginas en esta corrida; se conserva el último pronóstico, pendiente la actualización de hoy. Sábado 7/11: la tabla del INA del viernes 6 no estaba reproducida en los medios consultados ni se pudieron abrir las páginas del INA; se conserva el último pronóstico, pendiente la actualización."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Santa Fe marca 4,61 m (+3 cm); el INA prevé 4,72 m el 10/11 y 4,77 m el 17/11, con máximo de 5,00 m, por debajo de la alerta de 5,30 m."
+    },
+    "34": {
+      "emitido": "2026-11-06",
+      "fuente": "INA",
+      "puntos": [
+        {
+          "fecha": "2026-11-10",
+          "central": 4.2,
+          "min": 3.95,
+          "max": 4.55
+        },
+        {
+          "fecha": "2026-11-17",
+          "central": 4.29,
+          "min": 4.0,
+          "max": 4.6
+        }
+      ],
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Rosario marca 4,06 m (+2 cm); se esperan 4,20 m el 10/11 y 4,29 m el 17/11, bien por debajo de la alerta de 4,80 m."
     },
     "36": {
       "emitido": "2026-10-24",
@@ -246,6 +264,7 @@
     }
   ],
   "fuentes_consultadas": [
+    "https://news.agrofy.com.ar/altura-de-los-rios/rio-parana",
     "https://www.eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6134-6-11-2026/",
     "https://www.unosantafe.com.ar/santa-fe/el-parana-alcanzo-los-461-metros-santa-fe-y-el-ina-pronostica-que-la-crecida-se-extendera-las-proximas-dos-semanas-n10290795.html",
     "https://www.radioeme.com/2026/11/el-parana-seguira-creciendo-en-santa-fe-pero-las-proyecciones-descartan-alcanzar-el-nivel-de-alerta-en-el-corto-plazo/",
