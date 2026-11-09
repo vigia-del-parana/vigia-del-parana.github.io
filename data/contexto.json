@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-09T07:50:25-03:00",
-  "resumen": "Lunes 9 de noviembre: no hay partes nuevos de Itaipú ni de Yacyretá posteriores a los del 1 y el 6/11, así que se conservan esas cifras (Itaipú con vertedero abierto, ≈ 11.000 m³/s; Yacyretá vertiendo por los dos brazos, ≈ 14.700 m³/s). El Paraná sigue subiendo en el tramo Santa Fe–Paraná: según Defensa Civil de Entre Ríos, Paraná marcó 4,87 m el 8/11 (alerta 4,70 m), y La Paz (6,07 m) y Hernandarias (5,69 m) también están sobre su alerta; Corrientes (7,00 m), Goya (6,07 m), Barranqueras (6,84 m) y Reconquista (5,89 m) siguen en nivel de evacuación o cerca, casi estables. El puerto de Santa Fe marcó 4,75 m el domingo 8 (+14 cm en 48 h), a unos 55 cm de la alerta de 5,30 m; el INA (tabla del 6/11) proyecta 4,72 m para el 10/11 y 4,77 m para el 17/11, con máximo de 5,00 m, y la próxima tabla se espera el martes 10, que conviene mirar porque el río viene superando lo previsto.",
+  "actualizado": "2026-11-09T19:55:00-03:00",
+  "resumen": "Lunes 9 de noviembre: no hay partes nuevos de Itaipú ni de Yacyretá posteriores a los de la semana pasada, así que se conservan esas cifras (Itaipú con vertedero abierto, ≈ 11.000 m³/s; Yacyretá vertiendo por los dos brazos, ≈ 14.700 m³/s). La crecida sigue avanzando por el tramo Santa Fe–Paraná: según las escalas de hoy, Paraná marcó 5,05 m (+20 cm en 24 h, alerta 4,70 m), La Paz 6,13 m (sobre su alerta) y Santa Fe 4,87 m, con una suba de 11 cm en un día y a unos 43 cm de la alerta de 5,30 m. Más al norte el río está casi estable y baja unos centímetros: Corrientes 6,91 m, Barranqueras 6,78 m, Goya 5,98 m y Reconquista 5,81 m, todavía en niveles de evacuación o muy cerca. Rosario sube despacio (4,22 m). El río viene superando lo que proyectaba el INA para Santa Fe (4,72 m al 10/11), así que conviene mirar la tabla nueva que el INA publica este martes 10.",
   "represas": [
     {
       "nombre": "Itaipú",
@@ -43,7 +43,7 @@
           "max": 6.8
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Corrientes marca 7,00 m, en el nivel de evacuación (alerta 6,50 m); el INA prevé una baja gradual hasta 6,81 m el 10/11 y 6,34 m el 17/11. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Corrientes marca 7,00 m, en el nivel de evacuación (alerta 6,50 m); el INA prevé una baja gradual hasta 6,81 m el 10/11 y 6,34 m el 17/11. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Escala del 9/11: 6.91 m."
     },
     "20": {
       "emitido": "2026-10-23",
@@ -75,7 +75,7 @@
           "max": 6.2
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Goya marca 6,09 m, sin cambios; se espera una baja leve hasta 6,03 m el 10/11 y 5,89 m el 17/11. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Goya marca 6,09 m, sin cambios; se espera una baja leve hasta 6,03 m el 10/11 y 5,89 m el 17/11. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Escala del 9/11: 5.98 m."
     },
     "24": {
       "emitido": "2026-11-06",
@@ -94,7 +94,7 @@
           "max": 6.1
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días), reproducida por Mirador Provincial y El Litoral. Reconquista marca 5,89 m, sobre su evacuación (5,30 m; alerta 5,10 m); el INA prevé una baja gradual hasta 5,64 m el 17/11, todavía en nivel de evacuación."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días), reproducida por Mirador Provincial y El Litoral. Reconquista marca 5,89 m, sobre su evacuación (5,30 m; alerta 5,10 m); el INA prevé una baja gradual hasta 5,64 m el 17/11, todavía en nivel de evacuación. Lunes 9/11: sin tabla nueva; se espera la del martes 10. Escala del 9/11: 5.81 m."
     },
     "26": {
       "emitido": "2026-11-06",
@@ -113,7 +113,7 @@
           "max": 6.2
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). La Paz marca 6,00 m (+4 cm, nivel de alerta); el INA proyecta una meseta alrededor de 6,0 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). La Paz marca 6,00 m (+4 cm, nivel de alerta); el INA proyecta una meseta alrededor de 6,0 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Escala del 9/11: 6.13 m."
     },
     "29": {
       "emitido": "2026-11-06",
@@ -132,7 +132,7 @@
           "max": 4.9
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Paraná marca 4,61 m (+7 cm); el INA prevé una meseta cerca de 4,65 m, con el máximo del rango rozando la alerta de 4,70 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Defensa Civil de Entre Ríos informó 4,87 m el 8/11, ya sobre la alerta y por encima de lo que preveía el INA."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Paraná marca 4,61 m (+7 cm); el INA prevé una meseta cerca de 4,65 m, con el máximo del rango rozando la alerta de 4,70 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Defensa Civil de Entre Ríos informó 4,87 m el 8/11, ya sobre la alerta y por encima de lo que preveía el INA. Escala del 9/11: 5.05 m."
     },
     "30": {
       "emitido": "2026-11-06",
@@ -151,7 +151,7 @@
           "max": 5.0
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Santa Fe marca 4,61 m (+3 cm); el INA prevé 4,72 m el 10/11 y 4,77 m el 17/11, con máximo de 5,00 m, por debajo de la alerta de 5,30 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Santa Fe marca 4,61 m (+3 cm); el INA prevé 4,72 m el 10/11 y 4,77 m el 17/11, con máximo de 5,00 m, por debajo de la alerta de 5,30 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Escala del 9/11: 4.87 m."
     },
     "34": {
       "emitido": "2026-11-06",
@@ -170,7 +170,7 @@
           "max": 4.6
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Rosario marca 4,06 m (+2 cm); se esperan 4,20 m el 10/11 y 4,29 m el 17/11, bien por debajo de la alerta de 4,80 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). Rosario marca 4,06 m (+2 cm); se esperan 4,20 m el 10/11 y 4,29 m el 17/11, bien por debajo de la alerta de 4,80 m. Lunes 9/11: sin tabla nueva; próxima actualización del INA el martes 10. Escala del 9/11: 4.22 m."
     },
     "36": {
       "emitido": "2026-10-24",
