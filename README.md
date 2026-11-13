@@ -54,7 +54,7 @@ Correcciones de zonas, umbrales, referencias o textos: abrí un issue o un pull 
 
 ## Derechos de autor
 
-© 2026 Melisa Franzotti. Vigía del Paraná es una obra protegida por la Ley 11.723 de Propiedad Intelectual (Argentina). La autoría abarca el código, el diseño, los textos de la app, las zonas finas y sus umbrales, y el código de la Proyección Vigía. Todo lo que no autoriza expresamente la licencia de abajo queda reservado a la autora.
+© 2026 Melisa Franzotti. Vigía del Paraná es una obra protegida por la Ley 11.723 de Propiedad Intelectual (Argentina). La autoría abarca el código, el diseño, los textos de la app y las zonas finas con sus umbrales. Todo lo que no autoriza expresamente la licencia de abajo queda reservado a la autora.
 
 ## Licencia
 
