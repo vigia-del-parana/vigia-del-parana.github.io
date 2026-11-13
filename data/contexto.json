@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-13T08:00:00-03:00",
-  "resumen": "Viernes 13 de noviembre: la crecida sigue en el tramo Santa Fe–Rosario con señales de desaceleración. El puerto de Santa Fe estaba en 5,47 m anoche (Prefectura), sobre la alerta de 5,30 m y con una suba de unos 21 cm en la lectura diaria del 12/11; el municipio habla de uno o dos días más de suba y luego una meseta con un posible nuevo repunte, con más de 160 personas trasladadas. Paraná (5,49 m), La Paz (6,25 m), Hernandarias (6,31 m) y Diamante (5,61 m) están sobre su nivel de evacuación y Rosario (4,47 m) sube 7 a 10 cm por día; más al norte el río baja lento (Corrientes 6,79 m, Goya 5,89 m). Yacyretá mantiene ambos vertederos abiertos e Itaipú no informó cifras nuevas; la tabla nueva del INA se espera hoy y todavía no estaba publicada a primera hora.",
+  "actualizado": "2026-11-13T19:52:00-03:00",
+  "resumen": "Viernes 13 de noviembre: la crecida sigue subiendo en el tramo Santa Fe–Rosario, aunque más lento. El puerto de Santa Fe marcó 5,54 m en la lectura diaria del INA (+15 cm en 24 h) y 5,57 m al mediodía según Prefectura, sobre la alerta de 5,30 m y a unos 15 cm de la evacuación (5,70 m); ya hay 199 personas evacuadas en la ciudad. Paraná (5,58 m), La Paz (6,26 m) y Diamante (5,65 m) siguen sobre su nivel de evacuación y Rosario (4,53 m) sube de a 6 a 7 cm por día, con el INA viendo posible la alerta desde el 17/11. Más al norte el río baja despacio (Corrientes 6,73 m, Goya 5,87 m, Reconquista 5,72 m). Yacyretá mantiene ambos vertederos abiertos según el último parte disponible (10/11) e Itaipú no informó cifras nuevas; la tabla nueva del INA de este viernes todavía no estaba publicada en los medios consultados.",
   "represas": [
     {
       "nombre": "Itaipú",
@@ -8,7 +8,7 @@
       "valor": "≈ 11.000",
       "unidad": "m³/s",
       "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-      "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Viernes 13/11 (mañana): sin parte más reciente; se conserva la última cifra informada.",
+      "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Viernes 13/11 (tarde): sin parte más reciente; se conserva la última cifra informada.",
       "fecha": "2026-11-01",
       "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
       "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -19,7 +19,7 @@
       "valor": "≈ 13.400",
       "unidad": "m³/s",
       "valorNota": "Suma de lo informado para el brazo principal (4.900 m³/s) y para Aña Cuá (8.500 m³/s) en el Resumen Ejecutivo del 10/11. El afluente a la represa fue de 28.200 m³/s y se pronostica en 27.400 m³/s para el 11/11.",
-      "detalle": "La EBY mantiene abiertos ambos vertederos, con un vertido total algo menor al del 7/11 (unos 14.700 m³/s). El embalse está en la cota 82,80 y Ayolas marcó 5,10 m, bien sobre la alerta de 4,20 m que la EBY informaba días atrás. El afluente viene en baja leve. Viernes 13/11 (mañana): no se halló un Resumen Ejecutivo posterior al del 10/11; El Litoral de Corrientes cita un afluente de 27.500 a 26.000 m³/s en los próximos días, en baja desde unos 28.000.",
+      "detalle": "La EBY mantiene abiertos ambos vertederos, con un vertido total algo menor al del 7/11 (unos 14.700 m³/s). El embalse está en la cota 82,80 y Ayolas marcó 5,10 m, bien sobre la alerta de 4,20 m que la EBY informaba días atrás. El afluente viene en baja leve. Viernes 13/11 (tarde): tampoco se halló un Resumen Ejecutivo posterior al del 10/11; El Litoral de Corrientes cita un afluente de 27.500 a 26.000 m³/s en los próximos días, en baja desde unos 28.000.",
       "fecha": "2026-11-10",
       "fuente": "EBY (Resumen Ejecutivo N° 6138)",
       "url": "https://www.eby.gov.py/cota-82-80-msnm-resumen-ejecutivo-n-6138-10-11-2026/"
@@ -43,7 +43,7 @@
           "max": 6.8
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11, ya vencida (los puntos corresponden al 10 y 17/11). El Litoral de Corrientes cita al INA del 10/11: como máximo 6,60 m el 17/11 y entre 5,40 y 6,14 m el 24/11, sin valor central, por eso no se carga como punto. Corrientes marcó 6,79 m el 12/11 (−5 cm en 24 h), bajo su evacuación de 7,00 m y sobre la alerta. Se espera la tabla del viernes 13/11."
+      "nota": "Tabla del INA del viernes 6/11, ya vencida (los puntos corresponden al 10 y 17/11). El Litoral de Corrientes cita al INA del 10/11: como máximo 6,60 m el 17/11 y entre 5,40 y 6,14 m el 24/11, sin valor central, por eso no se carga como punto. Corrientes marcó 6,79 m el 12/11 (−5 cm en 24 h), bajo su evacuación de 7,00 m y sobre la alerta. Se espera la tabla del viernes 13/11. Viernes 13/11 (tarde): la lectura diaria fue 6,73 m (−6 cm); tabla nueva del INA todavía sin publicar."
     },
     "20": {
       "emitido": "2026-10-23",
@@ -75,7 +75,7 @@
           "max": null
         }
       ],
-      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) según El Litoral de Corrientes: 5,81 m el 17/11 y 5,64 m el 24/11, sin rangos en la nota. Goya marcó 5,89 m el 12/11 (−4 cm en 24 h), en baja lenta y sobre su evacuación. Se espera la tabla del viernes 13/11."
+      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) según El Litoral de Corrientes: 5,81 m el 17/11 y 5,64 m el 24/11, sin rangos en la nota. Goya marcó 5,89 m el 12/11 (−4 cm en 24 h), en baja lenta y sobre su evacuación. Se espera la tabla del viernes 13/11. Viernes 13/11 (tarde): 5,87 m (−2 cm); tabla nueva del INA todavía sin publicar."
     },
     "24": {
       "emitido": "2026-11-06",
@@ -94,7 +94,7 @@
           "max": 6.1
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días), reproducida por Mirador Provincial y El Litoral. Reconquista marca 5,89 m, sobre su evacuación (5,30 m; alerta 5,10 m); el INA prevé una baja gradual hasta 5,64 m el 17/11, todavía en nivel de evacuación. Reconquista marcó 5,75 m el 12/11 (−1 cm), sobre su evacuación. Tabla vencida; se espera la del viernes 13/11."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días), reproducida por Mirador Provincial y El Litoral. Reconquista marca 5,89 m, sobre su evacuación (5,30 m; alerta 5,10 m); el INA prevé una baja gradual hasta 5,64 m el 17/11, todavía en nivel de evacuación. Reconquista marcó 5,75 m el 12/11 (−1 cm), sobre su evacuación. Tabla vencida; se espera la del viernes 13/11. Viernes 13/11 (tarde): 5,72 m (−3 cm); tabla nueva del INA todavía sin publicar."
     },
     "26": {
       "emitido": "2026-11-06",
@@ -113,7 +113,7 @@
           "max": 6.2
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). La Paz marca 6,00 m (+4 cm, nivel de alerta); el INA proyecta una meseta alrededor de 6,0 m. La Paz marcó 6,25 m el 12/11 (sin cambios en 24 h), sobre su evacuación de 6,15 m. Tabla vencida; se espera la del viernes 13/11."
+      "nota": "Tabla del INA del viernes 6/11 (a 4 y 11 días). La Paz marca 6,00 m (+4 cm, nivel de alerta); el INA proyecta una meseta alrededor de 6,0 m. La Paz marcó 6,25 m el 12/11 (sin cambios en 24 h), sobre su evacuación de 6,15 m. Tabla vencida; se espera la del viernes 13/11. Viernes 13/11 (tarde): 6,26 m (+1 cm); tabla nueva del INA todavía sin publicar."
     },
     "29": {
       "emitido": "2026-11-10",
@@ -132,7 +132,7 @@
           "max": null
         }
       ],
-      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) citado por Elonce: 5,69 m el 17/11 y 5,71 m el 24/11, sobre la evacuación (5,00 m). La nota no da rangos. Prefectura marcó 5,36 m a las 7 del miércoles 11/11. Próxima actualización del INA: viernes 13/11. Jueves 12/11: Paraná marcó 5,49 m a las 7 (+17 cm en 24 h), sobre la evacuación. El INA sigue previendo suba durante siete días con desaceleración. Próxima actualización: viernes 13/11. Jueves 12/11 (noche): Paraná 5,48 m según las lecturas de la tarde; el INA no publicó tabla nueva, se espera la del viernes 13/11. Viernes 13/11 (mañana): la tabla nueva del INA todavía no estaba en los medios consultados."
+      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) citado por Elonce: 5,69 m el 17/11 y 5,71 m el 24/11, sobre la evacuación (5,00 m). La nota no da rangos. Prefectura marcó 5,36 m a las 7 del miércoles 11/11. Próxima actualización del INA: viernes 13/11. Jueves 12/11: Paraná marcó 5,49 m a las 7 (+17 cm en 24 h), sobre la evacuación. El INA sigue previendo suba durante siete días con desaceleración. Próxima actualización: viernes 13/11. Jueves 12/11 (noche): Paraná 5,48 m según las lecturas de la tarde; el INA no publicó tabla nueva, se espera la del viernes 13/11. Viernes 13/11 (mañana): la tabla nueva del INA todavía no estaba en los medios consultados. Viernes 13/11 (tarde): 5,58 m en la lectura diaria (+9 cm); el reporte del INA describe suba de unos 7 días que se va atenuando, con culminación entre 7 y 14 días. Tabla nueva todavía sin publicar."
     },
     "30": {
       "emitido": "2026-11-10",
@@ -151,7 +151,7 @@
           "max": 6.1
         }
       ],
-      "nota": "Pronóstico del INA actualizado el martes 10/11 (a 7 y 14 días), según Aire de Santa Fe y Mirador Provincial: 5,59 m el 17/11 (rango 5,20–6,00) y 5,78 m el 24/11 (rango 5,30–6,10). El central quedaría por encima de la alerta (5,30 m) y apenas sobre la evacuación (5,70 m) hacia fin de mes. El puerto marcó 5,18 m en la lectura diaria y 5,30 m al mediodía del miércoles. Próxima actualización del INA: viernes 13/11. Jueves 12/11: Prefectura marcó 5,39 m a la medianoche (alerta 5,30 m superada; +16 cm en la lectura diaria del 11/11). El INA ve el río sobre la alerta desde el 12/11 y cerca de la evacuación en 5 a 10 días. Próxima actualización: viernes 13/11. Jueves 12/11 (noche): el puerto marcó 5,47 m a las 18 (estacionario respecto de dos horas antes) y 5,46 m en la nota de UNO de las 19. El intendente anticipa uno o dos días más de suba y luego estabilidad, con un nuevo repunte más adelante; la nota no cita valores del INA. Se espera la tabla del viernes 13/11. Viernes 13/11 (mañana): la tabla nueva del INA todavía no estaba en los medios consultados."
+      "nota": "Pronóstico del INA actualizado el martes 10/11 (a 7 y 14 días), según Aire de Santa Fe y Mirador Provincial: 5,59 m el 17/11 (rango 5,20–6,00) y 5,78 m el 24/11 (rango 5,30–6,10). El central quedaría por encima de la alerta (5,30 m) y apenas sobre la evacuación (5,70 m) hacia fin de mes. El puerto marcó 5,18 m en la lectura diaria y 5,30 m al mediodía del miércoles. Próxima actualización del INA: viernes 13/11. Jueves 12/11: Prefectura marcó 5,39 m a la medianoche (alerta 5,30 m superada; +16 cm en la lectura diaria del 11/11). El INA ve el río sobre la alerta desde el 12/11 y cerca de la evacuación en 5 a 10 días. Próxima actualización: viernes 13/11. Jueves 12/11 (noche): el puerto marcó 5,47 m a las 18 (estacionario respecto de dos horas antes) y 5,46 m en la nota de UNO de las 19. El intendente anticipa uno o dos días más de suba y luego estabilidad, con un nuevo repunte más adelante; la nota no cita valores del INA. Se espera la tabla del viernes 13/11. Viernes 13/11 (mañana): la tabla nueva del INA todavía no estaba en los medios consultados. Viernes 13/11 (tarde): 5,54 m en la lectura diaria (+15 cm) y 5,57 m al mediodía según Mirador Provincial; el reporte del INA ve aproximación al nivel de evacuación en 4 a 7 días. Tabla nueva todavía sin publicar."
     },
     "34": {
       "emitido": "2026-11-10",
@@ -160,17 +160,17 @@
         {
           "fecha": "2026-11-17",
           "central": 5.02,
-          "min": null,
-          "max": null
+          "min": 4.6,
+          "max": 5.3
         },
         {
           "fecha": "2026-11-24",
           "central": 5.2,
-          "min": null,
-          "max": null
+          "min": 4.8,
+          "max": 5.5
         }
       ],
-      "nota": "Pronóstico del INA citado por El Informante el 11/11: 5,02 m el 17/11 y 5,20 m el 24/11, es decir, en torno a la alerta (5,00 m) y cerca de la evacuación (5,25–5,30 m según la fuente). La nota no da rangos ni fecha de emisión (se asume la tabla del martes 10/11). Rosario marca 4,40 m. Jueves 12/11: Rosario sigue en 4,40 m según las últimas lecturas; el INA ve mayor probabilidad de alcanzar la alerta desde el 15/11. Próxima actualización: viernes 13/11. Jueves 12/11 (noche): Rosario marcó 4,47 m (+7 cm en 24 h). Se espera la tabla del viernes 13/11. Viernes 13/11 (mañana): la tabla nueva del INA todavía no estaba en los medios consultados."
+      "nota": "Pronóstico del INA citado por El Informante el 11/11: 5,02 m el 17/11 y 5,20 m el 24/11, es decir, en torno a la alerta (5,00 m) y cerca de la evacuación (5,25–5,30 m según la fuente). La nota no da rangos ni fecha de emisión (se asume la tabla del martes 10/11). Rosario marca 4,40 m. Jueves 12/11: Rosario sigue en 4,40 m según las últimas lecturas; el INA ve mayor probabilidad de alcanzar la alerta desde el 15/11. Próxima actualización: viernes 13/11. Jueves 12/11 (noche): Rosario marcó 4,47 m (+7 cm en 24 h). Se espera la tabla del viernes 13/11. Viernes 13/11 (mañana): la tabla nueva del INA todavía no estaba en los medios consultados. Viernes 13/11 (tarde): 4,53 m (+6 cm). Rangos 4,60–5,30 m y 4,80–5,50 m según Bichos de Campo (tabla del 10/11). El INA ve probable aproximarse a la alerta desde el 17/11. Tabla nueva todavía sin publicar."
     },
     "36": {
       "emitido": "2026-10-24",
@@ -225,59 +225,57 @@
   },
   "noticias": [
     {
-      "titulo": "El río en Santa Fe está estacionario en 5,47 m y ya hay más de 160 personas trasladadas",
-      "fuente": "Aire de Santa Fe",
-      "fecha": "2026-11-12",
-      "url": "https://airedesantafe.com.ar/santa-fe/minuto-minuto-el-rio-parana-sigue-creciendo-santa-fe-como-evoluciona-la-altura-este-jueves-12-noviembre-n676591",
-      "resumen": "Prefectura registró 5,47 m a las 18, sin cambios respecto de dos horas antes. El municipio prepara más módulos de asistencia; Paraná, La Paz y Diamante siguen sobre sus niveles de evacuación."
+      "titulo": "Diez ciudades del Litoral siguen en nivel de evacuación y ya son más de 4.500 los afectados",
+      "fuente": "Infobae",
+      "fecha": "2026-11-13",
+      "url": "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
+      "resumen": "Según la Agencia Federal de Emergencias hay 26 localidades afectadas, sobre todo en Corrientes y Chaco. Barranqueras, Goya, Esquina, Reconquista, La Paz, Paraná y Diamante figuran en evacuación."
     },
     {
-      "titulo": "Prevén que el Paraná entre en una meseta en Santa Fe, con un nuevo repunte después",
-      "fuente": "UNO Santa Fe",
-      "fecha": "2026-11-12",
-      "url": "https://www.unosantafe.com.ar/santa-fe/tras-semanas-crecida-el-rio-parana-entrara-una-meseta-santa-fe-pero-preven-un-nuevo-repunte-n10291892.html",
-      "resumen": "Según el intendente, el río subiría uno o dos días más y luego avanzaría de a 1 cm, con un descenso leve y un segundo repunte. El municipio opera 31 puntos de bombeo."
+      "titulo": "Suben a 199 los evacuados en la ciudad de Santa Fe y amplían los módulos habitacionales",
+      "fuente": "Mirador Provincial",
+      "fecha": "2026-11-13",
+      "url": "https://www.miradorprovincial.com/2026/11/13/crecieron-a-199-los-evacuados-en-la-ciudad-de-santa-fe-y-amplian-los-modulos-habitacionales/",
+      "resumen": "El municipio termina 62 módulos en La Vuelta del Paraguayo e instala baños químicos y duchas. La cifra de evacuados incluye las incorporaciones previstas para el viernes."
     },
     {
-      "titulo": "El Paraná superó la alerta en Santa Fe y ya hay 109 personas asistidas en Alto Verde",
-      "fuente": "UNO Santa Fe",
-      "fecha": "2026-11-12",
-      "url": "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-alcanzo-el-nivel-alerta-santa-fe-y-crece-la-asistencia-familias-zonas-inundables-n10291762.html",
-      "resumen": "El puerto marcó 5,39 m a la medianoche y el centro de Alto Verde aloja a 33 familias. El municipio opera 31 puntos de bombeo, cerró compuertas en Varadero Sarsotti y pide no circular sobre los terraplenes."
+      "titulo": "El río en Santa Fe quedó cerca de los 5,60 m y sigue subiendo de forma lenta pero sostenida",
+      "fuente": "Mirador Provincial",
+      "fecha": "2026-11-13",
+      "url": "https://www.miradorprovincial.com/2026/11/13/crecida-del-rio-parana-en-santa-fe-el-nivel-del-agua-quedo-cerca-de-los-560-metros/",
+      "resumen": "El hidrómetro del puerto marcó 5,57 m al mediodía, unos 10 cm más que la jornada previa. Quedan unos 13 cm para el nivel de evacuación de 5,70 m."
     },
     {
-      "titulo": "Cuatro localidades entrerrianas superaron el nivel de evacuación",
-      "fuente": "Elonce",
-      "fecha": "2026-11-12",
-      "url": "https://www.elonce.com/sociedad/rio-parana-supero-el-nivel-de-evacuacion-en-cuatro-localidades.htm",
-      "resumen": "Paraná, La Paz, Hernandarias y Diamante están sobre su cota de evacuación según las lecturas de las 7. Para Paraná el INA prevé 5,69 m el 17/11 y 5,71 m el 24/11."
+      "titulo": "El Paraná llegó a 4,53 m en Rosario y podría acercarse a la alerta desde el 17/11",
+      "fuente": "DataPortuaria",
+      "fecha": "2026-11-13",
+      "url": "https://dataportuaria.com/es/argentina/hidrovia/el-parana-llego-a-4-53-metros-en-rosario-y-podria-acercarse-a-la-cota-de-alerta",
+      "resumen": "Con el reporte del INA del viernes, el río sigue subiendo en Rosario pero a menor ritmo, 47 cm por debajo de la alerta de 5,00 m."
     },
     {
       "titulo": "En Corrientes el Paraná baja despacio y el INA prevé una bajante leve hasta fin de mes",
       "fuente": "El Litoral (Corrientes)",
       "fecha": "2026-11-12",
       "url": "https://www.ellitoral.com.ar/sociedad/2026-11-12-20-55-0-altura-del-parana-cuanto-podria-bajar-el-rio-en-corrientes-hasta-fin-de-noviembre",
-      "resumen": "El río marca 6,76 m, ya bajo el nivel de evacuación de 7 m, y el INA anticipa un descenso gradual: hasta 6,60 m el 17/11 y entre 5,40 y 6,14 m el 24/11. Para Goya se esperan 5,81 y 5,64 m."
+      "resumen": "El río está bajo el nivel de evacuación de 7 m y el INA anticipa un descenso gradual: hasta 6,60 m el 17/11 y entre 5,40 y 6,14 m el 24/11."
     },
     {
       "titulo": "Yacyretá sigue con ambos vertederos abiertos y el afluente en baja",
       "fuente": "EBY",
       "fecha": "2026-11-10",
       "url": "https://www.eby.gov.py/cota-82-80-msnm-resumen-ejecutivo-n-6138-10-11-2026/",
-      "resumen": "El Resumen Ejecutivo del 10/11 informa vertido por el brazo principal y por Aña Cuá, embalse en cota 82,80 y Ayolas en 5,10 m, con el caudal afluente bajando levemente."
+      "resumen": "El Resumen Ejecutivo del 10/11 informa vertido por el brazo principal y por Aña Cuá, embalse en cota 82,80 y Ayolas en 5,10 m, con el afluente bajando levemente."
     }
   ],
   "fuentes_consultadas": [
-    "https://airedesantafe.com.ar/santa-fe/minuto-minuto-el-rio-parana-sigue-creciendo-santa-fe-como-evoluciona-la-altura-este-jueves-12-noviembre-n676591",
-    "https://www.unosantafe.com.ar/santa-fe/tras-semanas-crecida-el-rio-parana-entrara-una-meseta-santa-fe-pero-preven-un-nuevo-repunte-n10291892.html",
-    "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-alcanzo-el-nivel-alerta-santa-fe-y-crece-la-asistencia-familias-zonas-inundables-n10291762.html",
-    "https://www.elonce.com/sociedad/rio-parana-supero-el-nivel-de-evacuacion-en-cuatro-localidades.htm",
-    "https://www.infobae.com/sociedad/2026/11/11/fuerte-crecida-del-rio-parana-rozo-los-530-metros-en-santa-fe-y-hubo-18-familias-evacuadas/",
-    "https://www.unosantafe.com.ar/santa-fe/pronostico-del-ina-en-10-dias-el-rio-parana-llegara-los-570-metros-la-ciudad-santa-fe-n10291603.html",
-    "https://www.eby.gov.py/cota-82-80-msnm-resumen-ejecutivo-n-6138-10-11-2026/",
-    "https://www.itaipu.gov.py/noticias/energia/itaipu-reabrio-su-vertedero-tras-ajustar-sus-descargas-para-el-control-de-la-crecida",
+    "https://alerta.ina.gob.ar/a5/diario/reporte_diario",
+    "https://www.infobae.com/sociedad/2026/11/13/el-nino-diez-ciudades-del-litoral-continuan-con-el-agua-en-niveles-de-evacuacion-y-son-mas-de-4500-las-personas-afectadas/",
+    "https://www.miradorprovincial.com/2026/11/13/crecida-del-rio-parana-en-santa-fe-el-nivel-del-agua-quedo-cerca-de-los-560-metros/",
+    "https://www.miradorprovincial.com/2026/11/13/crecieron-a-199-los-evacuados-en-la-ciudad-de-santa-fe-y-amplian-los-modulos-habitacionales/",
+    "https://dataportuaria.com/es/argentina/hidrovia/el-parana-llego-a-4-53-metros-en-rosario-y-podria-acercarse-a-la-cota-de-alerta",
+    "https://bichosdecampo.com/el-parana-sigue-creciendo-y-pone-en-alerta-a-rosario-el-instituto-nacional-del-agua-preve-que-podria-superar-el-nivel-de-evacuacion-hacia-fines-de-noviembre/",
     "https://www.ellitoral.com.ar/sociedad/2026-11-12-20-55-0-altura-del-parana-cuanto-podria-bajar-el-rio-en-corrientes-hasta-fin-de-noviembre",
-    "https://rosariofinanzas.ar/noticias/el-parana-supera-niveles-de-alerta-en-rosario-ina-preve-hasta-5-50-metros-para-fines-de-noviembre",
-    "(Viernes 13/11 mañana: INA y EBY sin acceso directo; tabla del INA del 10/11 vía El Litoral de Corrientes; sin tabla nueva del viernes)"
+    "https://www.eby.gov.py/cota-82-80-msnm-resumen-ejecutivo-n-6138-10-11-2026/",
+    "(Viernes 13/11 tarde: sin tabla nueva del INA; vigentes las del 10/11 para 23, 29, 30, 34)"
   ]
 }
