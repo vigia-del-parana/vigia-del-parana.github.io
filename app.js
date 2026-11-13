@@ -95,7 +95,17 @@ function altZones(lat,lng){ // alternativas cercanas para "No, elegir otra"
 }
 
 /* ---------- Proyección Vigía (método directo por horizonte, ver scripts/ajustar_modelo.py) ---------- */
-function serieMap(id){ var s=serieOf(id); if(!s) return null; var m={}; s.forEach(function(p){ m[p[0]]=p[1]; }); return {m:m, last:s[s.length-1][0]}; }
+// serie como mapa fecha -> altura; los huecos de hasta 5 días (días que el INA no publicó) se completan
+// con una recta entre el dato anterior y el siguiente, igual que al calibrar el modelo
+function serieMap(id){
+  var s=serieOf(id); if(!s||!s.length) return null; var m={};
+  for(var i=0;i<s.length;i++){
+    m[s[i][0]]=s[i][1];
+    if(i>0){ var gap=daysBetween(s[i-1][0],s[i][0]);
+      if(gap>1 && gap<=6){ for(var k=1;k<gap;k++) m[addDays(s[i-1][0],k)]=+(s[i-1][1]+(s[i][1]-s[i-1][1])*k/gap).toFixed(3); } }
+  }
+  return {m:m, last:s[s.length-1][0]};
+}
 function addDays(d,k){ return isoD(new Date(parseD(d).getTime()+k*86400000)); }
 // cambio medido en la estación id entre t-hasta y t-desde; si a esa estación le falta el dato del día, corre las dos puntas hasta 2 días atrás
 function cambioEntrada(id, t, desde, hasta){
