@@ -52,6 +52,10 @@ App comunitaria, gratuita y sin fines de lucro para seguir la crecida de los rí
 
 Correcciones de zonas, umbrales, referencias o textos: abrí un issue o un pull request. Si vivís en la Costa santafesina o en los barrios ribereños de Paraná y conocés hasta dónde llegó el agua en crecidas anteriores, ese dato vale más que cualquier estimación. Las zonas de Paraná se armaron con registros públicos (municipio, INA, prensa) y están marcadas como estimadas hasta que un vecino las valide.
 
+## Derechos de autor
+
+© 2026 Melisa Franzotti. Vigía del Paraná es una obra protegida por la Ley 11.723 de Propiedad Intelectual (Argentina). La autoría abarca el código, el diseño, los textos de la app, las zonas finas y sus umbrales, y el código de la Proyección Vigía. Todo lo que no autoriza expresamente la licencia de abajo queda reservado a la autora.
+
 ## Licencia
 
 [PolyForm Noncommercial 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0) (ver [LICENSE](LICENSE)). El código es público para que cualquiera pueda ver y verificar cómo funciona la app. Vecinales, escuelas, universidades, organismos públicos y cualquier persona pueden usarlo, estudiarlo y adaptarlo sin fines de lucro, manteniendo el aviso de autoría. **No se permite el uso comercial.** Las versiones publicadas hasta el 16 de octubre de 2026 se distribuyeron bajo licencia MIT.
