@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-15T08:05:00-03:00",
-  "resumen": "Domingo 15 de noviembre: la crecida sigue entrando al tramo Santa Fe–Rosario. El puerto de Santa Fe marcó 5,66 m el 14/11 (+12 cm en 24 h), a 4 cm de la evacuación (5,70 m), y la tabla del INA del viernes 13/11 lo ubica en 5,84 m el 17/11 y 5,90 m el 24/11, sobre ese límite; hay unas 166 personas reubicadas en la ciudad y las defensas, según el municipio, siguen por encima de las cotas de evacuación. Paraná (5,64 m), La Paz (6,30 m) y Diamante (5,76 m) están sobre su evacuación y Rosario (4,63 m) sube unos 10 cm por día, con alerta prevista para el 17/11. Más al norte el río baja muy despacio (Corrientes 6,67 m, Goya 5,86 m). Yacyretá mantiene el vertido reducido y la EBY espera que Ayolas baje de la alerta; no hay datos nuevos de Itaipú. Hay más de 4.500 personas evacuadas o autoevacuadas en el Litoral.",
+  "actualizado": "2026-11-15T19:55:00-03:00",
+  "resumen": "Domingo 15 de noviembre: el puerto de Santa Fe llegó a 5,76 m, por encima del nivel de evacuación (5,70 m) y unos 10 cm más que el sábado; los medios locales hablan de alrededor de 237 personas alojadas en la ciudad. La tabla del INA del viernes 13/11 lo ubica en 5,84 m el 17/11 y 5,90 m el 24/11, de modo que seguiría sobre ese límite; Paraná, La Paz y Diamante también están sobre su evacuación y Rosario (4,63 m el 14/11) sube cerca de 10 cm por día, con alerta (5,00 m) prevista para el 17/11. Más al norte el río baja muy despacio (Corrientes 6,67 m, Goya 5,86 m). Yacyretá mantiene el vertido reducido y no hay un parte más nuevo de Itaipú; se espera la tabla del INA del martes 17/11. Más de 4.500 personas siguen evacuadas o autoevacuadas en el Litoral.",
   "represas": [
     {
       "nombre": "Itaipú",
@@ -225,46 +225,46 @@
   },
   "noticias": [
     {
-      "titulo": "Santa Fe, a 10 cm de la evacuación, y más de 4.500 afectados en el Litoral",
-      "fuente": "Infobae",
-      "fecha": "2026-11-14",
-      "url": "https://www.infobae.com/sociedad/2026/11/14/crecida-del-rio-parana-santa-fe-se-encuentra-al-limite-de-la-evacuacion-y-ya-son-mas-de-4500-afectados-en-el-litoral/",
-      "resumen": "El puerto santafesino superó la alerta y se acerca al límite de evacuación, mientras la Agencia Federal de Emergencias suma más de 4.500 personas fuera de sus casas, sobre todo en Chaco y Corrientes. Diez ciudades siguen sobre su cota de evacuación."
+      "titulo": "El Paraná pasó la evacuación en Santa Fe y llegó a 5,76 m este domingo",
+      "fuente": "El Litoral",
+      "fecha": "2026-11-15",
+      "url": "https://www.ellitoral.com/area-metropolitana/rioparana-evacuacion-santafe-prefecturanavalargentina-municipalidaddesantafe-centrodeoperaciones_0_1EcenwzpLV.html",
+      "resumen": "La escala de Santa Fe superó los 5,70 m de evacuación y marcó 5,76 m el domingo, según Prefectura. Se siguen los operativos del municipio en los barrios de la costa."
     },
     {
-      "titulo": "El INA ve al Paraná sobre la evacuación en Santa Fe el 17 y el 24 de noviembre",
-      "fuente": "Sur24",
-      "fecha": "2026-11-14",
-      "url": "https://www.sur24.com.ar/noticias/crecida-del-parana-la-altura-del-rio-superaria-el-limite-de-evacuacion-de-570-metros-este-martes-17",
-      "resumen": "Con la tabla del viernes, el INA proyecta 5,84 m para Santa Fe el martes 17 y 5,90 m el 24, ambos sobre el límite de 5,70 m. Para Rosario prevé llegar a la alerta el 17 y rozar la evacuación el 24."
+      "titulo": "Suben a 237 las personas evacuadas en la ciudad de Santa Fe",
+      "fuente": "Telefe Santa Fe",
+      "fecha": "2026-11-15",
+      "url": "https://santafe.mitelefe.com/santa-fe/la-altura-del-rio-llego-a-los-5-76-metros-y-en-total-hay-237-personas-evacuadas-en-santa-fe-pid2572251",
+      "resumen": "Con el río en 5,76 m, el reporte local contabiliza 237 personas alojadas fuera de sus casas, más que las 217 de la jornada previa."
+    },
+    {
+      "titulo": "Qué significa el nivel de evacuación en Santa Fe y cómo sigue el río",
+      "fuente": "Aire de Santa Fe",
+      "fecha": "2026-11-15",
+      "url": "https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-llego-los-570-metros-santa-fe-y-alcanzo-el-nivel-evacuacion-n676794",
+      "resumen": "Explica qué implica cruzar los 5,70 m y qué medidas dispone la ciudad cuando se alcanza esa cota."
+    },
+    {
+      "titulo": "El Paraná llegó al nivel de evacuación en Santa Fe y crece en otros puertos",
+      "fuente": "El Litoral",
+      "fecha": "2026-11-15",
+      "url": "https://www.ellitoral.com/informacion-general/rioparana-santafe-prefecturanaval-evacuacion-institutonacionaldelagua-hernandarias_0_2eZ7e4oGcH.html",
+      "resumen": "Repasa los puertos de la región según Prefectura e INA; el río sigue en ascenso en el tramo Santa Fe–Rosario."
+    },
+    {
+      "titulo": "Qué puede pasar en Rosario tras superar el Paraná la evacuación en Santa Fe",
+      "fuente": "BAE Negocios",
+      "fecha": "2026-11-15",
+      "url": "https://www.baenegocios.com/sociedad/el-parana-supero-el-nivel-de-evacuacion-que-puede-pasar-ahora-en-rosario/",
+      "resumen": "Analiza cómo la onda que ya está en Santa Fe llegaría a Rosario en los próximos días."
     },
     {
       "titulo": "Chaco: Puerto Vilelas, Barranqueras e Isla del Cerrito siguen en alerta roja",
       "fuente": "DataChaco",
       "fecha": "2026-11-14",
       "url": "https://www.datachaco.com/654587-el-parana-pone-en-alerta-a-santa-fe-y-la-creciente-complica-a-todo-el-litoral",
-      "resumen": "El parte oficial del sábado contabiliza unas 2.236 personas evacuadas en la provincia, con Puerto Vilelas como la localidad más afectada. En Santa Fe capital hay 166 reubicados, sobre todo en Vuelta del Paraguayo."
-    },
-    {
-      "titulo": "Santa Fe: el río pasó los 5,50 m y los evacuados llegan a 199",
-      "fuente": "El Litoral",
-      "fecha": "2026-11-13",
-      "url": "https://www.ellitoral.com/area-metropolitana/santa-fe-evacuados-crecida-parana-victor-hadad-modulos-habitacionales-vuelta-paraguayo-emergencia-hidrica-colastine-sur_0_3rg7esGKIi.html",
-      "resumen": "La ciudad sumó evacuados y amplía los módulos habitacionales para alojarlos. El Paraná ronda los 5,60 m en el puerto, cerca del nivel de evacuación."
-    },
-    {
-      "titulo": "Yacyretá: se espera que Ayolas baje de la alerta desde el sábado",
-      "fuente": "Elonce",
-      "fecha": "2026-11-14",
-      "url": "https://elonce.com/sociedad/yacyreta-emitio-una-nueva-alerta-por-la-crecida-del-rio-parana-que-se-espera-para-los-proximos-dias.htm",
-      "resumen": "La EBY prevé caudales en baja y sin lluvias relevantes hasta el 17/11, pero avisa que octubre fue el de mayor caudal afluente desde 1971 y que hay alta probabilidad de nuevas aguas altas hasta enero."
-    },
-    {
-      "titulo": "Crecida en el Litoral: 4.547 personas evacuadas en 25 localidades de cuatro provincias",
-      "fuente": "Meteored",
-      "fecha": "2026-11-15",
-      "url": "https://www.meteored.com.ar/noticias/prediccion/el-rio-parana-sigue-creciendo-y-complica-al-litoral-mas-de-4-500-evacuados-y-alerta-por-nuevas-subas.html",
-      "resumen": "Según el relevamiento de la AFE del 12/11, Chaco y Corrientes concentran la mayoría de los afectados, seguidos por Santa Fe y Entre Ríos. La nota repasa las proyecciones para Santa Fe, Paraná y Rosario."
+      "resumen": "Tres zonas del Gran Resistencia continúan en alerta por el nivel del río, que baja lento."
     }
   ],
   "fuentes_consultadas": [
@@ -275,6 +275,11 @@
     "https://www.eby.gov.py/cota-82-80-msnm-resumen-ejecutivo-n-6141-13-11-2026/",
     "https://www.infobae.com/sociedad/2026/11/14/crecida-del-rio-parana-santa-fe-se-encuentra-al-limite-de-la-evacuacion-y-ya-son-mas-de-4500-afectados-en-el-litoral/",
     "https://www.datachaco.com/654587-el-parana-pone-en-alerta-a-santa-fe-y-la-creciente-complica-a-todo-el-litoral",
-    "(Domingo 15/11: ina.gob.ar/alerta no se pudo abrir; el reporte diario del INA solo trae texto, sin tabla por puerto. La tabla del 13/11 salió de Sur24 (Santa Fe, Rosario, Reconquista) y de Meteored (Paraná))"
+    "https://www.ellitoral.com/area-metropolitana/rioparana-evacuacion-santafe-prefecturanavalargentina-municipalidaddesantafe-centrodeoperaciones_0_1EcenwzpLV.html",
+    "https://santafe.mitelefe.com/santa-fe/la-altura-del-rio-llego-a-los-5-76-metros-y-en-total-hay-237-personas-evacuadas-en-santa-fe-pid2572251",
+    "https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-llego-los-570-metros-santa-fe-y-alcanzo-el-nivel-evacuacion-n676794",
+    "https://www.ellitoral.com/informacion-general/rioparana-santafe-prefecturanaval-evacuacion-institutonacionaldelagua-hernandarias_0_2eZ7e4oGcH.html",
+    "https://www.baenegocios.com/sociedad/el-parana-supero-el-nivel-de-evacuacion-que-puede-pasar-ahora-en-rosario/",
+    "(Domingo 15/11 tarde: WebFetch no pudo abrir ina.gob.ar ni eby.gov.py; no hay tabla nueva del INA ni parte nuevo de EBY/Itaipú, se conservan los anteriores)"
   ]
 }
