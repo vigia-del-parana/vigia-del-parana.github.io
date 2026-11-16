@@ -376,6 +376,9 @@ function renderDams(){
     if(r.estado){ var pl=document.createElement("span"); pl.className="pill"; pl.textContent=r.estado; p.appendChild(pl); }
     if(r.valor){ var v=document.createElement("div"); v.className="val num"; v.textContent=r.valor; if(r.unidad){ var sm=document.createElement("small"); sm.textContent=" "+r.unidad; v.appendChild(sm); } p.appendChild(v); }
     if(r.valorNota){ var vn=document.createElement("div"); vn.className="muted small"; vn.textContent=r.valorNota; p.appendChild(vn); }
+    // si el último parte público tiene varios días, se avisa a la vista (no solo en el detalle)
+    var hoyCtx=(D.ctx.actualizado||"").slice(0,10), dias=(r.fecha&&hoyCtx)?daysBetween(r.fecha,hoyCtx):0;
+    if(dias>=3){ var vj=document.createElement("div"); vj.className="dam-viejo"; vj.textContent="Dato de hace "+dias+" días: "+r.nombre+" no informó novedades desde el "+dateLabel(r.fecha)+". Puede haber cambiado."; p.appendChild(vj); }
     if(r.detalle){ var dt=document.createElement("p"); dt.textContent=r.detalle; p.appendChild(dt); }
     var src=document.createElement("div"); src.className="src"; src.textContent=(r.fecha?dateLabel(r.fecha)+" · ":"")+(r.fuente||"");
     if(r.url){ src.appendChild(document.createTextNode(" · ")); var a=document.createElement("a"); a.href=r.url; a.target="_blank"; a.rel="noopener"; a.textContent="ver fuente"; src.appendChild(a); }
