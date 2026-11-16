@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-16T07:51:00-03:00",
-  "resumen": "Lunes 16 de noviembre: el puerto de Santa Fe marcó 5,77 m a primera hora, apenas 1 cm más que el domingo (5,76 m) y por encima del nivel de evacuación (5,70 m); la suba se desaceleró, y la Municipalidad amplió el predio para evacuados en Alto Verde. La última tabla del INA (viernes 13/11) lo ubica en 5,84 m el 17/11 y 5,90 m el 24/11, así que seguiría sobre ese límite; Rosario (4,63 m el 14/11) subía cerca de 10 cm por día y tiene prevista la alerta (5,00 m) para el 17/11. Más al norte el río baja muy despacio (Corrientes 6,67 m, Goya 5,86 m). No hay partes nuevos de Itaipú ni de Yacyretá (que mantiene el vertido reducido), y se espera la tabla del INA del martes 17/11. Más de 4.500 personas siguen evacuadas o autoevacuadas en el Litoral.",
+  "actualizado": "2026-11-16T19:51:32-03:00",
+  "resumen": "Lunes 16 de noviembre: el puerto de Santa Fe marcó 5,77 m, sin cambios frente al domingo y por encima del nivel de evacuación (5,70 m); la suba se frenó, y el INA espera que se estabilice cerca de 5,84 m el 17/11 y 5,90 m el 24/11. Rosario llegó a 4,81 m (+5 cm) y su alerta (5,00 m) se alcanzaría en las próximas horas, mientras Paraná (5,69 m) sigue sobre evacuación; más al norte el río baja lento: Corrientes 6,50 m, Goya 5,81 m y Reconquista 5,63 m. No hay partes nuevos de Itaipú ni de Yacyretá (se conserva el último, con vertido reducido) y se espera la tabla del INA del martes 17/11. La Agencia Federal de Emergencias cuenta unas 4.550 personas evacuadas o autoevacuadas en Chaco, Corrientes, Santa Fe y Entre Ríos.",
   "represas": [
     {
       "nombre": "Itaipú",
@@ -27,23 +27,17 @@
   ],
   "pronosticos": {
     "19": {
-      "emitido": "2026-11-06",
+      "emitido": "2026-11-13",
       "fuente": "INA",
       "puntos": [
         {
-          "fecha": "2026-11-10",
-          "central": 6.81,
-          "min": 6.4,
-          "max": 7.0
-        },
-        {
           "fecha": "2026-11-17",
-          "central": 6.34,
-          "min": 6.0,
-          "max": 6.8
+          "central": 6.38,
+          "min": null,
+          "max": null
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11, vencida (los puntos corresponden al 10 y 17/11). El INA publicó una tabla nueva el viernes 13/11, pero los medios consultados no reprodujeron la fila de Corrientes y no se carga un valor sin verificar. El reporte diario del INA del 13/11 dice solo que el nivel oscilaría con leve descenso gradual en los próximos 7 días y quedaría por debajo de la alerta (6,50 m). Corrientes marcó 6,67 m el 14/11 (−6 cm en 24 h), bajo su evacuación de 7,00 m. Pendiente la tabla del martes 17/11."
+      "nota": "Valor para el 17/11 (6,38 m) de la tabla del INA del viernes 13/11, según Aire de Santa Fe; no se pudo ver el resto de la fila ni rangos. Corrientes marcó 6,50 m el 16/11 (−10 cm en 24 h), en su nivel de alerta, bajo la evacuación de 7,00 m. Pendiente la tabla del martes 17/11."
     },
     "20": {
       "emitido": "2026-10-23",
@@ -75,7 +69,7 @@
           "max": null
         }
       ],
-      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) según El Litoral de Corrientes: 5,81 m el 17/11 y 5,64 m el 24/11, sin rangos. La tabla del viernes 13/11 no se pudo leer en los medios consultados, así que se conserva esta. El reporte del INA del 13/11 prevé oscilación con leve descenso y alta probabilidad de seguir sobre alerta y evacuación. Goya marcó 5,86 m el 14/11 (−1 cm en 24 h), sobre su evacuación de 5,70 m. Pendiente la tabla del martes 17/11."
+      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) según El Litoral de Corrientes: 5,81 m el 17/11 y 5,64 m el 24/11, sin rangos. La tabla del viernes 13/11 no se pudo leer en los medios consultados, así que se conserva esta. El reporte del INA del 13/11 prevé oscilación con leve descenso y alta probabilidad de seguir sobre alerta y evacuación. Goya marcó 5,81 m el 16/11 (sin cambios en 24 h), sobre su evacuación de 5,70 m. Pendiente la tabla del martes 17/11."
     },
     "24": {
       "emitido": "2026-11-13",
@@ -94,7 +88,7 @@
           "max": 5.6
         }
       ],
-      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 5,63 m el 17/11 (rango 5,20–5,90) y 5,27 m el 24/11 (4,80–5,60). Baja gradual, aún sobre la evacuación (5,30 m) el 17/11 y cerca de ella el 24. Reconquista marcó 5,70 m el 14/11 (−2 cm). Alerta 5,10 m. Domingo 15/11: sin tabla nueva."
+      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 5,63 m el 17/11 (rango 5,20–5,90) y 5,27 m el 24/11 (4,80–5,60). Baja gradual, aún sobre la evacuación (5,30 m) el 17/11 y cerca de ella el 24. Reconquista marcó 5,63 m el 16/11 (sin cambios). Alerta 5,10 m. Domingo 15/11: sin tabla nueva."
     },
     "26": {
       "emitido": "2026-11-06",
@@ -113,7 +107,7 @@
           "max": 6.2
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11, vencida (los puntos corresponden al 10 y 17/11). La tabla nueva del 13/11 no apareció en los medios consultados y no se carga un valor sin verificar. El reporte diario del INA del 13/11 anticipa que La Paz culminaría y luego bajaría de forma leve y gradual, sin fecha precisa. La Paz marcó 6,30 m el 14/11 (+4 cm en 24 h), sobre su evacuación de 6,15 m. Pendiente la tabla del martes 17/11."
+      "nota": "Tabla del INA del viernes 6/11, vencida (los puntos corresponden al 10 y 17/11). La tabla nueva del 13/11 no apareció en los medios consultados y no se carga un valor sin verificar. El reporte diario del INA del 13/11 anticipa que La Paz culminaría y luego bajaría de forma leve y gradual, sin fecha precisa. La Paz marcó 6,24 m el 16/11 (sin cambios en 24 h), sobre su evacuación de 6,15 m. Pendiente la tabla del martes 17/11."
     },
     "29": {
       "emitido": "2026-11-13",
@@ -132,7 +126,7 @@
           "max": null
         }
       ],
-      "nota": "Tabla del INA del viernes 13/11 (a 4 y 11 días): 5,82 m el 17/11 y 5,82 m el 24/11, sobre la evacuación (5,00 m). Cifra publicada por Meteored junto con las de Santa Fe y Rosario, que coinciden con la tabla de Sur24; la nota no la atribuye de forma expresa al INA y no da rangos. Paraná marcó 5,64 m el 14/11 (+6 cm en 24 h). El reporte diario del INA del 13/11 describe un ascenso que se atenúa, con culminación entre 7 y 14 días."
+      "nota": "Tabla del INA del viernes 13/11 (a 4 y 11 días): 5,82 m el 17/11 y 5,82 m el 24/11, sobre la evacuación (5,00 m). Cifra publicada por Meteored junto con las de Santa Fe y Rosario, que coinciden con la tabla de Sur24; la nota no la atribuye de forma expresa al INA y no da rangos. Paraná marcó 5,69 m el 16/11 (sin cambios en 24 h). El reporte diario del INA del 13/11 describe un ascenso que se atenúa, con culminación entre 7 y 14 días."
     },
     "30": {
       "emitido": "2026-11-13",
@@ -170,7 +164,7 @@
           "max": 5.6
         }
       ],
-      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 4,98 m el 17/11 (rango 4,65–5,30), en la alerta (5,00 m), y 5,33 m el 24/11 (4,90–5,60), a la altura de la evacuación (5,30 m). Rosario marcó 4,63 m en la lectura diaria del 14/11 (+10 cm en 24 h). Domingo 15/11: sin tabla nueva del INA (la próxima sería el martes 17/11)."
+      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 4,98 m el 17/11 (rango 4,65–5,30), en la alerta (5,00 m), y 5,33 m el 24/11 (4,90–5,60), a la altura de la evacuación (5,30 m). Rosario marcó 4,81 m el 16/11 (+5 cm en 24 h). Domingo 15/11: sin tabla nueva del INA (la próxima sería el martes 17/11)."
     },
     "36": {
       "emitido": "2026-10-24",
@@ -225,6 +219,13 @@
   },
   "noticias": [
     {
+      "titulo": "Ya son unos 4.550 los evacuados por la crecida en cuatro provincias del Litoral",
+      "fuente": "Perfil / Examedia",
+      "fecha": "2026-11-16",
+      "url": "https://examedia.com.ar/portada/post/88243453",
+      "resumen": "La Agencia Federal de Emergencias contabiliza alrededor de 4.550 personas evacuadas o autoevacuadas en 25 localidades; Chaco y Corrientes concentran la mayoría."
+    },
+    {
       "titulo": "El Paraná volvió a subir en Santa Fe: creció un centímetro y sigue sobre el nivel de evacuación",
       "fuente": "Aire de Santa Fe",
       "fecha": "2026-11-16",
@@ -258,13 +259,6 @@
       "fecha": "2026-11-15",
       "url": "https://www.ellitoral.com/informacion-general/rioparana-santafe-prefecturanaval-evacuacion-institutonacionaldelagua-hernandarias_0_2eZ7e4oGcH.html",
       "resumen": "Repasa los puertos de la región según Prefectura e INA; el río sigue en ascenso en el tramo Santa Fe–Rosario."
-    },
-    {
-      "titulo": "Qué puede pasar en Rosario tras superar el Paraná la evacuación en Santa Fe",
-      "fuente": "BAE Negocios",
-      "fecha": "2026-11-15",
-      "url": "https://www.baenegocios.com/sociedad/el-parana-supero-el-nivel-de-evacuacion-que-puede-pasar-ahora-en-rosario/",
-      "resumen": "Analiza cómo la onda que ya está en Santa Fe llegaría a Rosario en los próximos días."
     }
   ],
   "fuentes_consultadas": [
@@ -282,6 +276,8 @@
     "https://www.baenegocios.com/sociedad/el-parana-supero-el-nivel-de-evacuacion-que-puede-pasar-ahora-en-rosario/",
     "https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-volvio-subir-santa-fe-crecio-un-centimetro-y-sigue-encima-del-nivel-evacuacion-n676952",
     "https://examedia.com.ar/portada/post/88243453",
+    "https://www.airedesantafe.com.ar/santa-fe/el-nino-y-la-crecida-del-parana-preven-una-estabilizacion-la-altura-del-rio-santa-fe-encima-del-nivel-evacuacion-n676928",
+    "https://www.actualidadadiario.com/index.php/2026/11/16/el-supernino-desborda-el-rio-parana-ya-hay-4-500-evacuados-y-alertan-sobre-el-avance-del-agua-hacia-el-sur/",
     "(Lunes 16/11: WebFetch no pudo abrir ina.gob.ar ni eby.gov.py; sin tabla nueva del INA ni parte nuevo de EBY/Itaipú, se conservan los anteriores)"
   ]
 }
