@@ -153,13 +153,14 @@ function divergenciaINA(proj, fcFuture){
 
 /* ---------- carga ---------- */
 function load(){
-  var v="?v="+Math.floor(Date.now()/600000);
+  // no-cache: el navegador siempre pregunta si hay un archivo nuevo (si no cambió, la respuesta es mínima)
+  var v="?v="+Math.floor(Date.now()/600000), nc={cache:"no-cache"};
   return Promise.all([
-    fetch("data/estaciones.json"+v).then(function(r){return r.json();}),
-    fetch("data/zonas.geojson"+v).then(function(r){return r.json();}),
-    fetch("data/alturas.json"+v).then(function(r){return r.json();}).catch(function(){return null;}),
-    fetch("data/contexto.json"+v).then(function(r){return r.json();}).catch(function(){return null;}),
-    fetch("data/modelo.json"+v).then(function(r){return r.json();}).catch(function(){return null;})
+    fetch("data/estaciones.json"+v,nc).then(function(r){return r.json();}),
+    fetch("data/zonas.geojson"+v,nc).then(function(r){return r.json();}),
+    fetch("data/alturas.json"+v,nc).then(function(r){return r.json();}).catch(function(){return null;}),
+    fetch("data/contexto.json"+v,nc).then(function(r){return r.json();}).catch(function(){return null;}),
+    fetch("data/modelo.json"+v,nc).then(function(r){return r.json();}).catch(function(){return null;})
   ]).then(function(r){ D.est=r[0].estaciones; D.zonas=r[1]; D.alturas=r[2]; D.ctx=r[3]; D.modelo=r[4]; });
 }
 
