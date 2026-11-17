@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-17T07:52:31-03:00",
-  "resumen": "Martes 17 de noviembre: Yacyretá cerró el vertedero del brazo principal y solo vierte por Aña Cuá (unos 7.800 m³/s, contra unos 10.300 del parte anterior); el afluente baja a 23.000 m³/s y Ayolas marcó 4,34 m, apenas sobre su alerta. Itaipú no tiene parte nuevo (se conserva la última cifra, con vertedero abierto). El puerto de Santa Fe marcó 5,77 m el lunes, sin cambios y por encima de la evacuación (5,70 m); el INA proyectaba 5,84 m para hoy y 5,90 m el 24/11. Rosario (4,81 m, +5 cm) se acerca a su alerta de 5,00 m y Paraná (5,69 m) sigue sobre evacuación; más al norte el río baja lento (Corrientes 6,50 m, Goya 5,81 m). La tabla nueva del INA del martes todavía no estaba disponible en los medios a primera hora.",
+  "actualizado": "2026-11-17T19:55:00-03:00",
+  "resumen": "Martes 17 de noviembre a la noche: el puerto de Santa Fe marcó 5,83 m (+6 cm en 24 h), por encima de la evacuación (5,70 m) y en línea con los 5,84 m que proyectaba el INA para hoy; la proyección a una semana es de unos 5,90 m. Rosario llegó a 4,90 m (+9 cm), a solo 10 cm de su alerta de 5,00 m, y Paraná (5,71 m) sigue sobre evacuación; más al norte el río baja despacio (Corrientes 6,36 m, ya bajo su alerta de 6,50 m; Goya 5,76 m). Yacyretá mantiene cerrado el vertedero del brazo principal y vierte unos 7.900 m³/s por Aña Cuá, con Ayolas en 4,18 m; de Itaipú no hay parte nuevo (la última cifra es de comienzos de noviembre). La tabla nueva del INA del martes todavía no estaba reproducida en los medios consultados.",
   "represas": [
     {
       "nombre": "Itaipú",
@@ -8,7 +8,7 @@
       "valor": "≈ 11.000",
       "unidad": "m³/s",
       "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-      "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Martes 17/11: no se encontró un parte más reciente; se conserva la última cifra informada, que puede haber cambiado.",
+      "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Martes 17/11: no se encontró un parte más reciente (no se pudo abrir el boletín hidrológico de Itaipú); se conserva la última cifra informada, que puede haber cambiado.",
       "fecha": "2026-11-01",
       "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
       "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -16,13 +16,13 @@
     {
       "nombre": "Yacyretá",
       "estado": "Vertedero principal cerrado; Aña Cuá abierto",
-      "valor": "≈ 7.800",
+      "valor": "≈ 7.900",
       "unidad": "m³/s",
-      "valorNota": "Descarga por el brazo Aña Cuá (7.800 m³/s) según el Resumen Ejecutivo del 15/11; el vertedero del brazo principal figura cerrado. El afluente a la central fue de 23.000 m³/s y se prevén unos 21.700 m³/s para el 16/11.",
-      "detalle": "La EBY cerró el vertedero del brazo principal (que el 13/11 vertía unos 2.500 m³/s) y mantiene solo Aña Cuá, de modo que el vertido total bajó de unos 10.300 a unos 7.800 m³/s. El embalse está en la cota 82,87 y Ayolas marcó 4,34 m (el 14/11 había marcado 4,61 m), todavía algo sobre la alerta de 4,20 m. Martes 17/11: no hay resumen más nuevo que el del 15/11.",
-      "fecha": "2026-11-15",
-      "fuente": "EBY (Resumen Ejecutivo N° 6143)",
-      "url": "https://www.eby.gov.py/cota-82-87-msnm-resumen-ejecutivo-n-6143-15-11-2026/"
+      "valorNota": "Descarga por el brazo Aña Cuá (7.900 m³/s) según el Resumen Ejecutivo del 16/11; el vertedero del brazo principal figura cerrado. El afluente previsto es de 21.900 m³/s para el 16/11 y 21.400 m³/s para el 17/11.",
+      "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte solo por Aña Cuá. El embalse está en la cota 82,92 (6:00 h), estable tras subir un poco el día anterior, y Ayolas marcó 4,18 m, ya apenas bajo la alerta de 4,20 m. El parte semanal indica una tendencia de leve significancia hidrológica. Martes 17/11: no hay resumen más nuevo que el del 16/11.",
+      "fecha": "2026-11-16",
+      "fuente": "EBY (Resumen Ejecutivo N° 6144)",
+      "url": "https://www.eby.gov.py/cota-82-92-msnm-resumen-ejecutivo-n-6144-16-11-2026/"
     }
   ],
   "pronosticos": {
@@ -37,7 +37,7 @@
           "max": null
         }
       ],
-      "nota": "Valor para el 17/11 (6,38 m) de la tabla del INA del viernes 13/11, según Aire de Santa Fe; no se pudo ver el resto de la fila ni rangos. Corrientes marcó 6,50 m el 16/11 (−10 cm en 24 h), en su nivel de alerta, bajo la evacuación de 7,00 m. Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Valor para el 17/11 (6,38 m) de la tabla del INA del viernes 13/11, según Aire de Santa Fe; no se pudo ver el resto de la fila ni rangos. Corrientes marcó 6,50 m el 16/11 (−10 cm en 24 h), en su nivel de alerta, bajo la evacuación de 7,00 m. Martes 17/11: la escala marcó 6,36 m (−14 cm en 24 h), ya bajo la alerta de 6,50 m (evacuación 7,00 m); el INA proyectaba 6,38 m para hoy. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "20": {
       "emitido": "2026-10-23",
@@ -50,7 +50,7 @@
           "max": 7.8
         }
       ],
-      "nota": "Pronóstico vencido (tabla del INA del viernes 23/10, a 4 y 11 días): no debe tomarse como vigente. No se pudo leer la fila de Barranqueras de las tablas posteriores en los medios consultados. La escala marcó 6,37 m el 16/11 (−3 cm en 24 h), sobre la alerta de 6,00 m y 13 cm por debajo de la evacuación de 6,50 m."
+      "nota": "Pronóstico vencido (tabla del INA del viernes 23/10, a 4 y 11 días): no debe tomarse como vigente. No se pudo leer la fila de Barranqueras de las tablas posteriores en los medios consultados. La escala marcó 6,37 m el 16/11 (−3 cm en 24 h), sobre la alerta de 6,00 m y 13 cm por debajo de la evacuación de 6,50 m. Martes 17/11: la escala marcó 6,23 m (−14 cm en 24 h), sobre la alerta de 6,00 m y 27 cm por debajo de la evacuación. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "23": {
       "emitido": "2026-11-10",
@@ -69,7 +69,7 @@
           "max": null
         }
       ],
-      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) según El Litoral de Corrientes: 5,81 m el 17/11 y 5,64 m el 24/11, sin rangos. La tabla del viernes 13/11 no se pudo leer en los medios consultados, así que se conserva esta. El reporte del INA del 13/11 prevé oscilación con leve descenso y alta probabilidad de seguir sobre alerta y evacuación. Goya marcó 5,81 m el 16/11 (sin cambios en 24 h), sobre su evacuación de 5,70 m. Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Pronóstico del INA del martes 10/11 (a 7 y 14 días) según El Litoral de Corrientes: 5,81 m el 17/11 y 5,64 m el 24/11, sin rangos. La tabla del viernes 13/11 no se pudo leer en los medios consultados, así que se conserva esta. El reporte del INA del 13/11 prevé oscilación con leve descenso y alta probabilidad de seguir sobre alerta y evacuación. Goya marcó 5,81 m el 16/11 (sin cambios en 24 h), sobre su evacuación de 5,70 m. Martes 17/11: Goya marcó 5,76 m (−5 cm en 24 h), sobre su evacuación de 5,70 m; el pronóstico del INA indicaba 5,81 m para hoy. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "24": {
       "emitido": "2026-11-13",
@@ -88,7 +88,7 @@
           "max": 5.6
         }
       ],
-      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 5,63 m el 17/11 (rango 5,20–5,90) y 5,27 m el 24/11 (4,80–5,60). Baja gradual, aún sobre la evacuación (5,30 m) el 17/11 y cerca de ella el 24. Reconquista marcó 5,63 m el 16/11 (sin cambios). Alerta 5,10 m. Domingo 15/11: sin tabla nueva. Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 5,63 m el 17/11 (rango 5,20–5,90) y 5,27 m el 24/11 (4,80–5,60). Baja gradual, aún sobre la evacuación (5,30 m) el 17/11 y cerca de ella el 24. Reconquista marcó 5,63 m el 16/11 (sin cambios). Alerta 5,10 m. Domingo 15/11: sin tabla nueva. Martes 17/11: Reconquista marcó 5,61 m (−2 cm en 24 h) contra los 5,63 m previstos para hoy. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "26": {
       "emitido": "2026-11-06",
@@ -107,7 +107,7 @@
           "max": 6.2
         }
       ],
-      "nota": "Tabla del INA del viernes 6/11, vencida (los puntos corresponden al 10 y 17/11). La tabla nueva del 13/11 no apareció en los medios consultados y no se carga un valor sin verificar. El reporte diario del INA del 13/11 anticipa que La Paz culminaría y luego bajaría de forma leve y gradual, sin fecha precisa. La Paz marcó 6,24 m el 16/11 (sin cambios en 24 h), sobre su evacuación de 6,15 m. Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Tabla del INA del viernes 6/11, vencida (los puntos corresponden al 10 y 17/11). La tabla nueva del 13/11 no apareció en los medios consultados y no se carga un valor sin verificar. El reporte diario del INA del 13/11 anticipa que La Paz culminaría y luego bajaría de forma leve y gradual, sin fecha precisa. La Paz marcó 6,24 m el 16/11 (sin cambios en 24 h), sobre su evacuación de 6,15 m. Martes 17/11: La Paz marcó 6,24 m (sin cambios en 24 h), sobre su evacuación de 6,15 m. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "29": {
       "emitido": "2026-11-13",
@@ -126,7 +126,7 @@
           "max": null
         }
       ],
-      "nota": "Tabla del INA del viernes 13/11 (a 4 y 11 días): 5,82 m el 17/11 y 5,82 m el 24/11, sobre la evacuación (5,00 m). Cifra publicada por Meteored junto con las de Santa Fe y Rosario, que coinciden con la tabla de Sur24; la nota no la atribuye de forma expresa al INA y no da rangos. Paraná marcó 5,69 m el 16/11 (sin cambios en 24 h). El reporte diario del INA del 13/11 describe un ascenso que se atenúa, con culminación entre 7 y 14 días. Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Tabla del INA del viernes 13/11 (a 4 y 11 días): 5,82 m el 17/11 y 5,82 m el 24/11, sobre la evacuación (5,00 m). Cifra publicada por Meteored junto con las de Santa Fe y Rosario, que coinciden con la tabla de Sur24; la nota no la atribuye de forma expresa al INA y no da rangos. Paraná marcó 5,69 m el 16/11 (sin cambios en 24 h). El reporte diario del INA del 13/11 describe un ascenso que se atenúa, con culminación entre 7 y 14 días. Martes 17/11: Paraná marcó 5,71 m (+2 cm en 24 h) contra los 5,82 m proyectados para hoy. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "30": {
       "emitido": "2026-11-13",
@@ -145,7 +145,7 @@
           "max": 6.2
         }
       ],
-      "nota": "Tabla nueva del INA, publicada el viernes 13/11 por la tarde (a 4 y 11 días), según Sur24: 5,84 m el 17/11 (rango 5,40–6,10) y 5,90 m el 24/11 (5,50–6,20), es decir, por encima de la evacuación (5,70 m) en ambas fechas. El puerto marcó 5,66 m en la lectura diaria del 14/11 (+12 cm en 24 h), a 4 cm de la evacuación; alerta 5,30 m. Domingo 15/11: sin tabla nueva del INA (la próxima sería el martes 17/11). Lunes 16/11: la escala marcó 5,77 m a las 6:50 (+1 cm en 24 h), sobre la evacuación; pendiente la tabla del martes 17/11. Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Tabla nueva del INA, publicada el viernes 13/11 por la tarde (a 4 y 11 días), según Sur24: 5,84 m el 17/11 (rango 5,40–6,10) y 5,90 m el 24/11 (5,50–6,20), es decir, por encima de la evacuación (5,70 m) en ambas fechas. El puerto marcó 5,66 m en la lectura diaria del 14/11 (+12 cm en 24 h), a 4 cm de la evacuación; alerta 5,30 m. Domingo 15/11: sin tabla nueva del INA (la próxima sería el martes 17/11). Lunes 16/11: la escala marcó 5,77 m a las 6:50 (+1 cm en 24 h), sobre la evacuación; pendiente la tabla del martes 17/11. Martes 17/11: la escala marcó 5,83 m (+6 cm en 24 h), prácticamente lo que proyectaba el INA para hoy (5,84 m), sobre la evacuación de 5,70 m. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "34": {
       "emitido": "2026-11-13",
@@ -164,7 +164,7 @@
           "max": 5.6
         }
       ],
-      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 4,98 m el 17/11 (rango 4,65–5,30), en la alerta (5,00 m), y 5,33 m el 24/11 (4,90–5,60), a la altura de la evacuación (5,30 m). Rosario marcó 4,81 m el 16/11 (+5 cm en 24 h). Domingo 15/11: sin tabla nueva del INA (la próxima sería el martes 17/11). Martes 17/11: la tabla nueva del INA todavía no aparecía en los medios consultados a primera hora."
+      "nota": "Tabla nueva del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 4,98 m el 17/11 (rango 4,65–5,30), en la alerta (5,00 m), y 5,33 m el 24/11 (4,90–5,60), a la altura de la evacuación (5,30 m). Rosario marcó 4,81 m el 16/11 (+5 cm en 24 h). Domingo 15/11: sin tabla nueva del INA (la próxima sería el martes 17/11). Martes 17/11: Rosario marcó 4,90 m (+9 cm en 24 h) contra los 4,98 m proyectados para hoy; queda a 10 cm de la alerta de 5,00 m. Sigue sin aparecer en los medios la tabla nueva del INA del martes 17/11; se conserva la del 13/11 (o la última disponible)."
     },
     "36": {
       "emitido": "2026-10-24",
@@ -247,11 +247,11 @@
       "resumen": "La escala marcó 5,77 m el lunes, con un ritmo de suba mucho más lento que días atrás; la Municipalidad amplió el predio para evacuados en Alto Verde."
     },
     {
-      "titulo": "Yacyretá cerró el vertedero del brazo principal y mantiene Aña Cuá",
+      "titulo": "Yacyretá sigue con el vertedero principal cerrado y vierte por Aña Cuá",
       "fuente": "EBY",
-      "fecha": "2026-11-15",
-      "url": "https://www.eby.gov.py/cota-82-87-msnm-resumen-ejecutivo-n-6143-15-11-2026/",
-      "resumen": "El parte oficial informa 23.000 m³/s de afluente, 7.800 m³/s vertidos por Aña Cuá y 4,34 m en Ayolas."
+      "fecha": "2026-11-16",
+      "url": "https://www.eby.gov.py/cota-82-92-msnm-resumen-ejecutivo-n-6144-16-11-2026/",
+      "resumen": "El parte oficial del 16/11 informa cota 82,92 m, 7.900 m³/s vertidos por Aña Cuá y 4,18 m en Ayolas, con afluente en baja."
     },
     {
       "titulo": "Suben a 237 las personas evacuadas en la ciudad de Santa Fe",
@@ -262,6 +262,7 @@
     }
   ],
   "fuentes_consultadas": [
+    "https://www.eby.gov.py/cota-82-92-msnm-resumen-ejecutivo-n-6144-16-11-2026/",
     "https://www.eby.gov.py/cota-82-87-msnm-resumen-ejecutivo-n-6143-15-11-2026/",
     "https://www.eby.gov.py/cota-82-82-msnm-resumen-ejecutivo-n-6142-14-11-2026/",
     "https://www.meteored.com.ar/noticias/prediccion/el-rio-parana-sigue-creciendo-y-complica-al-litoral-mas-de-4-500-evacuados-y-alerta-por-nuevas-subas.html",
@@ -271,6 +272,8 @@
     "https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-volvio-subir-santa-fe-crecio-un-centimetro-y-sigue-encima-del-nivel-evacuacion-n676952",
     "https://santafe.mitelefe.com/santa-fe/la-altura-del-rio-llego-a-los-5-76-metros-y-en-total-hay-237-personas-evacuadas-en-santa-fe-pid2572251",
     "https://perfil.com/nea/chaco-mantiene-2.236-evacuados-por-la-crecida-de-los-rios-y-tres-localidades-siguen-en-alerta-roja-apgdp6s1DRQT",
-    "(Martes 17/11: WebFetch no pudo abrir ina.gob.ar ni alerta.ina.gob.ar (permiso denegado); sin tabla nueva del INA, se conservan las anteriores; sin parte nuevo de Itaipú)"
+    "https://www.sur24.com.ar/noticias/crecida-del-parana-la-altura-del-rio-superaria-el-limite-de-evacuacion-de-570-metros-este-martes-17",
+    "https://www.itaipu.gov.py/noticias/energia/itaipu-reabrio-su-vertedero-tras-ajustar-sus-descargas-para-el-control-de-la-crecida",
+    "(Martes 17/11 noche: WebFetch no pudo abrir ina.gob.ar ni el boletín de Itaipú (permiso denegado); sin tabla nueva del INA se conservan las anteriores; alturas del día tomadas de data/alturas.json)"
   ]
 }
