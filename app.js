@@ -404,7 +404,7 @@ function renderFc(estId,e){
   $("fcNote").textContent="Puerto de "+e.nombre+" · emitido el "+(fc.emitido?dateLabel(fc.emitido):"?")+(fc.fuente?" · "+fc.fuente:"")+". "+(fc.nota||"");
 }
 function renderNews(){
-  var ul=$("news"); ul.textContent=""; var list=(D.ctx&&D.ctx.noticias)||[];
+  var ul=$("news"); ul.textContent=""; var list=((D.ctx&&D.ctx.noticias)||[]).slice().sort(function(a,b){ return (b.fecha||"").localeCompare(a.fecha||""); });   // más nuevas primero
   if(!list.length){ var li=document.createElement("li"); li.className="muted"; li.textContent="Sin noticias cargadas."; ul.appendChild(li); return; }
   list.forEach(function(n){
     var li=document.createElement("li"); var a=document.createElement("a"); a.href=n.url; a.target="_blank"; a.rel="noopener"; a.textContent=n.titulo; li.appendChild(a);
