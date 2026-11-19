@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-19T09:12:00-03:00",
- "resumen": "Jueves 19 de noviembre por la mañana: el Paraná sigue en meseta alta, con nueve puertos del Litoral sobre su nivel de evacuación (entre ellos Santa Fe, Paraná, La Paz, Goya y Reconquista) y Rosario a 14 cm de su alerta. El puerto de Santa Fe marcó 5,85 m el 18/11, 15 cm sobre la evacuación, con 275 evacuados en los dos centros municipales; la tabla del INA del 17/11 proyecta 5,77 m el 24/11 y 5,49 m el 1/12, y la próxima se espera el viernes 20/11. Yacyretá tiene el vertedero principal cerrado y su caudal afluente en baja (≈ 22.100 m³/s el 17/11), pero el INA avisa de lluvias abundantes en el nordeste y el Iguazú, con posibles subas del Alto Paraná desde el 21/11.",
+ "actualizado": "2026-11-19T19:51:37-03:00",
+ "resumen": "Jueves 19 de noviembre por la noche: el Paraná sigue en meseta alta, con Santa Fe en 5,84 m (1 cm menos que ayer y 14 cm sobre su evacuación), Paraná en 5,71 m, La Paz en 6,20 m y Goya y Reconquista también sobre evacuación; Rosario marca 4,89 m, a 11 cm de la alerta, y el INA le asigna más chances de superarla desde el 20/11. Yacyretá mantiene el vertedero principal cerrado, con afluente de unos 21.500 m³/s según el INA, pero se esperan lluvias fuertes en el Alto Paraná y el Iguazú que podrían subir los caudales desde el 21/11. En Santa Fe hay 275 evacuados y la tabla del INA del 17/11 proyecta 5,77 m el 24/11; la próxima se publica el viernes 20/11.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -19,7 +19,7 @@
    "valor": "≈ 7.900",
    "unidad": "m³/s",
    "valorNota": "Descarga por el brazo Aña Cuá (7.900 m³/s) según el Resumen Ejecutivo del 16/11; el vertedero del brazo principal figura cerrado. El afluente previsto es de 21.900 m³/s para el 16/11 y 21.400 m³/s para el 17/11.",
-   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte solo por Aña Cuá (dato del Resumen Ejecutivo del 16/11, cota 82,92). El Alerta Hidrológico N°05 del 17/11 indica un caudal afluente de unos 22.100 m³/s, con previsión de 21.000 a 18.000 m³/s en los próximos días, y Ayolas entre 4,20 y 3,60 m (alerta en 4,20 m): tendencia bajante, aunque las lluvias previstas podrían cambiarla. Jueves 19/11: no hay resumen más nuevo que el del 17/11.",
+   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte solo por Aña Cuá (dato del Resumen Ejecutivo del 16/11, cota 82,92). El Alerta Hidrológico N°05 del 17/11 indica un caudal afluente de unos 22.100 m³/s, con previsión de 21.000 a 18.000 m³/s en los próximos días, y Ayolas entre 4,20 y 3,60 m (alerta en 4,20 m): tendencia bajante, aunque las lluvias previstas podrían cambiarla. Jueves 19/11: el INA informa un caudal afluente de unos 21.500 m³/s (efluente 21.600) a las 0:00; no hay resumen más nuevo de la EBY que el del 17/11, y las lluvias previstas podrían cambiar la tendencia.",
    "fecha": "2026-11-17",
    "fuente": "EBY (Alerta Hidrológico N°05/noviembre del 17/11 y Resumen Ejecutivo N° 6144 del 16/11)",
    "url": "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/"
@@ -163,6 +163,20 @@
  },
  "noticias": [
   {
+   "titulo": "El Paraná baja apenas en Rosario, pero el pronóstico anticipa niveles elevados",
+   "fuente": "El Ciudadano",
+   "fecha": "2026-11-19",
+   "url": "https://elciudadanoweb.com/el-rio-parana-registra-un-leve-descenso-en-rosario-pero-el-pronostico-anticipa-niveles-elevados-para-los-proximos-dias/",
+   "resumen": "Rosario marcó 4,86 m el 18/11, 14 cm bajo la alerta, y el INA prevé niveles cercanos a 5,20 m a comienzos de diciembre. La nota repasa las obras de defensa que la ciudad aún tiene pendientes."
+  },
+  {
+   "titulo": "El Niño extendería las lluvias en Brasil y el Paraná podría tener nuevos repuntes",
+   "fuente": "Examedia (DataChaco)",
+   "fecha": "2026-11-19",
+   "url": "https://examedia.com.ar/portada/post/88269437",
+   "resumen": "El parte oficial del Chaco suma más de 2.000 evacuados, con Puerto Vilelas y Colonia Benítez como los puntos más golpeados. El INA ve a Santa Fe-Paraná cerca de la culminación y a Rosario con chances de superar la alerta desde el 20/11."
+  },
+  {
    "titulo": "Crecida del Paraná: nueve puertos siguen en evacuación",
    "fuente": "Elonce",
    "fecha": "2026-11-19",
@@ -184,35 +198,20 @@
    "resumen": "Con datos del INA al 17/11, el pronóstico señala lluvias fuertes en el Alto Paraná, el Iguazú y la cuenca de Yacyretá, con posible aumento de caudales desde el 21/11, mientras el tramo medio recibiría lluvias leves."
   },
   {
-   "titulo": "El Niño podría extender la crecida del Paraná hasta marzo",
-   "fuente": "Canal 12 Misiones",
-   "fecha": "2026-11-18",
-   "url": "https://www.canal12misiones.com/informacion-general/creciente-parana-lluvias-litoral",
-   "resumen": "Citando al Simepar, anticipa lluvias por encima de lo habitual en el sur de Brasil, con más intensidad en noviembre y diciembre; el Iguazú sube en su tramo alto y el Uruguay empieza a crecer."
-  },
-  {
    "titulo": "El río Paraná llegó a 5,86 m en el puerto de Santa Fe y hay 275 evacuados",
    "fuente": "Uno Santa Fe",
    "fecha": "2026-11-18",
    "url": "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-llego-los-586-metros-el-puerto-santa-fe-son-275-los-evacuados-la-ciudad-n10292879.html",
    "resumen": "El municipio asiste a 275 personas de 86 familias en Alto Verde y Colastiné Sur, y sigue con bombas, tableros eléctricos y refuerzo de defensas con bolsas de arena en La Boca y Colastiné Sur."
-  },
-  {
-   "titulo": "Crecida del Paraná: 4.547 evacuados en 25 localidades del Litoral",
-   "fuente": "Noticias Ambientales",
-   "fecha": "2026-11-18",
-   "url": "https://noticiasambientales.com/medio-ambiente/crecida-del-rio-parana-en-el-litoral-4547-evacuados-en-25-localidades/",
-   "resumen": "Resume el cuadro en Chaco, Corrientes, Santa Fe y Entre Ríos, con barrios como Bajada Grande, en Paraná, levantando defensas con bolsas de arena."
   }
  ],
  "fuentes_consultadas": [
-  "https://www.elonce.com/sociedad/crecida-del-rio-parana-nueve-puertos-siguen-en-evacuacion.htm (alturas y tabla INA del 17/11; sin tabla nueva)",
+  "https://alerta.ina.gob.ar/a5/diario/reporte_diario (alturas y perspectiva del 19/11; sin tabla de pronóstico nueva)",
+  "https://elciudadanoweb.com/el-rio-parana-registra-un-leve-descenso-en-rosario-pero-el-pronostico-anticipa-niveles-elevados-para-los-proximos-dias/",
+  "https://examedia.com.ar/portada/post/88269437",
   "https://examedia.com.ar/portada/post/88266426",
   "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/",
   "https://www.elheraldo.com.ar/noticias/interes-general/el-nino-se-prolongan-las-lluvias-en-el-sur-de-brasil-y-podrian-agravar-la-creciente-en-el-parana",
-  "https://www.canal12misiones.com/informacion-general/creciente-parana-lluvias-litoral",
-  "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-llego-los-586-metros-el-puerto-santa-fe-son-275-los-evacuados-la-ciudad-n10292879.html",
-  "https://noticiasambientales.com/medio-ambiente/crecida-del-rio-parana-en-el-litoral-4547-evacuados-en-25-localidades/",
-  "(19/11 mañana: sin parte nuevo de Itaipú; sin tabla nueva del INA; ina.gob.ar y eby.gov.py portada no accesibles; sin filas nuevas para Goya y Reconquista)"
+  "(19/11 noche: sin parte nuevo de Itaipú; eby.gov.py e ina.gob.ar/alerta no accesibles; sin tabla nueva del INA)"
  ]
 }
