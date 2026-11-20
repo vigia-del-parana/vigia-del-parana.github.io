@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-19T19:51:37-03:00",
- "resumen": "Jueves 19 de noviembre por la noche: el Paraná sigue en meseta alta, con Santa Fe en 5,84 m (1 cm menos que ayer y 14 cm sobre su evacuación), Paraná en 5,71 m, La Paz en 6,20 m y Goya y Reconquista también sobre evacuación; Rosario marca 4,89 m, a 11 cm de la alerta, y el INA le asigna más chances de superarla desde el 20/11. Yacyretá mantiene el vertedero principal cerrado, con afluente de unos 21.500 m³/s según el INA, pero se esperan lluvias fuertes en el Alto Paraná y el Iguazú que podrían subir los caudales desde el 21/11. En Santa Fe hay 275 evacuados y la tabla del INA del 17/11 proyecta 5,77 m el 24/11; la próxima se publica el viernes 20/11.",
+ "actualizado": "2026-11-20T20:25:00-03:00",
+ "resumen": "Viernes 20 de noviembre: el Paraná sigue en meseta alta y en Santa Fe el puerto marcó 5,88 m (4 cm más que ayer y 18 cm sobre su nivel de evacuación); Paraná está en 5,70 m, La Paz en 6,18 m, Corrientes en 5,93 m, Goya en 5,68 m y Reconquista en 5,52 m, todavía en bajada lenta, mientras Rosario se mantiene en 4,90 m, a 10 cm de la alerta. Yacyretá sigue con el vertedero principal cerrado y descarga por Aña Cuá (último parte de la EBY del 17/11), e Itaipú mantiene abierto el vertedero según la última cifra disponible; se esperan lluvias fuertes en el Alto Paraná desde el 21/11 que podrían subir los caudales. La tabla nueva del INA del viernes no se pudo leer en esta corrida, así que siguen vigentes los pronósticos del 17/11, que proyectan 5,77 m en Santa Fe el 24/11.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -50,7 +50,7 @@
      "max": 5.6
     }
    ],
-   "nota": "Tabla del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 5,27 m el 24/11 (rango 4,80–5,60), cerca de la evacuación de 5,30 m. Reconquista marcó 5,61 m el 17/11. Pendiente la fila de la tabla nueva del INA del 17/11, que no apareció en los medios consultados."
+   "nota": "Tabla del INA del viernes 13/11 (a 4 y 11 días), según Sur24: 5,27 m el 24/11 (rango 4,80–5,60), cerca de la evacuación de 5,30 m. Reconquista marcó 5,52 m el 20/11. Pendiente la fila de la tabla nueva del INA del 17/11, que no apareció en los medios consultados."
   },
   "26": {
    "emitido": "2026-11-17",
@@ -101,7 +101,7 @@
      "max": null
     }
    ],
-   "nota": "Tabla nueva del INA del martes 17/11 (a 7 y 14 días), según Meteored (nota del 18/11 con el reporte del INA actualizado al 17/11): 5,77 m el 24/11 y 5,49 m el 1/12; la primera fecha queda sobre la evacuación (5,70 m) y la segunda entre la alerta (5,30 m) y la evacuación. Valores centrales, sin rangos publicados. El puerto marcó 5,85 m el 18/11. Próxima tabla del INA esperada el viernes 20/11."
+   "nota": "Tabla del INA del martes 17/11 (a 7 y 14 días), según Meteored (18/11): 5,77 m el 24/11 y 5,49 m el 1/12; la primera fecha queda sobre la evacuación (5,70 m) y la segunda entre alerta (5,30 m) y evacuación. Valores centrales, sin rangos. El puerto marcó 5,88 m el 20/11. Pendiente la actualización del viernes 20/11, que no se pudo leer."
   },
   "34": {
    "emitido": "2026-11-17",
@@ -206,12 +206,9 @@
   }
  ],
  "fuentes_consultadas": [
-  "https://alerta.ina.gob.ar/a5/diario/reporte_diario (alturas y perspectiva del 19/11; sin tabla de pronóstico nueva)",
-  "https://elciudadanoweb.com/el-rio-parana-registra-un-leve-descenso-en-rosario-pero-el-pronostico-anticipa-niveles-elevados-para-los-proximos-dias/",
-  "https://examedia.com.ar/portada/post/88269437",
-  "https://examedia.com.ar/portada/post/88266426",
-  "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/",
-  "https://www.elheraldo.com.ar/noticias/interes-general/el-nino-se-prolongan-las-lluvias-en-el-sur-de-brasil-y-podrian-agravar-la-creciente-en-el-parana",
-  "(19/11 noche: sin parte nuevo de Itaipú; eby.gov.py e ina.gob.ar/alerta no accesibles; sin tabla nueva del INA)"
+  "https://www.eby.gov.py/cota-82-94-msnm-resumen-ejecutivo-n-6145-17-11-2026/",
+  "https://www.diarioepoca.com/1395496-el-ina-anticipa-un-nuevo-repunte-del-rio-parana-en-corrientes",
+  "https://www.meteored.com.ar/noticias/prediccion/actualizacion-de-la-crecida-del-rio-parana-9-puertos-superan-el-nivel-de-evacuacion-y-hay-pronostico-de-nuevas-lluvias.html",
+  "(20/11 noche: ina.gob.ar/alerta, alerta.ina.gob.ar y eby.gov.py (portada) no accesibles; sin tabla nueva del INA del viernes ni noticias del día confirmadas; alturas del 20/11 tomadas de data/alturas.json)"
  ]
 }
