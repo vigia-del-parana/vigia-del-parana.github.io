@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-20T20:25:00-03:00",
- "resumen": "Viernes 20 de noviembre: el Paraná sigue en meseta alta y en Santa Fe el puerto marcó 5,88 m (4 cm más que ayer y 18 cm sobre su nivel de evacuación); Paraná está en 5,70 m, La Paz en 6,18 m, Corrientes en 5,93 m, Goya en 5,68 m y Reconquista en 5,52 m, todavía en bajada lenta, mientras Rosario se mantiene en 4,90 m, a 10 cm de la alerta. Yacyretá sigue con el vertedero principal cerrado y descarga por Aña Cuá (último parte de la EBY del 17/11), e Itaipú mantiene abierto el vertedero según la última cifra disponible; se esperan lluvias fuertes en el Alto Paraná desde el 21/11 que podrían subir los caudales. La tabla nueva del INA del viernes no se pudo leer en esta corrida, así que siguen vigentes los pronósticos del 17/11, que proyectan 5,77 m en Santa Fe el 24/11.",
+ "actualizado": "2026-11-21T08:20:00-03:00",
+ "resumen": "Sábado 21 de noviembre: el Paraná sigue en meseta alta. En Santa Fe el puerto marcó 5,88 m el 20/11 (4 cm más que el día anterior y 18 cm sobre su nivel de evacuación); Paraná 5,70 m, La Paz 6,18 m, Corrientes 5,93 m, Goya 5,68 m y Reconquista 5,52 m, en bajada lenta, y Rosario 4,90 m, a 10 cm de la alerta. Yacyretá mantiene el vertedero principal cerrado y descarga por Aña Cuá (último parte disponible del 17/11) e Itaipú conserva abierto el vertedero según la última cifra conocida; desde hoy se esperan mayores aportes del Alto Paraná por las lluvias y una nueva onda en el Iguazú. En esta corrida no se pudo leer la tabla nueva del INA del viernes ni partes más recientes de las represas, así que siguen vigentes los pronósticos del 17/11, que proyectan 5,77 m en Santa Fe el 24/11.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -8,7 +8,7 @@
    "valor": "≈ 11.000",
    "unidad": "m³/s",
    "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Jueves 19/11: no se encontró un parte más reciente; el INA anticipa una nueva onda de crecida en el Iguazú desde el 19/11 y aumentos del Alto Paraná desde el 21/11; se conserva la última cifra informada, que puede haber cambiado.",
+   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y la zona del embalse, y ajustó también la generación a la demanda eléctrica de Brasil. Es un aumento fuerte frente a los unos 3.100 m³/s del canal izquierdo solo informados el 26/10; queda atento el tramo medio del Paraná, que recibirá ese caudal en los próximos días. Sábado 21/11: no se encontró un parte más reciente (la web de Itaipú no se pudo abrir); el INA anticipa aumentos del Alto Paraná desde el 21/11; se conserva la última cifra informada, que puede haber cambiado.",
    "fecha": "2026-11-01",
    "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
    "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -19,7 +19,7 @@
    "valor": "≈ 7.900",
    "unidad": "m³/s",
    "valorNota": "Descarga por el brazo Aña Cuá (7.900 m³/s) según el Resumen Ejecutivo del 16/11; el vertedero del brazo principal figura cerrado. El afluente previsto es de 21.900 m³/s para el 16/11 y 21.400 m³/s para el 17/11.",
-   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte solo por Aña Cuá (dato del Resumen Ejecutivo del 16/11, cota 82,92). El Alerta Hidrológico N°05 del 17/11 indica un caudal afluente de unos 22.100 m³/s, con previsión de 21.000 a 18.000 m³/s en los próximos días, y Ayolas entre 4,20 y 3,60 m (alerta en 4,20 m): tendencia bajante, aunque las lluvias previstas podrían cambiarla. Jueves 19/11: el INA informa un caudal afluente de unos 21.500 m³/s (efluente 21.600) a las 0:00; no hay resumen más nuevo de la EBY que el del 17/11, y las lluvias previstas podrían cambiar la tendencia.",
+   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte solo por Aña Cuá (dato del Resumen Ejecutivo del 16/11, cota 82,92). El Alerta Hidrológico N°05 del 17/11 indica un caudal afluente de unos 22.100 m³/s, con previsión de 21.000 a 18.000 m³/s en los próximos días, y Ayolas entre 4,20 y 3,60 m (alerta en 4,20 m): tendencia bajante, aunque las lluvias previstas podrían cambiarla. Sábado 21/11: no hay resumen más nuevo de la EBY que el del 17/11 (su web no se pudo abrir en esta corrida); las lluvias previstas podrían cambiar la tendencia.",
    "fecha": "2026-11-17",
    "fuente": "EBY (Alerta Hidrológico N°05/noviembre del 17/11 y Resumen Ejecutivo N° 6144 del 16/11)",
    "url": "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/"
@@ -163,6 +163,13 @@
  },
  "noticias": [
   {
+   "titulo": "El Niño extendería las lluvias en Brasil y el Paraná podría tener nuevos repuntes",
+   "fuente": "Diario Época (Corrientes)",
+   "fecha": "2026-11-19",
+   "url": "https://www.diarioepoca.com/1395590-el-nino-extenderia-las-lluvias-en-brasil-y-el-parana-podria-tener-nuevos-repuntes",
+   "resumen": "Chaco informó unas 2.000 personas evacuadas, con Puerto Vilelas y Colonia Benítez entre las zonas más afectadas, y el INA no descarta nuevos aportes del Alto Paraná desde el 21/11; Goya y Reconquista seguirían sobre alerta."
+  },
+  {
    "titulo": "El Paraná baja apenas en Rosario, pero el pronóstico anticipa niveles elevados",
    "fuente": "El Ciudadano",
    "fecha": "2026-11-19",
@@ -184,13 +191,6 @@
    "resumen": "Repasa las alturas del INA al 17/11: San Javier, Hernandarias, La Paz, Santa Fe, Diamante, Reconquista, Goya, Paraná y Esquina superan su evacuación, y Rosario queda a 14 cm de la alerta. Más de 4.500 evacuados en cuatro provincias, según la Agencia Federal de Emergencias."
   },
   {
-   "titulo": "El Niño y las lluvias del sur de Brasil podrían agravar la creciente del Paraná",
-   "fuente": "El Heraldo (Concordia)",
-   "fecha": "2026-11-19",
-   "url": "https://www.elheraldo.com.ar/noticias/interes-general/el-nino-se-prolongan-las-lluvias-en-el-sur-de-brasil-y-podrian-agravar-la-creciente-en-el-parana",
-   "resumen": "Las lluvias brasileñas subieron el Paraná y el Iguazú, y el INA prevé más agua en los próximos siete días. Hay unas 2.000 personas afectadas en Chaco, otras 2.000 en Corrientes, 266 en Paraná y 275 evacuados en Santa Fe."
-  },
-  {
    "titulo": "El río Paraná mantiene niveles críticos en el Litoral y anticipan nuevas lluvias abundantes",
    "fuente": "Examedia",
    "fecha": "2026-11-19",
@@ -209,6 +209,8 @@
   "https://www.eby.gov.py/cota-82-94-msnm-resumen-ejecutivo-n-6145-17-11-2026/",
   "https://www.diarioepoca.com/1395496-el-ina-anticipa-un-nuevo-repunte-del-rio-parana-en-corrientes",
   "https://www.meteored.com.ar/noticias/prediccion/actualizacion-de-la-crecida-del-rio-parana-9-puertos-superan-el-nivel-de-evacuacion-y-hay-pronostico-de-nuevas-lluvias.html",
-  "(20/11 noche: ina.gob.ar/alerta, alerta.ina.gob.ar y eby.gov.py (portada) no accesibles; sin tabla nueva del INA del viernes ni noticias del día confirmadas; alturas del 20/11 tomadas de data/alturas.json)"
+  "https://www.infobae.com/sociedad/2026/11/18/el-rio-parana-mantiene-nueve-puertos-por-encima-del-nivel-de-evacuacion/",
+  "https://www.elonce.com/sociedad/crecida-del-rio-parana-nueve-puertos-siguen-en-evacuacion.htm",
+  "(21/11 mañana: ina.gob.ar/alerta, alerta.ina.gob.ar, eby.gov.py e itaipu.gov.py no accesibles; sin tabla nueva del INA ni partes nuevos de represas ni notas del día confirmadas; alturas tomadas de data/alturas.json, última lectura 20/11)"
  ]
 }
