@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-22T07:58:00-03:00",
- "resumen": "Domingo 22 de noviembre (últimas lecturas del INA, del 21/11): el Paraná sigue en meseta alta con leve baja en el tramo medio. El puerto de Santa Fe marcó 5,86 m (2 cm menos que el 20/11, 16 cm sobre su nivel de evacuación) y hay 298 personas alojadas en Alto Verde y Colastiné Sur; Paraná 5,68 m, La Paz 6,14 m, Reconquista 5,46 m, Goya 5,63 m y Corrientes 5,85 m bajan despacio, y Rosario sigue en 4,90 m, a 10 cm de la alerta. Yacyretá descarga unos 22.000 m³/s según el INA (20/11), con pronóstico de un nuevo repunte desde el 22/11, e Itaipú conserva abierto el vertedero según la última cifra conocida. Sigue vigente la tabla del INA del 17/11, con 5,77 m en Santa Fe el 24/11; en esta corrida no se consiguió una tabla nueva ni partes más recientes de las represas.",
+ "actualizado": "2026-11-22T19:51:48-03:00",
+ "resumen": "Domingo 22 de noviembre: el Paraná sigue en meseta alta con baja lenta en casi todo el tramo medio. El puerto de Santa Fe marcó 5,84 m (2 cm menos que el sábado y unos 14 cm sobre su nivel de evacuación) y hay 298 personas asistidas en Alto Verde y Colastiné Sur, con un tercer centro en preparación; Paraná 5,64 m, La Paz 6,14 m, Reconquista 5,42 m, Goya 5,58 m y Corrientes 5,76 m bajan de a poco, y Rosario se mantiene en 4,90 m, a 10 cm de la alerta. Yacyretá descargaba unos 22.000 m³/s (INA, 20/11) con posible repunte desde hoy, e Itaipú mantiene el vertedero abierto según la última cifra conocida. Sigue vigente la tabla del INA del 17/11; no se consiguió una nueva ni partes más recientes de las represas.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -8,7 +8,7 @@
    "valor": "≈ 11.000",
    "unidad": "m³/s",
    "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y ajustó la generación a la demanda de Brasil. La última cifra de vertedero es del 1/11; el INA reporta hoy una descarga total de unos 16.700 m³/s en Itaipú (incluye turbinas) y 14.300 m³/s en Guaíra (20/11). Sábado 21/11: no se encontró un parte nuevo del vertedero (la web de Itaipú no se pudo abrir); se conserva la última cifra informada, que puede haber cambiado.",
+   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y ajustó la generación a la demanda de Brasil. La última cifra de vertedero es del 1/11; el INA reporta hoy una descarga total de unos 16.700 m³/s en Itaipú (incluye turbinas) y 14.300 m³/s en Guaíra (20/11). Sábado 21/11: no se encontró un parte nuevo del vertedero (la web de Itaipú no se pudo abrir); se conserva la última cifra informada, que puede haber cambiado. (22/11: tampoco se pudo leer un parte nuevo.)",
    "fecha": "2026-11-01",
    "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
    "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -169,18 +169,32 @@
  },
  "noticias": [
   {
+   "titulo": "Crecida del Paraná: el río bajó 3 cm y se mantiene en 5,84 metros",
+   "fuente": "LT10",
+   "fecha": "2026-11-22",
+   "url": "https://www.lt10.com.ar/noticia/514550--crecida-del-parana-el-rio-bajo-3-cm-y-se-mantiene-en-584-metros",
+   "resumen": "El puerto de Santa Fe registra un descenso de 3 cm en 24 horas y queda en 5,84 m, todavía en zona de evacuación."
+  },
+  {
+   "titulo": "El río Paraná bajó 3 centímetros en 24 horas en Santa Fe: son 298 los evacuados y acondicionan el tercer centro asistencial",
+   "fuente": "Uno Santa Fe",
+   "fecha": "2026-11-22",
+   "url": "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-3-centimetros-24-horas-santa-fe-son-298-los-evacuados-y-acondicionan-el-tercer-centro-asistencial-n10293649.html",
+   "resumen": "Con el río en baja leve, la asistencia sigue en 298 personas y se prepara un tercer centro para alojar a más familias."
+  },
+  {
+   "titulo": "El río Paraná anotó un nuevo descenso en Santa Fe: este domingo bajó dos centímetros y se ubica en 5,84 metros",
+   "fuente": "Uno Santa Fe",
+   "fecha": "2026-11-22",
+   "url": "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-anoto-un-nuevo-descenso-santa-fe-este-domingo-dos-centimetros-y-se-ubica-584-metros-n10293625.html",
+   "resumen": "La lectura del domingo muestra otro retroceso de 2 cm en el puerto santafesino, que sigue sobre el nivel de evacuación."
+  },
+  {
    "titulo": "Crecida del Paraná en Santa Fe: localidades en alerta y evacuados",
    "fuente": "Rosario La Ciudad",
    "fecha": "2026-11-21",
    "url": "https://rosariolaciudad.com.ar/crecida-del-rio-parana-en-santa-fe-localidades-en-alerta-y-evacuados/",
    "resumen": "Repasa las lecturas del día: Reconquista 5,46 m, Santa Fe 5,86 m con 298 personas alojadas, San Lorenzo 5,38 m y Rosario 4,90 m. Aclara que las 127 personas fuera de sus casas en General Obligado son del viernes."
-  },
-  {
-   "titulo": "El Paraná volvió a subir en Santa Fe: alcanzó los 5,87 metros este sábado",
-   "fuente": "Uno Santa Fe",
-   "fecha": "2026-11-21",
-   "url": "https://www.unosantafe.com.ar/santa-fe/el-parana-volvio-subir-santa-fe-alcanzo-los-587-metros-este-sabado-n10293503.html",
-   "resumen": "A mediodía el puerto santafesino subió 1 cm respecto de las 9 y queda 57 cm sobre la alerta. Siguen 298 personas en los centros de Alto Verde y Colastiné Sur, y el Salado marca 2,96 m en Recreo."
   },
   {
    "titulo": "Crecida del río Paraná en Santa Fe: se mantienen los niveles de alerta y evacuación y crece la expectativa en Rosario",
@@ -190,25 +204,11 @@
    "resumen": "El norte y centro de Santa Fe siguen sobre alerta y evacuación, con refuerzo de defensas y nuevos módulos habitacionales en marcha. El INA prevé una atenuación gradual en una semana, aunque Rosario todavía podría superar la alerta."
   },
   {
-   "titulo": "Crecida del río Paraná: el nivel bajó a 5,86 metros en Santa Fe y hay casi 300 personas evacuadas",
+   "titulo": "El Paraná volvió a subir en Santa Fe: alcanzó los 5,87 metros este sábado",
    "fuente": "Uno Santa Fe",
    "fecha": "2026-11-21",
-   "url": "https://www.unosantafe.com.ar/santa-fe/crecida-del-rio-parana-el-nivel-586-metros-santa-fe-y-hay-casi-300-personas-evacuadas-n10293459.html",
-   "resumen": "La medición de las 9 dio 2 cm menos que el viernes. La Municipalidad asiste a 298 personas, 268 en Alto Verde y 30 en Colastiné Sur, entre ellas 118 menores."
-  },
-  {
-   "titulo": "Crecida del río Paraná: nueve puertos siguen en evacuación",
-   "fuente": "Elonce",
-   "fecha": "2026-11-19",
-   "url": "https://www.elonce.com/sociedad/crecida-del-rio-parana-nueve-puertos-siguen-en-evacuacion.htm",
-   "resumen": "Repasa las alturas del INA al 17/11: nueve puertos superan su evacuación y Rosario queda a 14 cm de la alerta. Más de 4.500 evacuados en cuatro provincias, según la Agencia Federal de Emergencias."
-  },
-  {
-   "titulo": "El Niño extendería las lluvias en Brasil y el Paraná podría tener nuevos repuntes",
-   "fuente": "Diario Época (Corrientes)",
-   "fecha": "2026-11-19",
-   "url": "https://www.diarioepoca.com/1395590-el-nino-extenderia-las-lluvias-en-brasil-y-el-parana-podria-tener-nuevos-repuntes",
-   "resumen": "Chaco informó unas 2.000 personas evacuadas, con Puerto Vilelas y Colonia Benítez entre las zonas más afectadas, y el INA no descarta nuevos aportes del Alto Paraná desde el 21/11."
+   "url": "https://www.unosantafe.com.ar/santa-fe/el-parana-volvio-subir-santa-fe-alcanzo-los-587-metros-este-sabado-n10293503.html",
+   "resumen": "A mediodía el puerto santafesino subió 1 cm respecto de las 9 y queda 57 cm sobre la alerta. Siguen 298 personas en los centros de Alto Verde y Colastiné Sur, y el Salado marca 2,96 m en Recreo."
   }
  ],
  "fuentes_consultadas": [
@@ -216,6 +216,6 @@
   "https://www.unosantafe.com.ar/santa-fe/el-parana-tendra-un-comportamiento-dispar-bajara-puertos-santafesinos-y-subira-corrientes-n10292818.html/amp (tabla INA del 17/11: Santa Fe, Reconquista, Corrientes, Barranqueras)",
   "https://www.lt9.com.ar/nuevo-pronostico-del-ina-baja-el-rio-en-santa-fe-pero-repunta-en-corrientes/",
   "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/ (último parte leído, 17/11)",
-  "(22/11 mañana: alerta.ina.gob.ar, ina.gob.ar/alerta, eby.gov.py, itaipu.gov.py y portales de noticias no accesibles en esta corrida; sin tabla INA nueva ni parte nuevo de vertedero; búsquedas web sin notas fechadas del 22/11)"
+  "(22/11 noche: INA, EBY y diarios no se pudieron abrir con WebFetch; itaipu.gov.py abrió sin cifras de vertedero; titulares del 22/11 tomados de búsquedas web; alturas de data/alturas.json del INA)"
  ]
 }
