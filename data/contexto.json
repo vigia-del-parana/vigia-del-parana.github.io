@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-21T20:05:00-03:00",
- "resumen": "Sábado 21 de noviembre: el Paraná sigue en meseta alta con leve baja en el tramo medio. El puerto de Santa Fe marcó 5,86 m (2 cm menos que el 20/11, 16 cm sobre su nivel de evacuación) y hay 298 personas alojadas en Alto Verde y Colastiné Sur; Paraná 5,68 m, La Paz 6,14 m, Reconquista 5,46 m, Goya 5,63 m y Corrientes 5,85 m bajan despacio, y Rosario sigue en 4,90 m, a 10 cm de la alerta. Yacyretá recibe y descarga unos 22.000 m³/s según el INA (20/11), con pronóstico de un nuevo repunte desde el 22/11, y Itaipú conserva abierto el vertedero según la última cifra conocida. El INA espera que Santa Fe-Paraná culminen en torno a una semana y que el Paraná repunte entre Corrientes y La Paz desde el 26/11; sigue vigente la tabla del 17/11, con 5,77 m en Santa Fe el 24/11.",
+ "actualizado": "2026-11-22T07:58:00-03:00",
+ "resumen": "Domingo 22 de noviembre (últimas lecturas del INA, del 21/11): el Paraná sigue en meseta alta con leve baja en el tramo medio. El puerto de Santa Fe marcó 5,86 m (2 cm menos que el 20/11, 16 cm sobre su nivel de evacuación) y hay 298 personas alojadas en Alto Verde y Colastiné Sur; Paraná 5,68 m, La Paz 6,14 m, Reconquista 5,46 m, Goya 5,63 m y Corrientes 5,85 m bajan despacio, y Rosario sigue en 4,90 m, a 10 cm de la alerta. Yacyretá descarga unos 22.000 m³/s según el INA (20/11), con pronóstico de un nuevo repunte desde el 22/11, e Itaipú conserva abierto el vertedero según la última cifra conocida. Sigue vigente la tabla del INA del 17/11, con 5,77 m en Santa Fe el 24/11; en esta corrida no se consiguió una tabla nueva ni partes más recientes de las represas.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -216,6 +216,6 @@
   "https://www.unosantafe.com.ar/santa-fe/el-parana-tendra-un-comportamiento-dispar-bajara-puertos-santafesinos-y-subira-corrientes-n10292818.html/amp (tabla INA del 17/11: Santa Fe, Reconquista, Corrientes, Barranqueras)",
   "https://www.lt9.com.ar/nuevo-pronostico-del-ina-baja-el-rio-en-santa-fe-pero-repunta-en-corrientes/",
   "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/ (último parte leído, 17/11)",
-  "(21/11 tarde: ina.gob.ar/alerta, eby.gov.py e itaipu.gov.py no accesibles; sin tabla INA del viernes 20/11 ni parte nuevo de vertedero)"
+  "(22/11 mañana: alerta.ina.gob.ar, ina.gob.ar/alerta, eby.gov.py, itaipu.gov.py y portales de noticias no accesibles en esta corrida; sin tabla INA nueva ni parte nuevo de vertedero; búsquedas web sin notas fechadas del 22/11)"
  ]
 }
