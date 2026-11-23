@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-22T19:51:48-03:00",
- "resumen": "Domingo 22 de noviembre: el Paraná sigue en meseta alta con baja lenta en casi todo el tramo medio. El puerto de Santa Fe marcó 5,84 m (2 cm menos que el sábado y unos 14 cm sobre su nivel de evacuación) y hay 298 personas asistidas en Alto Verde y Colastiné Sur, con un tercer centro en preparación; Paraná 5,64 m, La Paz 6,14 m, Reconquista 5,42 m, Goya 5,58 m y Corrientes 5,76 m bajan de a poco, y Rosario se mantiene en 4,90 m, a 10 cm de la alerta. Yacyretá descargaba unos 22.000 m³/s (INA, 20/11) con posible repunte desde hoy, e Itaipú mantiene el vertedero abierto según la última cifra conocida. Sigue vigente la tabla del INA del 17/11; no se consiguió una nueva ni partes más recientes de las represas.",
+ "actualizado": "2026-11-23T08:20:00-03:00",
+ "resumen": "Lunes 23 de noviembre: el Paraná sigue en meseta alta con baja lenta en casi todo el tramo medio. Según las lecturas del INA al 22/11, el puerto de Santa Fe marca 5,85 m (1 cm menos que el sábado y unos 15 cm sobre su nivel de evacuación), Paraná 5,64 m, La Paz 6,14 m, Reconquista 5,42 m, Goya 5,58 m y Corrientes 5,76 m, todos en descenso leve, y Rosario se mantiene en 4,90 m, a 10 cm de la alerta. Yacyretá y Itaipú: no se consiguió un parte nuevo, se conservan las últimas cifras conocidas (Aña Cuá abierto, vertedero principal cerrado; Itaipú con vertedero abierto), que pueden haber cambiado. Sigue vigente la tabla del INA del 17/11, que ubica a Santa Fe en 5,77 m para hoy 24/11; no apareció la actualización del viernes 20/11 ni noticias nuevas del 23/11.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -212,10 +212,9 @@
   }
  ],
  "fuentes_consultadas": [
-  "https://alerta.ina.gob.ar/a5/diario/reporte_diario (actualizado 20/11: alturas, Yacyretá e Itaipú; sin tabla nueva de pronóstico por puerto)",
-  "https://www.unosantafe.com.ar/santa-fe/el-parana-tendra-un-comportamiento-dispar-bajara-puertos-santafesinos-y-subira-corrientes-n10292818.html/amp (tabla INA del 17/11: Santa Fe, Reconquista, Corrientes, Barranqueras)",
-  "https://www.lt9.com.ar/nuevo-pronostico-del-ina-baja-el-rio-en-santa-fe-pero-repunta-en-corrientes/",
-  "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/ (último parte leído, 17/11)",
-  "(22/11 noche: INA, EBY y diarios no se pudieron abrir con WebFetch; itaipu.gov.py abrió sin cifras de vertedero; titulares del 22/11 tomados de búsquedas web; alturas de data/alturas.json del INA)"
+  "https://www.diarioepoca.com/1395590-el-nino-extenderia-las-lluvias-en-brasil-y-el-parana-podria-tener-nuevos-repuntes (19/11, situación general)",
+  "https://elmonterizo.com/el-parana-no-baja-en-entre-rios-y-hay-un-dato-del-ina-que-preocupa-para-fin-de-mes (tabla INA del 17/11, ya cargada)",
+  "https://www.infobae.com/sociedad/2026/11/18/el-rio-parana-mantiene-nueve-puertos-por-encima-del-nivel-de-evacuacion/ (tabla INA del 17/11, ya cargada)",
+  "(23/11 mañana: alerta.ina.gob.ar, ina.gob.ar y eby.gov.py no se pudieron abrir con WebFetch por falta de permiso; sin partes nuevos de represas, sin tabla INA nueva ni notas del 23/11; alturas de data/alturas.json del INA al 22/11)"
  ]
 }
