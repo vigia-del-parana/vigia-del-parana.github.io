@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-23T08:20:00-03:00",
- "resumen": "Lunes 23 de noviembre: el Paraná sigue en meseta alta con baja lenta en casi todo el tramo medio. Según las lecturas del INA al 22/11, el puerto de Santa Fe marca 5,85 m (1 cm menos que el sábado y unos 15 cm sobre su nivel de evacuación), Paraná 5,64 m, La Paz 6,14 m, Reconquista 5,42 m, Goya 5,58 m y Corrientes 5,76 m, todos en descenso leve, y Rosario se mantiene en 4,90 m, a 10 cm de la alerta. Yacyretá y Itaipú: no se consiguió un parte nuevo, se conservan las últimas cifras conocidas (Aña Cuá abierto, vertedero principal cerrado; Itaipú con vertedero abierto), que pueden haber cambiado. Sigue vigente la tabla del INA del 17/11, que ubica a Santa Fe en 5,77 m para hoy 24/11; no apareció la actualización del viernes 20/11 ni noticias nuevas del 23/11.",
+ "actualizado": "2026-11-23T19:55:00-03:00",
+ "resumen": "Lunes 23 de noviembre, tarde: el Paraná sigue en meseta alta con baja lenta en el tramo medio. Según las lecturas del INA de hoy, el puerto de Santa Fe marca 5,80 m (5 cm menos que ayer y unos 10 cm sobre su nivel de evacuación), Paraná 5,62 m, La Paz 6,08 m, Reconquista 5,36 m, Goya 5,54 m y Corrientes 5,68 m, todos en descenso, mientras Rosario se mantiene en 4,91 m, a 9 cm de la alerta. Yacyretá e Itaipú: no se consiguió un parte nuevo, se conservan las últimas cifras conocidas (Yacyretá con vertedero principal cerrado y Aña Cuá abierto; Itaipú con vertedero abierto), que pueden haber cambiado. Sigue vigente la tabla del INA del 17/11 (Santa Fe 5,77 m para el 24/11); no apareció la actualización del viernes 20/11 ni notas nuevas del 23/11.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -215,6 +215,6 @@
   "https://www.diarioepoca.com/1395590-el-nino-extenderia-las-lluvias-en-brasil-y-el-parana-podria-tener-nuevos-repuntes (19/11, situación general)",
   "https://elmonterizo.com/el-parana-no-baja-en-entre-rios-y-hay-un-dato-del-ina-que-preocupa-para-fin-de-mes (tabla INA del 17/11, ya cargada)",
   "https://www.infobae.com/sociedad/2026/11/18/el-rio-parana-mantiene-nueve-puertos-por-encima-del-nivel-de-evacuacion/ (tabla INA del 17/11, ya cargada)",
-  "(23/11 mañana: alerta.ina.gob.ar, ina.gob.ar y eby.gov.py no se pudieron abrir con WebFetch por falta de permiso; sin partes nuevos de represas, sin tabla INA nueva ni notas del 23/11; alturas de data/alturas.json del INA al 22/11)"
+  "(23/11 tarde: alerta.ina.gob.ar, ina.gob.ar, eby.gov.py, itaipu.gov.py y los diarios no se pudieron abrir con WebFetch por falta de permiso; sin partes de represas, tabla INA nueva ni notas confirmadas del 23/11; alturas de data/alturas.json del INA al 23/11 18:18)"
  ]
 }
