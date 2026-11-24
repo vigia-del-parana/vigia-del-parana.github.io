@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-23T19:55:00-03:00",
- "resumen": "Lunes 23 de noviembre, tarde: el Paraná sigue en meseta alta con baja lenta en el tramo medio. Según las lecturas del INA de hoy, el puerto de Santa Fe marca 5,80 m (5 cm menos que ayer y unos 10 cm sobre su nivel de evacuación), Paraná 5,62 m, La Paz 6,08 m, Reconquista 5,36 m, Goya 5,54 m y Corrientes 5,68 m, todos en descenso, mientras Rosario se mantiene en 4,91 m, a 9 cm de la alerta. Yacyretá e Itaipú: no se consiguió un parte nuevo, se conservan las últimas cifras conocidas (Yacyretá con vertedero principal cerrado y Aña Cuá abierto; Itaipú con vertedero abierto), que pueden haber cambiado. Sigue vigente la tabla del INA del 17/11 (Santa Fe 5,77 m para el 24/11); no apareció la actualización del viernes 20/11 ni notas nuevas del 23/11.",
+ "actualizado": "2026-11-24T08:05:00-03:00",
+ "resumen": "Martes 24 de noviembre, mañana: el Paraná sigue en meseta alta con baja lenta. Con las lecturas del INA al 23/11, el puerto de Santa Fe marca 5,80 m (5 cm menos que el día anterior y unos 10 cm sobre su nivel de evacuación de 5,70 m), Paraná 5,62 m, La Paz 6,08 m, Reconquista 5,36 m, Goya 5,54 m y Corrientes 5,68 m, todos en descenso; Rosario se mantiene en 4,91 m, a 9 cm de la alerta. Hoy martes el INA debería publicar su tabla semanal, pero en esta corrida no se pudo abrir ninguna fuente oficial: siguen vigentes los pronósticos del 17/11 y las cifras de Itaipú y Yacyretá son las últimas conocidas, que pueden haber cambiado.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -8,7 +8,7 @@
    "valor": "≈ 11.000",
    "unidad": "m³/s",
    "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y ajustó la generación a la demanda de Brasil. La última cifra de vertedero es del 1/11; el INA reporta hoy una descarga total de unos 16.700 m³/s en Itaipú (incluye turbinas) y 14.300 m³/s en Guaíra (20/11). Sábado 21/11: no se encontró un parte nuevo del vertedero (la web de Itaipú no se pudo abrir); se conserva la última cifra informada, que puede haber cambiado. (22/11: tampoco se pudo leer un parte nuevo.)",
+   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y ajustó la generación a la demanda de Brasil. La última cifra de vertedero es del 1/11; el INA reporta hoy una descarga total de unos 16.700 m³/s en Itaipú (incluye turbinas) y 14.300 m³/s en Guaíra (20/11). Sábado 21/11: no se encontró un parte nuevo del vertedero (la web de Itaipú no se pudo abrir); se conserva la última cifra informada, que puede haber cambiado. (22/11: tampoco se pudo leer un parte nuevo.) (24/11: tampoco se pudo leer un parte nuevo.)",
    "fecha": "2026-11-01",
    "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
    "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -19,7 +19,7 @@
    "valor": "≈ 7.900",
    "unidad": "m³/s",
    "valorNota": "Descarga por el brazo Aña Cuá (7.900 m³/s) según el Resumen Ejecutivo de la EBY del 16/11; el vertedero principal figura cerrado. Descarga total (efluente) informada por el INA el 20/11: 21.900 m³/s.",
-   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte por Aña Cuá (Resumen Ejecutivo del 16/11 y Alerta N°05 del 17/11, que prevé Ayolas entre 4,20 y 3,60 m). El INA informa para el 20/11 un caudal afluente de 22.100 m³/s y uno efluente de 21.900 m³/s, ambos en aguas medias altas y bajo la alerta (25.000), y anticipa un nuevo repunte con mayores chances desde el 22/11. No hay resumen de la EBY posterior al 17/11 (su web no se pudo abrir).",
+   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte por Aña Cuá (Resumen Ejecutivo del 16/11 y Alerta N°05 del 17/11, que prevé Ayolas entre 4,20 y 3,60 m). El INA informa para el 20/11 un caudal afluente de 22.100 m³/s y uno efluente de 21.900 m³/s, ambos en aguas medias altas y bajo la alerta (25.000), y anticipa un nuevo repunte con mayores chances desde el 22/11. No hay resumen de la EBY posterior al 17/11 (su web no se pudo abrir). (24/11: tampoco se pudo leer un parte nuevo.)",
    "fecha": "2026-11-17",
    "fuente": "EBY (Alerta Hidrológico N°05/noviembre del 17/11 y Resumen Ejecutivo N° 6144 del 16/11)",
    "url": "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/"
@@ -107,7 +107,7 @@
      "max": null
     }
    ],
-   "nota": "Tabla del INA del martes 17/11 (a 7 y 14 días), según Meteored y Uno Santa Fe (18/11): 5,77 m el 24/11 y 5,49 m el 1/12; la primera queda sobre la evacuación (5,70 m) y la segunda entre alerta (5,30 m) y evacuación. Valores centrales, sin rangos. El puerto marcó 5,86 m el 21/11. Pendiente la actualización del viernes 20/11, que no apareció en los medios consultados."
+   "nota": "Tabla del INA del martes 17/11 (a 7 y 14 días), según Meteored y Uno Santa Fe (18/11): 5,77 m el 24/11 y 5,49 m el 1/12; la primera queda sobre la evacuación (5,70 m) y la segunda entre alerta (5,30 m) y evacuación. Valores centrales, sin rangos. El puerto marcó 5,86 m el 21/11. Pendiente la actualización del viernes 20/11 y la del martes 24/11, que no se pudieron confirmar."
   },
   "34": {
    "emitido": "2026-11-17",
@@ -169,6 +169,20 @@
  },
  "noticias": [
   {
+   "titulo": "Crecida del río Paraná en Santa Fe: cuál es la altura este martes 24 de noviembre",
+   "fuente": "Aire de Santa Fe",
+   "fecha": "2026-11-24",
+   "url": "https://www.airedesantafe.com.ar/santa-fe/crecida-del-rio-parana-santa-fe-cual-es-la-altura-este-martes-24-noviembre-n677838",
+   "resumen": "Nota diaria con la altura del puerto santafesino del martes. No se pudo abrir para leer el valor; la fecha surge del título."
+  },
+  {
+   "titulo": "El río Paraná se mantiene en 5,80 metros en Santa Fe y hay 298 personas alojadas por la crecida",
+   "fuente": "Uno Santa Fe",
+   "fecha": "2026-11-23",
+   "url": "https://www.unosantafe.com.ar/santa-fe/el-rio-parana-se-mantiene-580-metros-santa-fe-y-hay-298-personas-alojadas-centros-asistencia-la-crecida-n10293831.html",
+   "resumen": "El puerto queda en 5,80 m, sobre la evacuación, y siguen 298 personas en centros de asistencia."
+  },
+  {
    "titulo": "Crecida del Paraná: el río bajó 3 cm y se mantiene en 5,84 metros",
    "fuente": "LT10",
    "fecha": "2026-11-22",
@@ -195,26 +209,12 @@
    "fecha": "2026-11-21",
    "url": "https://rosariolaciudad.com.ar/crecida-del-rio-parana-en-santa-fe-localidades-en-alerta-y-evacuados/",
    "resumen": "Repasa las lecturas del día: Reconquista 5,46 m, Santa Fe 5,86 m con 298 personas alojadas, San Lorenzo 5,38 m y Rosario 4,90 m. Aclara que las 127 personas fuera de sus casas en General Obligado son del viernes."
-  },
-  {
-   "titulo": "Crecida del río Paraná en Santa Fe: se mantienen los niveles de alerta y evacuación y crece la expectativa en Rosario",
-   "fuente": "Telefe Rosario",
-   "fecha": "2026-11-21",
-   "url": "https://rosario.mitelefe.com/rosario-y-la-region/crecida-del-rio-parana-en-santa-fe-se-mantienen-los-niveles-de-alerta-y-evacuacion-y-crece-la-expectativa-en-rosario-pid2572810",
-   "resumen": "El norte y centro de Santa Fe siguen sobre alerta y evacuación, con refuerzo de defensas y nuevos módulos habitacionales en marcha. El INA prevé una atenuación gradual en una semana, aunque Rosario todavía podría superar la alerta."
-  },
-  {
-   "titulo": "El Paraná volvió a subir en Santa Fe: alcanzó los 5,87 metros este sábado",
-   "fuente": "Uno Santa Fe",
-   "fecha": "2026-11-21",
-   "url": "https://www.unosantafe.com.ar/santa-fe/el-parana-volvio-subir-santa-fe-alcanzo-los-587-metros-este-sabado-n10293503.html",
-   "resumen": "A mediodía el puerto santafesino subió 1 cm respecto de las 9 y queda 57 cm sobre la alerta. Siguen 298 personas en los centros de Alto Verde y Colastiné Sur, y el Salado marca 2,96 m en Recreo."
   }
  ],
  "fuentes_consultadas": [
   "https://www.diarioepoca.com/1395590-el-nino-extenderia-las-lluvias-en-brasil-y-el-parana-podria-tener-nuevos-repuntes (19/11, situación general)",
   "https://elmonterizo.com/el-parana-no-baja-en-entre-rios-y-hay-un-dato-del-ina-que-preocupa-para-fin-de-mes (tabla INA del 17/11, ya cargada)",
   "https://www.infobae.com/sociedad/2026/11/18/el-rio-parana-mantiene-nueve-puertos-por-encima-del-nivel-de-evacuacion/ (tabla INA del 17/11, ya cargada)",
-  "(23/11 tarde: alerta.ina.gob.ar, ina.gob.ar, eby.gov.py, itaipu.gov.py y los diarios no se pudieron abrir con WebFetch por falta de permiso; sin partes de represas, tabla INA nueva ni notas confirmadas del 23/11; alturas de data/alturas.json del INA al 23/11 18:18)"
+  "(24/11 mañana: WebFetch sin permiso en esta corrida; alerta.ina.gob.ar, ina.gob.ar y eby.gov.py no se pudieron abrir; solo búsquedas web y data/alturas.json al 23/11. Sin tabla INA nueva, sin partes de represas.)"
  ]
 }
