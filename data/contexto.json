@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-24T08:05:00-03:00",
- "resumen": "Martes 24 de noviembre, mañana: el Paraná sigue en meseta alta con baja lenta. Con las lecturas del INA al 23/11, el puerto de Santa Fe marca 5,80 m (5 cm menos que el día anterior y unos 10 cm sobre su nivel de evacuación de 5,70 m), Paraná 5,62 m, La Paz 6,08 m, Reconquista 5,36 m, Goya 5,54 m y Corrientes 5,68 m, todos en descenso; Rosario se mantiene en 4,91 m, a 9 cm de la alerta. Hoy martes el INA debería publicar su tabla semanal, pero en esta corrida no se pudo abrir ninguna fuente oficial: siguen vigentes los pronósticos del 17/11 y las cifras de Itaipú y Yacyretá son las últimas conocidas, que pueden haber cambiado.",
+ "actualizado": "2026-11-24T19:50:00-03:00",
+ "resumen": "Martes 24 de noviembre, tarde: el Paraná sigue en meseta alta con baja muy lenta. Según el INA al 24/11, el puerto de Santa Fe se mantiene en 5,80 m (sin variación en 24 h y unos 10 cm sobre su nivel de evacuación de 5,70 m), Paraná 5,59 m, La Paz 6,06 m, Reconquista 5,32 m, Goya 5,47 m y Corrientes 5,63 m, todos en descenso leve; Rosario subió a 4,99 m y quedó a 1 cm de su alerta de 5,00 m. En esta corrida no se pudo abrir ninguna fuente oficial: no hay tabla nueva del INA ni partes nuevos de Itaipú y Yacyretá, así que siguen vigentes los pronósticos del 17/11 y las cifras de las represas son las últimas conocidas y pueden haber cambiado.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -8,7 +8,7 @@
    "valor": "≈ 11.000",
    "unidad": "m³/s",
    "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y ajustó la generación a la demanda de Brasil. La última cifra de vertedero es del 1/11; el INA reporta hoy una descarga total de unos 16.700 m³/s en Itaipú (incluye turbinas) y 14.300 m³/s en Guaíra (20/11). Sábado 21/11: no se encontró un parte nuevo del vertedero (la web de Itaipú no se pudo abrir); se conserva la última cifra informada, que puede haber cambiado. (22/11: tampoco se pudo leer un parte nuevo.) (24/11: tampoco se pudo leer un parte nuevo.)",
+   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú y ajustó la generación a la demanda de Brasil. La última cifra de vertedero es del 1/11; el INA reporta hoy una descarga total de unos 16.700 m³/s en Itaipú (incluye turbinas) y 14.300 m³/s en Guaíra (20/11). Sábado 21/11: no se encontró un parte nuevo del vertedero (la web de Itaipú no se pudo abrir); se conserva la última cifra informada, que puede haber cambiado. (22/11: tampoco se pudo leer un parte nuevo.) (24/11, tarde: tampoco se pudo leer un parte nuevo.)",
    "fecha": "2026-11-01",
    "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
    "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -19,7 +19,7 @@
    "valor": "≈ 7.900",
    "unidad": "m³/s",
    "valorNota": "Descarga por el brazo Aña Cuá (7.900 m³/s) según el Resumen Ejecutivo de la EBY del 16/11; el vertedero principal figura cerrado. Descarga total (efluente) informada por el INA el 20/11: 21.900 m³/s.",
-   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte por Aña Cuá (Resumen Ejecutivo del 16/11 y Alerta N°05 del 17/11, que prevé Ayolas entre 4,20 y 3,60 m). El INA informa para el 20/11 un caudal afluente de 22.100 m³/s y uno efluente de 21.900 m³/s, ambos en aguas medias altas y bajo la alerta (25.000), y anticipa un nuevo repunte con mayores chances desde el 22/11. No hay resumen de la EBY posterior al 17/11 (su web no se pudo abrir). (24/11: tampoco se pudo leer un parte nuevo.)",
+   "detalle": "La EBY mantiene cerrado el vertedero del brazo principal y vierte por Aña Cuá (Resumen Ejecutivo del 16/11 y Alerta N°05 del 17/11, que prevé Ayolas entre 4,20 y 3,60 m). El INA informa para el 20/11 un caudal afluente de 22.100 m³/s y uno efluente de 21.900 m³/s, ambos en aguas medias altas y bajo la alerta (25.000), y anticipa un nuevo repunte con mayores chances desde el 22/11. No hay resumen de la EBY posterior al 17/11 (su web no se pudo abrir). (24/11, tarde: tampoco se pudo leer un parte nuevo.)",
    "fecha": "2026-11-17",
    "fuente": "EBY (Alerta Hidrológico N°05/noviembre del 17/11 y Resumen Ejecutivo N° 6144 del 16/11)",
    "url": "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/"
@@ -107,7 +107,7 @@
      "max": null
     }
    ],
-   "nota": "Tabla del INA del martes 17/11 (a 7 y 14 días), según Meteored y Uno Santa Fe (18/11): 5,77 m el 24/11 y 5,49 m el 1/12; la primera queda sobre la evacuación (5,70 m) y la segunda entre alerta (5,30 m) y evacuación. Valores centrales, sin rangos. El puerto marcó 5,86 m el 21/11. Pendiente la actualización del viernes 20/11 y la del martes 24/11, que no se pudieron confirmar."
+   "nota": "Tabla del INA del martes 17/11 (a 7 y 14 días), según Meteored y Uno Santa Fe (18/11): 5,77 m el 24/11 y 5,49 m el 1/12; la primera queda sobre la evacuación (5,70 m) y la segunda entre alerta (5,30 m) y evacuación. Valores centrales, sin rangos. El puerto marcó 5,86 m el 21/11. Pendiente la actualización del viernes 20/11 y la del martes 24/11, que no se pudieron confirmar. El puerto marcó 5,80 m el 24/11."
   },
   "34": {
    "emitido": "2026-11-17",
@@ -126,7 +126,7 @@
      "max": null
     }
    ],
-   "nota": "Tabla nueva del INA del martes 17/11 (a 7 y 14 días), según Meteored (nota del 18/11 con el reporte del INA actualizado al 17/11): 5,21 m el 24/11 (sobre la alerta de 5,00 m) y 5,29 m el 1/12 (sobre la evacuación de 5,25 m). Valores centrales; el INA aclara que hay escenarios por arriba y por debajo. Rosario marcó 4,90 m el 21/11. El INA habla de fase de ascenso gradual, con probabilidad de superar la alerta."
+   "nota": "Tabla nueva del INA del martes 17/11 (a 7 y 14 días), según Meteored (nota del 18/11 con el reporte del INA actualizado al 17/11): 5,21 m el 24/11 (sobre la alerta de 5,00 m) y 5,29 m el 1/12 (sobre la evacuación de 5,25 m). Valores centrales; el INA aclara que hay escenarios por arriba y por debajo. Rosario marcó 4,90 m el 21/11. El INA habla de fase de ascenso gradual, con probabilidad de superar la alerta. Rosario marcó 4,99 m el 24/11, a 1 cm de la alerta."
   },
   "19": {
    "emitido": "2026-11-17",
@@ -215,6 +215,7 @@
   "https://www.diarioepoca.com/1395590-el-nino-extenderia-las-lluvias-en-brasil-y-el-parana-podria-tener-nuevos-repuntes (19/11, situación general)",
   "https://elmonterizo.com/el-parana-no-baja-en-entre-rios-y-hay-un-dato-del-ina-que-preocupa-para-fin-de-mes (tabla INA del 17/11, ya cargada)",
   "https://www.infobae.com/sociedad/2026/11/18/el-rio-parana-mantiene-nueve-puertos-por-encima-del-nivel-de-evacuacion/ (tabla INA del 17/11, ya cargada)",
-  "(24/11 mañana: WebFetch sin permiso en esta corrida; alerta.ina.gob.ar, ina.gob.ar y eby.gov.py no se pudieron abrir; solo búsquedas web y data/alturas.json al 23/11. Sin tabla INA nueva, sin partes de represas.)"
+  "(24/11 mañana: WebFetch sin permiso en esta corrida; alerta.ina.gob.ar, ina.gob.ar y eby.gov.py no se pudieron abrir; solo búsquedas web y data/alturas.json al 23/11. Sin tabla INA nueva, sin partes de represas.)",
+  "(24/11 tarde: WebFetch sin permiso otra vez; solo búsquedas web, que no devolvieron tabla INA ni notas nuevas, y data/alturas.json al 24/11.)"
  ]
 }
