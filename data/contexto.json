@@ -1,6 +1,6 @@
 {
- "actualizado": "2026-11-25T07:49:36-03:00",
- "resumen": "Miércoles 25 de noviembre: el Paraná sigue en meseta alta con baja muy lenta. El puerto de Santa Fe marcó 5,77 m a las 6 (Prefectura), igual que ayer y 7 cm sobre su nivel de evacuación de 5,70 m, con 309 personas alojadas en Alto Verde y Colastiné Sur; Rosario tocó 4,99 m, el máximo para noviembre desde 1998, a 1 cm de su alerta. El INA publicó el martes un pronóstico nuevo: Santa Fe 5,64 m el 1/12 y 5,51 m el 8/12, Rosario estable en torno a 5,00 m y Corrientes con un repunte leve hacia 5,79 m. Yacyretá sigue con el vertedero principal cerrado y descarga por Aña Cuá (7.900 m³/s), e Itaipú descarga unos 13.500 m³/s según el INA; para diciembre se advierte un posible nuevo repunte.",
+ "actualizado": "2026-11-25T19:58:00-03:00",
+ "resumen": "Miércoles 25 de noviembre: el Paraná sigue en meseta alta, con baja muy lenta. El puerto de Santa Fe marcó 5,75 m a las 15 (Prefectura), 5 cm sobre su nivel de evacuación de 5,70 m, con 72 horas de bajante desde el pico de 5,88 m y 309 personas asistidas en Alto Verde y Colastiné Sur; Reconquista bajó a 5,27 m, por debajo de su evacuación, y Rosario ronda los 4,95–4,99 m, a pocos centímetros de su alerta. El INA proyecta para Santa Fe 5,64 m el 1/12 y 5,51 m el 8/12; Yacyretá descarga por Aña Cuá con el vertedero principal cerrado (último parte del 23/11) y para diciembre se advierte un posible nuevo repunte.",
  "represas": [
   {
    "nombre": "Itaipú",
@@ -181,18 +181,32 @@
  },
  "noticias": [
   {
-   "titulo": "El Paraná se mantiene estable en Santa Fe: está en 5,77 metros y ya hay 309 personas asistidas por la crecida",
-   "fuente": "Uno Santa Fe",
-   "fecha": "2026-11-25",
-   "url": "https://www.unosantafe.com.ar/santa-fe/el-parana-se-mantiene-estable-santa-fe-esta-577-metros-y-ya-hay-309-personas-asistidas-la-crecida-n10294054.html",
-   "resumen": "A las 6 el puerto marcó 5,77 m, igual que el día anterior. La Municipalidad asiste a 309 personas, 279 en Alto Verde y 30 en Colastiné Sur, y avanzan módulos de vivienda temporaria."
-  },
-  {
-   "titulo": "La altura del río Paraná en Santa Fe: cómo evoluciona la crecida este miércoles 25 de noviembre",
+   "titulo": "El río Paraná, cada vez más cerca de salir del nivel de evacuación en Santa Fe: está a apenas cinco centímetros",
    "fuente": "Aire de Santa Fe",
    "fecha": "2026-11-25",
-   "url": "https://www.airedesantafe.com.ar/santa-fe/la-altura-del-rio-parana-santa-fe-como-evoluciona-la-crecida-este-miercoles-25-noviembre-n677984",
-   "resumen": "Con 5,77 m, el puerto está 7 cm sobre la evacuación y 47 cm sobre la alerta. Reconquista figura en 5,27 m y San Javier en 7,46 m."
+   "url": "https://www.airedesantafe.com.ar/santa-fe/el-rio-parana-cada-vez-mas-cerca-salir-del-nivel-evacuacion-santa-fe-esta-apenas-cinco-centimetros-n678052",
+   "resumen": "Prefectura midió 5,75 m a las 15, apenas 5 cm sobre el nivel de evacuación de 5,70 m. El INA proyecta 5,64 m para el 1/12 y 5,51 m para el 8/12."
+  },
+  {
+   "titulo": "El Paraná acumula 72 horas de bajante en Santa Fe: descendió a 5,75 metros y hay 309 personas asistidas",
+   "fuente": "Uno Santa Fe",
+   "fecha": "2026-11-25",
+   "url": "https://www.unosantafe.com.ar/santa-fe/el-parana-acumula-72-horas-bajante-santa-fe-descendio-575-metros-y-hay-309-personas-asistidas-n10294175.html",
+   "resumen": "El río lleva tres días en baja desde el pico de 5,88 m. Hay 309 asistidos (279 en Alto Verde, 30 en Colastiné Sur) y trabajos preventivos de bolseo y refuerzo de una defensa; no se mencionan daños."
+  },
+  {
+   "titulo": "El Niño en Santa Fe: después de un mes, el río Paraná bajó del nivel de evacuación en Reconquista",
+   "fuente": "Aire de Santa Fe",
+   "fecha": "2026-11-25",
+   "url": "https://www.airedesantafe.com.ar/santa-fe/el-nino-santa-fe-despues-un-mes-el-rio-parana-del-nivel-evacuacion-reconquista-n678016",
+   "resumen": "Reconquista marcó 5,27 m a las 6, 3 cm bajo su nivel de evacuación, que había superado el 24/10. El INA ve 5,30 m para el 1/12."
+  },
+  {
+   "titulo": "Por la crecida del río Paraná, Rosario se acerca a los niveles de alerta y Entre Ríos registra más de 80 familias evacuadas",
+   "fuente": "Infobae",
+   "fecha": "2026-11-25",
+   "url": "https://www.infobae.com/sociedad/2026/11/25/por-la-crecida-del-rio-parana-rosario-se-acerca-a-los-niveles-de-alerta-y-entre-rios-registra-mas-de-80-familias-evacuadas/",
+   "resumen": "Rosario llegó a 4,99 m, su máximo de noviembre desde 1998, y bajó a 4,96 m. En Entre Ríos Defensa Civil cuenta 81 familias afectadas, la mayoría autoevacuadas o aisladas."
   },
   {
    "titulo": "Crecida del río Paraná: 309 personas permanecen evacuadas en Santa Fe y refuerzan las defensas",
@@ -202,33 +216,15 @@
    "resumen": "El municipio informa 309 personas alojadas en dos centros y trabajos preventivos en defensas de la Costa, con cuatro bombas a instalar esta semana. Nada indica daños en terraplenes."
   },
   {
-   "titulo": "Por la crecida del río Paraná, Rosario se acerca a los niveles de alerta y Entre Ríos registra más de 80 familias evacuadas",
-   "fuente": "Aire de Radio",
-   "fecha": "2026-11-25",
-   "url": "https://airederadioweb.com.ar/nacionales/por-la-crecida-del-rio-parana-rosario-se-acerca-a-los-niveles-de-alerta-y-entre-rios-registra-mas-de-80-familias-evacuadas/",
-   "resumen": "Rosario llegó a 4,99 m, su máximo de noviembre desde 1998. En Entre Ríos Defensa Civil cuenta 81 familias afectadas, la mayoría autoevacuadas o aisladas."
-  },
-  {
    "titulo": "Advierten que diciembre será más complicado por las crecidas de los ríos Paraná y Paraguay",
    "fuente": "Diario Norte (vía Examedia)",
    "fecha": "2026-11-25",
    "url": "https://examedia.com.ar/portada/post/88300053",
    "resumen": "Un funcionario de la Agencia Federal de Emergencias prevé el mayor impacto de El Niño en diciembre y calcula unos 5.000 evacuados hasta ahora, sobre todo en Chaco y Corrientes."
-  },
-  {
-   "titulo": "El Paraná está sobre el nivel de alerta en Rosario y seguirá subiendo",
-   "fuente": "Página|12 (vía Examedia)",
-   "fecha": "2026-11-25",
-   "url": "https://examedia.com.ar/portada/post/88299578",
-   "resumen": "Rosario subió 8 cm y el INA anticipa que cerraría noviembre por encima de 5 m. En Santa Fe el pico fue de 5,88 m y hay unas 298 personas evacuadas en la Costa."
   }
  ],
  "fuentes_consultadas": [
-  "https://www.ina.gob.ar/archivos/alerta/TabProno20261124.pdf (tabla INA del 24/11, leída como imagen)",
-  "https://www.ina.gob.ar/alerta/",
-  "https://alerta.ina.gob.ar/a5/diario/reporte_diario (reporte diario 24/11)",
-  "https://www.eby.gov.py/cota-82-90-msnm-resumen-ejecutivo-n-6151-23-11-2026/",
-  "https://www.eby.gov.py/alerta-hidrologico-n05-noviembre/",
-  "https://www.itaipu.gov.py/ (sin parte numérico del vertedero)"
+  "https://www.ina.gob.ar/archivos/alerta/TabProno20261124.pdf (tabla INA del 24/11, sin novedades; la lectura de ina.gob.ar/alerta y del reporte diario falló en esta corrida)",
+  "https://www.eby.gov.py/cota-82-90-msnm-resumen-ejecutivo-n-6151-23-11-2026/ (último parte disponible)"
  ]
 }
