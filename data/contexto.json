@@ -8,7 +8,7 @@
    "valor": "≈ 11.000",
    "unidad": "m³/s",
    "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú. La última cifra de vertedero es del 1/11; el INA informa para el 24/11 una descarga de Itaipú de unos 13.500 m³/s (incluye turbinas) y 13.600 m³/s en Guaíra, en aguas medias altas y bajo la alerta (20.000). 26/11: sin novedades verificadas; la web de Itaipú no trae un parte numérico del vertedero; se conserva la última cifra informada, que puede haber cambiado.",
+   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú. La última cifra de vertedero es del 1/11; el INA informa para el 24/11 una descarga de Itaipú de unos 13.500 m³/s (incluye turbinas) y 13.600 m³/s en Guaíra, en aguas medias altas y bajo la alerta (20.000). 26/11: sin novedades verificadas; la web de Itaipú no trae un parte numérico del vertedero; se conserva la última cifra informada, que puede haber cambiado. Reporte diario del INA del 25/11: Itaipú 13.500 m³/s (−2.092 respecto del día anterior) y Guaíra 13.600 m³/s.",
    "fecha": "2026-11-01",
    "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
    "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
@@ -19,7 +19,7 @@
    "valor": "≈ 24.500",
    "unidad": "m³/s",
    "valorNota": "Caudal afluente a Yacyretá estimado para el miércoles 25/11 según la EBY (reproducido por El Litoral y Elonce); se prevén entre 25.000 y 26.000 m³/s en los próximos días. Las notas no informan cuánto vierte el vertedero principal.",
-   "detalle": "La EBY reabrió el miércoles 25/11 al mediodía las 18 compuertas del vertedero principal y emitió el alerta hidrológico N° 07. Ituzaingó marcó 2,35 m (se esperan 2,80–3,20 m; alerta 3,50 m) y en Ayolas se prevén 4,50–4,70 m, sobre el alerta de 4,20 m y el nivel de inundación urbana de 4,50 m. Antes, el 23/11, el vertedero principal figuraba cerrado y Aña Cuá descargaba 7.900 m³/s.",
+   "detalle": "La EBY reabrió el miércoles 25/11 al mediodía las 18 compuertas del vertedero principal y emitió un nuevo alerta hidrológico. Ituzaingó marcó 2,35 m (se esperan 2,80–3,20 m; alerta 3,50 m) y en Ayolas se prevén 4,50–4,70 m, sobre el alerta de 4,20 m y el nivel de inundación urbana de 4,50 m. Antes, el 23/11, el vertedero principal figuraba cerrado y Aña Cuá descargaba 7.900 m³/s. El reporte diario del INA del 25/11 (00:00, previo a la apertura) mostraba afluente de 21.700 m³/s y efluente de 22.200 m³/s.",
    "fecha": "2026-11-25",
    "fuente": "El Litoral (con datos de la EBY, 25/11) y Elonce (26/11)",
    "url": "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal"
@@ -225,6 +225,8 @@
  ],
  "fuentes_consultadas": [
   "https://www.airedesantafe.com.ar/santa-fe/crecida-del-rio-parana-cual-es-la-altura-santa-fe-y-otras-localidades-este-jueves-26-noviembre-n678117",
+  "https://alerta.ina.gob.ar/a5/diario/reporte_diario (reporte del 25/11)",
+  "https://www.eby.gov.py/category/nivelembalse/ (último Resumen Ejecutivo listado: N° 6152 del 24/11)",
   "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal",
   "https://www.elonce.com/sociedad/yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana.htm",
   "https://www.lt9.com.ar/el-rio-parana-marco-574-metros-en-santa-fe-y-315-personas-estan-evacuadas/",
