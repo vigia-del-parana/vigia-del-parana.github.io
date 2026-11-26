@@ -1,28 +1,28 @@
 {
- "actualizado": "2026-11-26T07:53:00-03:00",
- "resumen": "Jueves 26 de noviembre: el Paraná sigue en meseta alta con baja muy lenta, pero Yacyretá reabrió el miércoles al mediodía las 18 compuertas del vertedero principal y emitió un nuevo alerta hidrológico, con afluente de unos 24.500 m³/s que subiría a 25.000–26.000 en los próximos días; en Ayolas se espera pasar el nivel de inundación urbana (4,50 m). El puerto de Santa Fe marcó 5,74 m a las 3 (Prefectura), 4 cm sobre su nivel de evacuación de 5,70 m, con 315 personas asistidas en Alto Verde y Colastiné Sur; Paraná está en 5,52 m, Reconquista en 5,22 m y Rosario en 4,95 m, a 5 cm de su alerta. Con la apertura de Yacyretá, la bajante prevista por el INA para Santa Fe (5,64 m el 1/12) podría frenarse o revertirse hacia fin de mes: conviene seguir los partes del viernes.",
+ "actualizado": "2026-11-26T20:05:00-03:00",
+ "resumen": "Jueves 26 de noviembre, noche: el Paraná inició la bajante en Santa Fe y Paraná (Santa Fe 5,72 m, 5 cm menos que ayer; evacuación en 5,70 m), pero Yacyretá sigue con las 18 compuertas del vertedero principal abiertas y el INA informa un afluente de 26.000 m³/s y un efluente de 27.400, ambos sobre el nivel de alerta (25.000), con pronóstico de unos 25.500 para mañana. Rosario se sostiene en 4,95 m, a 5 cm de su alerta y todavía con ascenso gradual; Reconquista (5,22 m) y Goya (5,39 m) bajan, mientras Corrientes (5,65 m) y Barranqueras (5,55 m) están estables bajo su alerta. En Santa Fe hay 315 personas asistidas en Alto Verde y Colastiné Sur y unas 50 familias aisladas en la costa de Monte Vera; el INA prevé que Santa Fe salga pronto del nivel de evacuación, pero el vertido de Yacyretá puede frenar la baja: conviene esperar el parte del INA del viernes 27.",
  "represas": [
   {
    "nombre": "Itaipú",
-   "estado": "Vertedero abierto (canales izquierdo y central)",
-   "valor": "≈ 11.000",
+   "estado": "Erogación en baja (sin dato de vertedero)",
+   "valor": "≈ 9.600",
    "unidad": "m³/s",
-   "valorNota": "Descarga conjunta de los canales izquierdo y central del vertedero, que Itaipú informa como 11 millones de litros por segundo. El central se reabrió el viernes 30 de octubre a las 8:30, tras estar cerrado desde el 23; el izquierdo estaba abierto desde el lunes 26. Es una cifra de la nota periodística, no de un parte numérico de Itaipú.",
-   "detalle": "Itaipú abrió el canal central para regular el nivel del embalse ante pronósticos de lluvias en la cuenca del Iguazú. La última cifra de vertedero es del 1/11; el INA informa para el 24/11 una descarga de Itaipú de unos 13.500 m³/s (incluye turbinas) y 13.600 m³/s en Guaíra, en aguas medias altas y bajo la alerta (20.000). 26/11: sin novedades verificadas; la web de Itaipú no trae un parte numérico del vertedero; se conserva la última cifra informada, que puede haber cambiado. Reporte diario del INA del 25/11: Itaipú 13.500 m³/s (−2.092 respecto del día anterior) y Guaíra 13.600 m³/s.",
-   "fecha": "2026-11-01",
-   "fuente": "Noticias de la Calle (nota del 1/11, con datos de Itaipú Binacional)",
-   "url": "https://www.noticiasdelacalle.com.ar/noticias/2026/11/01/204522-itaipu-abrio-un-segundo-canal-del-vertedero-y-libera-11-millones-de-litros-de-agua-por-segundo"
+   "valorNota": "Erogación total de la represa (turbinas más vertedero) según el reporte diario del INA del 26/11, en aguas medias altas y bajo la alerta (20.000). No es el caudal del vertedero: Itaipú no publicó un parte numérico del vertedero.",
+   "detalle": "El INA anota que la erogación de Itaipú oscila en aguas medias altas; el 25/11 era de 13.500 m³/s, así que bajó unos 3.900 en un día. Guaíra Porto marca 14.900 m³/s. Como el total es menor que los 11.000 m³/s que informó Itaipú del vertedero el 1/11, el vertido por compuertas debe haberse reducido, pero no encontré un parte que confirme su estado actual.",
+   "fecha": "2026-11-26",
+   "fuente": "INA, reporte diario del 26/11",
+   "url": "https://alerta.ina.gob.ar/ina/06-INFORMES/diario/pdf/reporte_diario_2026-11-26.pdf"
   },
   {
    "nombre": "Yacyretá",
    "estado": "Vertedero principal abierto (18 compuertas)",
-   "valor": "≈ 24.500",
+   "valor": "≈ 26.000",
    "unidad": "m³/s",
-   "valorNota": "Caudal afluente a Yacyretá estimado para el miércoles 25/11 según la EBY (reproducido por El Litoral y Elonce); se prevén entre 25.000 y 26.000 m³/s en los próximos días. Las notas no informan cuánto vierte el vertedero principal.",
-   "detalle": "La EBY reabrió el miércoles 25/11 al mediodía las 18 compuertas del vertedero principal y emitió un nuevo alerta hidrológico. Ituzaingó marcó 2,35 m (se esperan 2,80–3,20 m; alerta 3,50 m) y en Ayolas se prevén 4,50–4,70 m, sobre el alerta de 4,20 m y el nivel de inundación urbana de 4,50 m. Antes, el 23/11, el vertedero principal figuraba cerrado y Aña Cuá descargaba 7.900 m³/s. El reporte diario del INA del 25/11 (00:00, previo a la apertura) mostraba afluente de 21.700 m³/s y efluente de 22.200 m³/s.",
-   "fecha": "2026-11-25",
-   "fuente": "El Litoral (con datos de la EBY, 25/11) y Elonce (26/11)",
-   "url": "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal"
+   "valorNota": "Caudal afluente a Yacyretá en el reporte diario del INA del 26/11 (aguas altas; alerta en 25.000). El efluente, es decir lo que sale de la represa, figura en 27.400 m³/s. La EBY esperaba 25.000 para el 25/11 y 25.500 para el 26/11.",
+   "detalle": "La EBY reabrió el miércoles 25/11 al mediodía las 18 compuertas del vertedero principal y publicó un nuevo alerta hidrológico. Para los próximos días prevé afluentes de 25.000 a 26.000 m³/s; en Ayolas se registraron 4,12 m el 25/11 y se esperan 4,50–4,70 m, por encima del nivel de inundación urbana (4,50 m). El embalse subió a 83,11 msnm.",
+   "fecha": "2026-11-26",
+   "fuente": "INA (reporte diario del 26/11) y EBY (Resumen Ejecutivo N° 6153 y alerta hidrológico del 26/11)",
+   "url": "https://www.eby.gov.py/category/estado-del-rio-parana/"
   }
  ],
  "pronosticos": {
@@ -181,25 +181,25 @@
  },
  "noticias": [
   {
+   "titulo": "Yacyretá volvió a abrir compuertas y emitió una alerta hidrológica por la crecida del Paraná",
+   "fuente": "Elonce",
+   "fecha": "2026-11-26",
+   "url": "https://www.elonce.com/sociedad/yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana.htm",
+   "resumen": "La EBY abrió las 18 compuertas del vertedero principal ante un afluente de unos 24.500 m³/s que subiría a 25.000–26.000, y en Isla Apipé (Corrientes) deberán reevaluar a las familias que habían vuelto a sus casas."
+  },
+  {
+   "titulo": "El río marcó 5,71 metros en Santa Fe y quedó a un centímetro de salir del Nivel de Evacuación",
+   "fuente": "LT9 La Nueva Nueve",
+   "fecha": "2026-11-26",
+   "url": "https://www.lt9.com.ar/el-rio-parana-marco-574-metros-en-santa-fe-y-315-personas-estan-evacuadas/",
+   "resumen": "El Paraná bajó 17 cm desde el pico de la semana pasada. Sin nuevos ingresos, 315 personas siguen en los centros de asistencia (285 en Alto Verde, 84 familias) y la Municipalidad mantiene el monitoreo del sistema de protección hídrica."
+  },
+  {
    "titulo": "Crecida del río Paraná: cuál es la altura en Santa Fe y otras localidades este jueves 26 de noviembre",
    "fuente": "Aire de Santa Fe",
    "fecha": "2026-11-26",
    "url": "https://www.airedesantafe.com.ar/santa-fe/crecida-del-rio-parana-cual-es-la-altura-santa-fe-y-otras-localidades-este-jueves-26-noviembre-n678117",
    "resumen": "Con lecturas de Prefectura, Santa Fe marca 5,74 m (4 cm sobre evacuación), Paraná 5,52 m, Reconquista 5,22 m y Rosario 4,95 m, todos estacionarios; Corrientes baja a 5,65 m."
-  },
-  {
-   "titulo": "El río Paraná marcó 5,74 metros en Santa Fe y 315 personas están evacuadas",
-   "fuente": "LT9 La Nueva Nueve",
-   "fecha": "2026-11-26",
-   "url": "https://www.lt9.com.ar/el-rio-parana-marco-574-metros-en-santa-fe-y-315-personas-estan-evacuadas/",
-   "resumen": "El río baja despacio, pero los asistidos subieron a 315 (285 en Alto Verde, 30 en Colastiné Sur). Siguen el bolseo en La Boca, el refuerzo del alcantarillado de Colastiné Sur y la instalación de cuatro bombas."
-  },
-  {
-   "titulo": "Yacyretá volvió a abrir compuertas y emitió una alerta hidrológica por la crecida del Paraná",
-   "fuente": "Elonce",
-   "fecha": "2026-11-26",
-   "url": "https://www.elonce.com/sociedad/yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana.htm",
-   "resumen": "La represa abrió las 18 compuertas del vertedero principal ante un afluente de unos 24.500 m³/s que seguiría subiendo, con Ayolas por pasar su nivel de inundación urbana."
   },
   {
    "titulo": "Por la crecida del río Paraná, Rosario se acerca a los niveles de alerta y Entre Ríos registra más de 80 familias evacuadas",
@@ -209,28 +209,28 @@
    "resumen": "Rosario llegó a 4,99 m, su máximo de noviembre desde 1998, y bajó a 4,96 m. En Entre Ríos Defensa Civil cuenta 81 familias afectadas, la mayoría autoevacuadas o aisladas."
   },
   {
-   "titulo": "El Niño en Santa Fe: después de un mes, el río Paraná bajó del nivel de evacuación en Reconquista",
-   "fuente": "Aire de Santa Fe",
-   "fecha": "2026-11-25",
-   "url": "https://www.airedesantafe.com.ar/santa-fe/el-nino-santa-fe-despues-un-mes-el-rio-parana-del-nivel-evacuacion-reconquista-n678016",
-   "resumen": "Reconquista marcó 5,27 m a las 6, 3 cm bajo su nivel de evacuación, que había superado el 24/10. El INA ve 5,30 m para el 1/12."
-  },
-  {
    "titulo": "Advierten que diciembre será más complicado por las crecidas de los ríos Paraná y Paraguay",
    "fuente": "Diario Norte (vía Examedia)",
    "fecha": "2026-11-25",
    "url": "https://examedia.com.ar/portada/post/88300053",
    "resumen": "Un funcionario de la Agencia Federal de Emergencias prevé el mayor impacto de El Niño en diciembre y calcula unos 5.000 evacuados hasta ahora, sobre todo en Chaco y Corrientes."
+  },
+  {
+   "titulo": "Monte Vera tiene unas 50 familias aisladas por la crecida del río",
+   "fuente": "LT9 La Nueva Nueve",
+   "fecha": "2026-11-24",
+   "url": "https://www.lt9.com.ar/monte-vera-tiene-unas-50-familias-aisladas-por-la-crecida-del-rio/",
+   "resumen": "En la costa de Monte Vera unas 50 familias llevan más de una semana aisladas y dependen de la asistencia municipal; otras 20 se autoevacuaron a casas de conocidos, sin evacuaciones organizadas."
   }
  ],
  "fuentes_consultadas": [
-  "https://www.airedesantafe.com.ar/santa-fe/crecida-del-rio-parana-cual-es-la-altura-santa-fe-y-otras-localidades-este-jueves-26-noviembre-n678117",
-  "https://alerta.ina.gob.ar/a5/diario/reporte_diario (reporte del 25/11)",
-  "https://www.eby.gov.py/category/nivelembalse/ (último Resumen Ejecutivo listado: N° 6152 del 24/11)",
-  "https://www.ellitoral.com.ar/sociedad/2026-11-25-18-26-0-yacyreta-abrio-nuevamente-las-18-compuertas-del-vertedero-principal",
+  "https://www.ina.gob.ar/archivos/alerta/TabProno20261124.pdf (tabla INA vigente; el INA no publicó una nueva, la próxima es la del viernes 27/11)",
+  "https://www.ina.gob.ar/alerta/",
+  "https://alerta.ina.gob.ar/ina/06-INFORMES/diario/pdf/reporte_diario_2026-11-26.pdf (reporte del 26/11)",
+  "https://www.eby.gov.py/category/estado-del-rio-parana/ (alerta hidrológico del 26/11)",
+  "https://www.eby.gov.py/cota-83-11-msnm-resumen-ejecutivo-n-6153-25-11-2026/",
   "https://www.elonce.com/sociedad/yacyreta-volvio-a-abrir-compuertas-y-emitio-una-alerta-hidrologica-por-la-crecida-del-parana.htm",
   "https://www.lt9.com.ar/el-rio-parana-marco-574-metros-en-santa-fe-y-315-personas-estan-evacuadas/",
-  "https://www.fracran.com.ar/noticias/2026-11-26-parana-yacyreta-umbrales-locales",
-  "https://www.ina.gob.ar/archivos/alerta/TabProno20261124.pdf (tabla INA vigente del 24/11; el INA no publicó tabla nueva, la próxima es la del viernes 27/11; ina.gob.ar y eby.gov.py no se pudieron leer en esta corrida)"
+  "https://www.lt9.com.ar/monte-vera-tiene-unas-50-familias-aisladas-por-la-crecida-del-rio/"
  ]
 }
